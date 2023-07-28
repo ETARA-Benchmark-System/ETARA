@@ -1,0 +1,30 @@
+POST http://localhost:8080/etara/apiManager/flatJson
+Content-Type: application/json
+
+{
+  "apiName": "s2",
+  "value" : "10.1109/tip.2019.2920510",
+  "array": [
+    {
+      "test1": 1
+    },
+    {
+      "test2": 1
+    }, "test"
+  ]
+}
+
+
+###
+POST http://localhost:8080/etara/apiManager/flatJson
+Content-Type: application/json
+
+{
+  "year": 2021,
+  "title": "FiLiPo: A Sample Driven Approach for Finding Linkage Points between RDF Data and APIs (Extended Version)",
+  "authors": [
+    {"name": "Tobias Zeimetz", "authorId": "72379014"},
+    { "name": "R. Schenkel", "authorId": "1727566"}
+  ],
+  "doi": "10.1007/978-3-030-82472-3_18"
+}

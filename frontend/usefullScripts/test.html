@@ -1,0 +1,31 @@
+<mat-table [dataSource]="dataSource" class="courses">
+    <ng-container matColumnDef="id">
+        <mat-header-cell *matHeaderCellDef> Id</mat-header-cell>
+        <mat-cell *matCellDef="let courseEnrolments"> {{courseEnrolments.id}} </mat-   cell>
+    </ng-container>
+    <ng-container matColumnDef="name">
+        <mat-header-cell *matHeaderCellDef> Course Name</mat-header-cell>
+        <mat-cell *matCellDef="let courseEnrolments"> {{courseEnrolments.name}}        </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="description">
+        <mat-header-cell *matHeaderCellDef> Description</mat-header-cell>
+        <mat-cell *matCellDef="let courseEnrolments">    {{    courseEnrolments.description}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="other">
+        <mat-header-cell *matHeaderCellDef> Other informations</mat-header-cell>
+        <mat-cell *matCellDef="let courseEnrolments"> {{courseEnrolments.other}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="checked">
+        <mat-header-cell *matHeaderCellDef>Enlist</mat-header-cell>
+        <mat-cell *matCellDef="let courseEnrolments">
+            <button (click)="handleClick($event)" _ngcontent-c54="" color="primary" mat-stroked-button=""
+                    class="mat-stroked-button mat-primary"><span
+                    class="mat-button-wrapper">Enlist</span>
+                <div class="mat-button-ripple mat-ripple" matripple=""></div>
+                <div class="mat-button-focus-overlay"></div>
+            </button>
+        </mat-cell>
+
+    </ng-container>
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>

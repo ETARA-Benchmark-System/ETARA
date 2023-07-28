@@ -1,0 +1,47 @@
+<div class="suggestions-wrapper">
+    <h1>Template</h1>
+    <div class="mapping-wrapper">
+        <div class="mapping">
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of data.template.localEntries">
+                    <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="relationType">
+                    <mat-icon *ngIf="data.template.type === 0">east</mat-icon>
+                    <mat-icon *ngIf="data.template.type === 1">west</mat-icon>
+                    <mat-icon *ngIf="data.template.type === 2">sync_alt</mat-icon>
+                </div>
+            </div>
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of data.template.webEntries">
+                    <p>{{entry}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1>Values</h1>
+    <div class="mapping-wrapper" *ngFor="let mapping of data.mappings; let index=index">
+        <div class="mapping">
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of mapping.localEntries">
+                    <p [innerHtml]="entry.value"></p>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="relationType">
+                    <mat-icon *ngIf="mapping.type === 0">east</mat-icon>
+                    <mat-icon *ngIf="mapping.type === 1">west</mat-icon>
+                    <mat-icon *ngIf="mapping.type === 2">sync_alt</mat-icon>
+                </div>
+            </div>
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of mapping.webEntries">
+                    <p>{{entry.value}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+### arxiv
+GET http://localhost:8080/webservices/a10/work?doi=10.1145/1390334.1390558
+Accept: application/json
+
+### Crossref
+GET http://localhost:8080/etara/webservices/crossref/work?doi=10.1016/j.tcs.2014.11.013
+Accept: application/json
+
+### s2arxiv
+GET http://localhost:8080/etara/webservices/s2arxiv/work?arxivId=
+Accept: application/json
+
+### s2doi
+GET http://localhost:8080/etara/webservices/s2doi/work?doi=10.1016/j.tcs.2014.11.013
+Accept: application/json
+
+### scigraph
+GET http://localhost:8080/etara/webservices/scigraph/work?doi=10.1007/s11192-013-0954-3
+Accept: application/json
+
+
+

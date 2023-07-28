@@ -1,0 +1,7 @@
+{"databases": {
+    "sample_crossref": {
+        "path": "C:\\Databases\\sample_dbs\\crossref\\tdb",
+        "identifierMap": "configs\\identifierMaps\\sample_crossref.json",
+        "source": "C:\\Databases\\sample_dbs\\crossref\\crossref.nt"
+    }
+}}

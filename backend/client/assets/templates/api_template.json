@@ -1,0 +1,12 @@
+{
+  "name": "{api_long_name}",
+  "format": "json",
+  "label": "{api_short_name}",
+  "parameters": [{
+    "filter": ["{relation}"],
+    "name": "q",
+    "type": "{type}",
+    "status": "required"
+  }],
+  "url": "http://localhost:8080/webservices/{path}?parameter={q}"
+}

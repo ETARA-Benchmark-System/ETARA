@@ -1,0 +1,51 @@
+{
+  "system": "DORIS (PCA)",
+  "alignments": [
+    {
+      "metrics": {
+        "confidence": 0.9102564102564102
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#title"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.title"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.275
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy", "https://dblp.org/rdf/schema-2020-07-01#otherFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy", "http://www.w3.org/2000/01/rdf-schema#label"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    }
+  ],
+  "name": "sample_dblp_sample_arxiv_overlap"
+}

@@ -1,0 +1,73 @@
+###
+POST http://localhost:8080/etara/dbManager
+Content-Type: application/json
+
+{
+  "mode": "new",
+  "db": {
+    "path": "D:\\testpath",
+    "identifierMap": "configs\\identifierMaps\\testdb.json",
+    "label": "test"
+  }
+}
+###
+
+POST http://localhost:8080/etara/httpservletrequest
+Content-Type: application/json
+
+{
+  "mode": "webserviceInformation",
+  "name": "arxiv"
+}
+
+###
+POST http://localhost:8080/etara/dbManager
+Content-Type: application/json
+
+{
+  "mode": "delete",
+  "label": "test"
+}
+
+###
+POST http://localhost:8080/etara/webserviceManager
+Content-Type: application/json
+
+{
+  "path": "/arxiv/work"
+}
+
+###
+POST http://localhost:8080/etara/apiManager
+Content-Type: application/json
+
+{
+  "mode": "new",
+  "api": {
+    "name": "Semantic Scholar",
+    "format": "json",
+    "label": "test",
+    "parameters": [
+      {
+        "filter": [
+          "http://www.wikidata.org/prop/direct/P356"
+        ],
+        "name": "q",
+        "type": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+        "status": "required"
+      }
+    ],
+    "url": "https://api.semanticscholar.org/v1/paper/{q}"
+  }
+}
+
+###
+POST http://localhost:8080/etara/apiManager
+Content-Type: application/json
+
+{
+  "mode": "delete",
+  "label": "test"
+}
+
+

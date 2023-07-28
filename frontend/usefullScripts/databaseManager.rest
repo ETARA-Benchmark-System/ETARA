@@ -1,0 +1,7 @@
+GET http://localhost:8080/etara/dbManager?db=dblp
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/etara/dbManager
+

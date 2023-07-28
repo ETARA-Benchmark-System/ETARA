@@ -1,0 +1,637 @@
+{
+  "identifier": [
+    {
+      "predicate": "http://example/com/crossref/url",
+      "functionality": 1,
+      "type": "none"
+    },
+    {
+      "predicate": "http://example/com/crossref/title",
+      "functionality": 0.9968987877079222,
+      "type": "none"
+    },
+    {
+      "predicate": "http://example/com/crossref/doi",
+      "functionality": 1,
+      "type": "none"
+    }
+  ],
+  "classes": [
+    {
+      "occurrence": 3547,
+      "class": "http://example/com/crossref/Publication"
+    }
+  ],
+  "functionality": [
+    {
+      "predicate": "http://example/com/crossref/createdTimeStamp",
+      "functionality": 0.1939667324499577
+    },
+    {
+      "predicate": "http://example/com/crossref/journal-title",
+      "functionality": 0.34229046705054383
+    },
+    {
+      "predicate": "http://example/com/crossref/first-page",
+      "functionality": 0.33608209638995784
+    },
+    {
+      "predicate": "http://example/com/crossref/article-title",
+      "functionality": 0.8479571332886805
+    },
+    {
+      "predicate": "http://example/com/crossref/url",
+      "functionality": 1,
+      "type": "none"
+    },
+    {
+      "predicate": "http://example/com/crossref/title",
+      "functionality": 0.9968987877079222,
+      "type": "none"
+    },
+    {
+      "predicate": "http://example/com/crossref/publisher",
+      "functionality": 0.00140964195094446
+    },
+    {
+      "predicate": "http://example/com/crossref/affiliation",
+      "functionality": 0.23613647284959155
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartMonth",
+      "functionality": 0.0033831406822667043
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsYear",
+      "functionality": 0.001127713560755568
+    },
+    {
+      "predicate": "http://example/com/crossref/publisherLocation",
+      "functionality": 4.2444821731748726E-4
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsDate",
+      "functionality": 0.009021708486044545
+    },
+    {
+      "predicate": "http://example/com/crossref/family",
+      "functionality": 0.3055555555555556
+    },
+    {
+      "predicate": "http://example/com/crossref/containerTitle",
+      "functionality": 0.004236091499576391
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsMonth",
+      "functionality": 0.0033831406822667043
+    },
+    {
+      "predicate": "http://example/com/crossref/link",
+      "functionality": 0.8824511206485456
+    },
+    {
+      "predicate": "http://example/com/crossref/eventLocation",
+      "functionality": 0.004244482173174873
+    },
+    {
+      "predicate": "http://example/com/crossref/doi-asserted-by",
+      "functionality": 4.2315504400812456E-5
+    },
+    {
+      "predicate": "http://example/com/crossref/issn",
+      "functionality": 0.004026354319180088
+    },
+    {
+      "predicate": "http://example/com/crossref/printIsbn",
+      "functionality": 0.004244482173174873
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedTimeStamp",
+      "functionality": 0.9890047927826332
+    },
+    {
+      "predicate": "http://example/com/crossref/eventName",
+      "functionality": 0.004244482173174873
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDateTime",
+      "functionality": 0.1939667324499577
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsDate",
+      "functionality": 0.010423671822461332
+    },
+    {
+      "predicate": "http://example/com/crossref/doiPrefix",
+      "functionality": 0.00140964195094446
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDateTime",
+      "functionality": 0.5215675218494502
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintTimeStamp",
+      "functionality": 0.1939667324499577
+    },
+    {
+      "predicate": "http://example/com/crossref/isbn",
+      "functionality": 0.004244482173174873
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDateTime",
+      "functionality": 0.9357203270369326
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartDay",
+      "functionality": 0.008739780095855652
+    },
+    {
+      "predicate": "http://example/com/crossref/printIssn",
+      "functionality": 0.0041981528127623844
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsDate",
+      "functionality": 0.008739780095855652
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsMonth",
+      "functionality": 0.0033946251768033945
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsYear",
+      "functionality": 0.001127713560755568
+    },
+    {
+      "predicate": "http://example/com/crossref/score",
+      "functionality": 2.81928390188892E-4
+    },
+    {
+      "predicate": "http://example/com/crossref/volume",
+      "functionality": 0.0581199202576292
+    },
+    {
+      "predicate": "http://example/com/crossref/electronicIssn",
+      "functionality": 0.005037783375314861
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartYear",
+      "functionality": 0.00140964195094446
+    },
+    {
+      "predicate": "http://example/com/crossref/page",
+      "functionality": 0.984047019311503
+    },
+    {
+      "predicate": "http://example/com/crossref/eventAcronym",
+      "functionality": 0.004244482173174873
+    },
+    {
+      "predicate": "http://example/com/crossref/DOI",
+      "functionality": 0.6219744414353419
+    },
+    {
+      "predicate": "http://example/com/crossref/id",
+      "functionality": 0.5288210484032938
+    },
+    {
+      "predicate": "http://example/com/crossref/author",
+      "functionality": 0.8303641918099749
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDateTime",
+      "functionality": 0.1939667324499577
+    },
+    {
+      "predicate": "http://example/com/crossref/referenceCount",
+      "functionality": 0.031012122920778123
+    },
+    {
+      "predicate": "http://example/com/crossref/subject",
+      "functionality": 0.0040436716538617065
+    },
+    {
+      "predicate": "http://example/com/crossref/member",
+      "functionality": 0.00140964195094446
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsYear",
+      "functionality": 5.63856780377784E-4
+    },
+    {
+      "predicate": "http://example/com/crossref/unstructured",
+      "functionality": 0.9334773679016297
+    },
+    {
+      "predicate": "http://example/com/crossref/shortContainerTitle",
+      "functionality": 0.0041981528127623844
+    },
+    {
+      "predicate": "http://example/com/crossref/type",
+      "functionality": 8.457851705666761E-4
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsMonth",
+      "functionality": 0.003665069072455596
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsDate",
+      "functionality": 0.008739780095855652
+    },
+    {
+      "predicate": "http://example/com/crossref/citationCount",
+      "functionality": 0.03636876233436707
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsMonth",
+      "functionality": 0.0033831406822667043
+    },
+    {
+      "predicate": "http://example/com/crossref/year",
+      "functionality": 0.009017560512577124
+    },
+    {
+      "predicate": "http://example/com/crossref/given",
+      "functionality": 0.41130277199812065
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsYear",
+      "functionality": 0.00140964195094446
+    },
+    {
+      "predicate": "http://example/com/crossref/doi",
+      "functionality": 1,
+      "type": "none"
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsDay",
+      "functionality": 0.008739780095855652
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedTimeStamp",
+      "functionality": 0.9357203270369326
+    },
+    {
+      "predicate": "http://example/com/crossref/issue",
+      "functionality": 0.015151515151515152
+    },
+    {
+      "predicate": "http://example/com/crossref/volume-title",
+      "functionality": 0.7339850249584027
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsMonth",
+      "functionality": 0.0033831406822667043
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsYear",
+      "functionality": 0.001127713560755568
+    },
+    {
+      "predicate": "http://example/com/crossref/sponsor",
+      "functionality": 0.0015560165975103733
+    }
+  ],
+  "structure": [
+    {
+      "predicate": "http://example/com/crossref/shortContainerTitle",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1191
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDateTime",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/createdTimeStamp",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedTimeStamp",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsDate",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/title",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/isbn",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/author",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 14229
+    },
+    {
+      "predicate": "http://example/com/crossref/printIssn",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1191
+    },
+    {
+      "predicate": "http://example/com/crossref/doi-asserted-by",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 47264
+    },
+    {
+      "predicate": "http://example/com/crossref/family",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 14904
+    },
+    {
+      "predicate": "http://example/com/crossref/issn",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2732
+    },
+    {
+      "predicate": "http://example/com/crossref/url",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/electronicIssn",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1191
+    },
+    {
+      "predicate": "http://example/com/crossref/affiliation",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 10405
+    },
+    {
+      "predicate": "http://example/com/crossref/publisher",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/score",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDateTime",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/type",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/member",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/eventAcronym",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/citationCount",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/subject",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2473
+    },
+    {
+      "predicate": "http://example/com/crossref/referenceCount",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3535
+    },
+    {
+      "predicate": "http://example/com/crossref/doi",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/page",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1191
+    },
+    {
+      "predicate": "http://example/com/crossref/publisherLocation",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartDay",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/journal-title",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 4689
+    },
+    {
+      "predicate": "http://example/com/crossref/article-title",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 1493
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/issue",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1188
+    },
+    {
+      "predicate": "http://example/com/crossref/containerTitle",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3541
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsDay",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDateTime",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/volume",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 1188
+    },
+    {
+      "predicate": "http://example/com/crossref/eventName",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/sponsor",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3856
+    },
+    {
+      "predicate": "http://example/com/crossref/depositedDatePartMonth",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/given",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 14899
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsDate",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/first-page",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 5457
+    },
+    {
+      "predicate": "http://example/com/crossref/doiPrefix",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/volume-title",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 9616
+    },
+    {
+      "predicate": "http://example/com/crossref/link",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 4194
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsDate",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDateTime",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedTimeStamp",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/printIsbn",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/eventLocation",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2356
+    },
+    {
+      "predicate": "http://example/com/crossref/DOI",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 47264
+    },
+    {
+      "predicate": "http://example/com/crossref/volume",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 5333
+    },
+    {
+      "predicate": "http://example/com/crossref/indexedDatePartsYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/year",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 12642
+    },
+    {
+      "predicate": "http://example/com/crossref/id",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 4979
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintTimeStamp",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/createdDatePartsYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/author",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 14904,
+      "object": "http://www.w3.org/2002/07/owl#Thing"
+    },
+    {
+      "predicate": "http://example/com/crossref/publishedPrintDatePartsYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/unstructured",
+      "subject": "http://www.w3.org/2002/07/owl#Thing",
+      "occurrence": 37491
+    },
+    {
+      "predicate": "http://example/com/crossref/onlineDatePartsYear",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 3547
+    },
+    {
+      "predicate": "http://example/com/crossref/issuedDatePartsDate",
+      "subject": "http://example/com/crossref/Publication",
+      "occurrence": 2974
+    }
+  ]
+}

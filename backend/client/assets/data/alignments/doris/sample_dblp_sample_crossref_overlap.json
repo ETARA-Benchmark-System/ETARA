@@ -1,0 +1,111 @@
+{
+  "system": "DORIS (Overlap)",
+  "alignments": [
+    {
+      "metrics": {
+        "confidence": 0.5606060606060606
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#title"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.title[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.7121212121212122
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf", "http://www.wikidata.org/prop/direct/P212"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.isbn-type[*].value"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.9393939393939394
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf", "https://dblp.org/rdf/schema-2020-07-01#publishedBy"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.publisher"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.15151515151515152
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy", "https://dblp.org/rdf/schema-2020-07-01#primaryAffiliation"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].affiliation[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "http://www.wikidata.org/prop/direct/P356"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.DOI"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.published-print.date-parts[*][*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.9393939393939394
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf", "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.published-print.date-parts[*][*]"
+      ]
+    }
+  ],
+  "name": "sample_dblp_sample_crossref_overlap"
+}

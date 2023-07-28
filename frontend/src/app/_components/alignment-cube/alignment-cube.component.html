@@ -1,0 +1,22 @@
+<div class="h-100 d-flex flex-column align-items-center justify-content-center" style="height: 100%" *ngIf="showAddAlignmentComponent">
+  <app-data-selector (newAlignmentAdded)="onAlignmentAdded($event)"></app-data-selector>
+  <button mat-raised-button color="primary" class="m-1" (click)="startAnimation()" [disabled]="alignmentModel.alignments.length < 1">Generate AlignmentCube</button>
+  <button mat-raised-button color="primary" class=" m-1" (click)="startAnimationExample()">Generate Example 1 System</button>
+  <button mat-raised-button color="primary" class=" m-1" (click)="startAnimationExample2Systems()">Generate Example 2 Systems</button>
+</div>
+
+<div [style.display]="animationStarted ? 'block' : 'none' ">
+  <app-ui [engineService]="engServ" *ngIf="animationStarted"></app-ui>
+
+  <div id="graph-frame" class="graph-frame">
+    <div id="engine-wrapper" class="engine-wrapper">
+      <canvas #rendererCanvas id="renderCanvas"></canvas>
+    </div>
+    <div id="engine-wrapper-label" class="engine-wrapper-label">
+    </div>
+  </div>
+</div>
+
+
+
+

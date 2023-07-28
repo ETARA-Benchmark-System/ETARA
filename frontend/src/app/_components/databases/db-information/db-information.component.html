@@ -1,0 +1,33 @@
+<p>
+    <b>Database:</b> {{data}}
+</p>
+<mat-tab-group class="group-container">
+    <ng-container *ngIf="dbConfiguration">
+        <mat-tab label="Configuration Form">
+            <div class="form-container">
+                <mat-form-field>
+                    <mat-label>path</mat-label>
+                    <input matInput [(ngModel)]="dbConfiguration.path">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>source</mat-label>
+                    <input matInput [(ngModel)]="dbConfiguration.source">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>identifierMap</mat-label>
+                    <input matInput [(ngModel)]="dbConfiguration.identifierMap" disabled>
+                </mat-form-field>
+            </div>
+        </mat-tab>
+        <mat-tab label="Identifier Map">
+            <json-editor [options]="editorOptionsConfig" [data]="dbConfiguration.identifierMapContent"></json-editor>
+        </mat-tab>
+    </ng-container>
+</mat-tab-group>
+<mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="null">Close</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="" (click)="save()">Save</button>
+    <button mat-raised-button color="warn" [mat-dialog-close]="" (click)="delete()">Delete</button>
+</mat-dialog-actions>

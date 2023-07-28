@@ -1,0 +1,409 @@
+{
+  "suggestions": [
+    {
+      "general": {
+        "counter": 1,
+        "type": 0,
+        "webEntries": [
+          "year"
+        ],
+        "selected": true,
+        "localEntries": [
+          "http://example/com/crossref/issuedDatePartsYear"
+        ]
+      },
+      "suggestions": [
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "year"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/issuedDatePartsYear"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "2018",
+                  "key": "year"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/issuedDatePartsYear",
+                  "value": "2018"
+                }
+              ]
+            }
+          ],
+          "counter": 1,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "general": {
+        "counter": 1,
+        "type": 0,
+        "webEntries": [
+          "year"
+        ],
+        "selected": true,
+        "localEntries": [
+          "http://example/com/crossref/createdDatePartsYear"
+        ]
+      },
+      "suggestions": [
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "year"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/createdDatePartsYear"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "2018",
+                  "key": "year"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/createdDatePartsYear",
+                  "value": "2018"
+                }
+              ]
+            }
+          ],
+          "counter": 1,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "general": {
+        "counter": 1,
+        "type": 0,
+        "webEntries": [
+          "year"
+        ],
+        "selected": true,
+        "localEntries": [
+          "http://example/com/crossref/publishedPrintDatePartsYear"
+        ]
+      },
+      "suggestions": [
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "year"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/publishedPrintDatePartsYear"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "2018",
+                  "key": "year"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/publishedPrintDatePartsYear",
+                  "value": "2018"
+                }
+              ]
+            }
+          ],
+          "counter": 1,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "general": {
+        "counter": 4,
+        "type": 0,
+        "webEntries": [
+          "authors[*].name"
+        ],
+        "selected": true,
+        "localEntries": [
+          "http://example/com/crossref/author, http://example/com/crossref/family"
+        ]
+      },
+      "suggestions": [
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "authors[1].name"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/author, http://example/com/crossref/family"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "E. Kodra",
+                  "key": "authors[1].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Kodra"
+                }
+              ]
+            }
+          ],
+          "counter": 1,
+          "selected": false
+        },
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "authors[0].name"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/author, http://example/com/crossref/family"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "T. Vandal",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Vandal"
+                }
+              ]
+            },
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "A. Sharma",
+                  "key": "authors[0].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Sharma"
+                }
+              ]
+            }
+          ],
+          "counter": 2,
+          "selected": false
+        },
+        {
+          "template": {
+            "type": 0,
+            "webEntries": [
+              "authors[3].name"
+            ],
+            "localEntries": [
+              "http://example/com/crossref/author, http://example/com/crossref/family"
+            ]
+          },
+          "mappings": [
+            {
+              "type": 0,
+              "webEntries": [
+                {
+                  "value": "J. Dittrich",
+                  "key": "authors[3].name"
+                }
+              ],
+              "localEntries": [
+                {
+                  "path": "http://example/com/crossref/author, http://example/com/crossref/family",
+                  "value": "Dittrich"
+                }
+              ]
+            }
+          ],
+          "counter": 1,
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

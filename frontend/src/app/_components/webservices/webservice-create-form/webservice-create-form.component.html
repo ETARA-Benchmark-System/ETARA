@@ -1,0 +1,102 @@
+<script src="../../databases/db-create-form/db-create-form.component.ts"></script><p>
+    <b>Create a new custom webservice</b>
+</p>
+<mat-tab-group class="group-container" (selectedIndexChange)="onJSONChange()">
+    <mat-tab label="Configuration Form">
+        <mat-expansion-panel [expanded]="true" hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    General Settings
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="form-container">
+                <mat-form-field>
+                    <mat-label>API Label</mat-label>
+                    <!--                <mat-hint>short name without whitespace</mat-hint>-->
+                    <input matInput [(ngModel)]="webserviceLabel" (ngModelChange)="onWebserviceNameChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>API Path</mat-label>
+                    <input matInput [(ngModel)]="webserviceTemplate.webservice" (ngModelChange)="onValueChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Database</mat-label>
+                    <mat-select [(ngModel)]="webserviceTemplate.db" (ngModelChange)="onValueChange()">
+                        <mat-option value="None">None</mat-option>
+                        <mat-option *ngFor="let entry of databases"
+                                    value="{{entry.label}}">{{entry.label}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Latency</mat-label>
+                    <!--                <mat-hint>Time per request in s</mat-hint>-->
+                    <input matInput  [(ngModel)]="webserviceTemplate.latency"
+                           (ngModelChange)="onValueChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Max. Requests per Minute</mat-label>
+                    <input matInput  [(ngModel)]="webserviceTemplate.maxRequestsPerMinute"
+                           (ngModelChange)="onValueChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Max. Requests per Day</mat-label>
+                    <input matInput  [(ngModel)]="webserviceTemplate.maxRequests"
+                           (ngModelChange)="onValueChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Input</mat-label>
+                    <input matInput  [(ngModel)]="webserviceTemplate.inputs"
+                           (ngModelChange)="onValueChange()">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>SPARQL WHERE Query</mat-label>
+                    <textarea matInput  [(ngModel)]="whereString"></textarea>
+                </mat-form-field>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Advanced Settings
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <div class="form-container">
+                        <mat-form-field>
+                            <mat-label>Error Type</mat-label>
+                            <!--                <mat-hint>Choose the error type</mat-hint>-->
+                            <mat-select [(ngModel)]="webserviceTemplate.errorType" (ngModelChange)="onValueChange()">
+                                <mat-option value="server">HTTP Status Codes</mat-option>
+                                <mat-option value="jsonWithStatus">JSON with HTTP Status Code</mat-option>
+                                <mat-option value="jsonWithoutStatus">JSON without HTTP Status Code</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Search Type</mat-label>
+                            <mat-select [(ngModel)]="webserviceTemplate.type" (ngModelChange)="onValueChange()">
+                                <mat-option value="precise">Precise Search (Key Values)</mat-option>
+                                <mat-option value="fuzzy">Fuzzy Search (Similarity Measurement)</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                        <mat-form-field>
+                            <mat-label>Return Template</mat-label>
+                            <input matInput [(ngModel)]="webserviceTemplate.returnTemplate" (ngModelChange)="onValueChange()" disabled>
+                        </mat-form-field>
+                    </div>
+                </mat-expansion-panel>
+            </div>
+        </mat-expansion-panel>
+    </mat-tab>
+<!--    <mat-tab label="Configuration File">-->
+<!--        <json-editor [options]="editorOptionsConfig" [data]="webserviceTemplate"></json-editor>-->
+<!--    </mat-tab>-->
+    <mat-tab label="Return Template">
+        <div #editor style="width: 70vw; height: 70vh;"></div>
+    </mat-tab>
+</mat-tab-group>
+
+
+<mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="null">Close</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="" (click)="save()" [disabled]="!webserviceConfiguration">Create
+    </button>
+</mat-dialog-actions>
+

@@ -1,0 +1,5070 @@
+{
+  "dictionary": [
+    {
+      "path": "references[20].authors[0].authorId",
+      "value": "2064762548"
+    },
+    {
+      "path": "references[32].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[9].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "citations[9].authors[1].name",
+      "value": "Jinshan Pan"
+    },
+    {
+      "path": "year",
+      "value": "2019"
+    },
+    {
+      "path": "is_open_access",
+      "value": "false"
+    },
+    {
+      "path": "references[1].authors[1].name",
+      "value": "T. Kanade"
+    },
+    {
+      "path": "references[26].paperId",
+      "value": "c397408e784004240e866d0f31cea7b9e44fdd0c"
+    },
+    {
+      "path": "citations[7].authors[4].name",
+      "value": "Guangcheng Wang"
+    },
+    {
+      "path": "references[31].arxivId",
+      "value": "1511.02228"
+    },
+    {
+      "path": "citations[3].authors[5].authorId",
+      "value": "46347050"
+    },
+    {
+      "path": "references[28].doi",
+      "value": "10.1109/TCSVT.2015.2400772"
+    },
+    {
+      "path": "references[30].authors[2].name",
+      "value": "Kaiming He"
+    },
+    {
+      "path": "references[31].year",
+      "value": "2015"
+    },
+    {
+      "path": "references[26].authors[4].authorId",
+      "value": "1713887"
+    },
+    {
+      "path": "references[23].authors[2].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "citations[0].authors[3].authorId",
+      "value": ""
+    },
+    {
+      "path": "references[19].title",
+      "value": "Fast Facial Image Super-Resolution via Local Linear Transformations for Resource-Limited Applications"
+    },
+    {
+      "path": "citations[2].authors[3].authorId",
+      "value": "1519062623"
+    },
+    {
+      "path": "references[9].year",
+      "value": "2005"
+    },
+    {
+      "path": "references[23].year",
+      "value": "2013"
+    },
+    {
+      "path": "references[11].title",
+      "value": "Face hallucination VIA sparse coding"
+    },
+    {
+      "path": "references[12].doi",
+      "value": "10.1093/comjnl/bxm075"
+    },
+    {
+      "path": "references[3].title",
+      "value": "Think Globally, Fit Locally: Unsupervised Learning of Low Dimensional Manifold"
+    },
+    {
+      "path": "references[24].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[22].title",
+      "value": "A Comprehensive Survey to Face Hallucination"
+    },
+    {
+      "path": "references[21].url",
+      "value": "https://www.semanticscholar.org/paper/170102b7809b43691b06618cdbbc90c8dbc2dd27"
+    },
+    {
+      "path": "references[23].authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[36].authors[3].name",
+      "value": "Ming Li"
+    },
+    {
+      "path": "references[25].authors[2].name",
+      "value": "Zhongyuan Wang"
+    },
+    {
+      "path": "citations[6].arxivId",
+      "value": "2111.10634"
+    },
+    {
+      "path": "references[21].authors[2].authorId",
+      "value": "144855557"
+    },
+    {
+      "path": "citations[0].authors[0].name",
+      "value": "Surendra Nagar"
+    },
+    {
+      "path": "authors[2].authorId",
+      "value": "2117896344"
+    },
+    {
+      "path": "references[36].arxivId",
+      "value": "1704.08063"
+    },
+    {
+      "path": "citations[1].title",
+      "value": "Deep Learning-based Face Super-resolution: A Survey"
+    },
+    {
+      "path": "citations[0].year",
+      "value": "2021"
+    },
+    {
+      "path": "references[15].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[5].authors[2].name",
+      "value": "Zhenbing Liu"
+    },
+    {
+      "path": "references[21].paperId",
+      "value": "170102b7809b43691b06618cdbbc90c8dbc2dd27"
+    },
+    {
+      "path": "citations[3].authors[5].name",
+      "value": "C. Busch"
+    },
+    {
+      "path": "references[24].authors[0].authorId",
+      "value": "2118187952"
+    },
+    {
+      "path": "references[5].authors[0].name",
+      "value": "Hong Chang"
+    },
+    {
+      "path": "references[21].doi",
+      "value": "10.1109/TCSVT.2013.2244798"
+    },
+    {
+      "path": "references[36].year",
+      "value": "2017"
+    },
+    {
+      "path": "references[10].authors[2].name",
+      "value": "S. Shan"
+    },
+    {
+      "path": "citations[4].authors[3].authorId",
+      "value": "47111778"
+    },
+    {
+      "path": "citations[5].year",
+      "value": "2020"
+    },
+    {
+      "path": "references[37].doi",
+      "value": "10.1109/CVPR.2017.19"
+    },
+    {
+      "path": "references[15].year",
+      "value": "2010"
+    },
+    {
+      "path": "references[35].authors[4].name",
+      "value": "Kyoung Mu Lee"
+    },
+    {
+      "path": "topics[1].topicId",
+      "value": "10302"
+    },
+    {
+      "path": "citations[1].arxivId",
+      "value": "2101.03749"
+    },
+    {
+      "path": "references[37].authors[2].authorId",
+      "value": "3108066"
+    },
+    {
+      "path": "references[13].authors[2].name",
+      "value": "C. Qi"
+    },
+    {
+      "path": "references[24].authors[3].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[27].authors[4].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[33].paperId",
+      "value": "ddfc978b3a149015c9e517fbfe1b8563df5e7356"
+    },
+    {
+      "path": "references[22].authors[4].authorId",
+      "value": "2149869567"
+    },
+    {
+      "path": "references[23].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[37].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[27].authors[2].authorId",
+      "value": "143869248"
+    },
+    {
+      "path": "citations[3].authors[0].name",
+      "value": "Vishal M. Chudasama"
+    },
+    {
+      "path": "references[34].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[5].authors[2].authorId",
+      "value": "2112719095"
+    },
+    {
+      "path": "citations[4].doi",
+      "value": "10.1016/j.patcog.2020.107539"
+    },
+    {
+      "path": "references[26].authors[0].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "references[17].authors[1].name",
+      "value": "John Wright"
+    },
+    {
+      "path": "references[18].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "references[13].url",
+      "value": "https://www.semanticscholar.org/paper/d035c8bef0e0619fd68ab2cc1c9e71dfd730aefe"
+    },
+    {
+      "path": "references[28].url",
+      "value": "https://www.semanticscholar.org/paper/91b1a59b9e0e7f4db0828bf36654b84ba53b0557"
+    },
+    {
+      "path": "references[11].authors[2].authorId",
+      "value": "50032052"
+    },
+    {
+      "path": "citations[5].url",
+      "value": "https://www.semanticscholar.org/paper/cd66f122b75fdd4ed743fa92c3783a2458a6b223"
+    },
+    {
+      "path": "citations[4].authors[7].authorId",
+      "value": "123275544"
+    },
+    {
+      "path": "references[11].authors[0].name",
+      "value": "Jianchao Yang"
+    },
+    {
+      "path": "references[22].authors[1].name",
+      "value": "D. Tao"
+    },
+    {
+      "path": "references[14].authors[1].name",
+      "value": "Hui He"
+    },
+    {
+      "path": "references[28].authors[0].authorId",
+      "value": "1783889"
+    },
+    {
+      "path": "references[24].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[37].url",
+      "value": "https://www.semanticscholar.org/paper/df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3"
+    },
+    {
+      "path": "references[4].paperId",
+      "value": "6254833a3e48df65a535678959aa2b670f54d465"
+    },
+    {
+      "path": "references[27].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[8].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[14].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[27].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[25].authors[2].authorId",
+      "value": "38655501"
+    },
+    {
+      "path": "references[37].authors[6].name",
+      "value": "J. Totz"
+    },
+    {
+      "path": "references[6].doi",
+      "value": "10.1109/TIP.2003.819861"
+    },
+    {
+      "path": "references[34].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "citations[4].url",
+      "value": "https://www.semanticscholar.org/paper/aceb3d7f3cbe9f6035b84444436d7fb5cd46916b"
+    },
+    {
+      "path": "references[10].authors[4].authorId",
+      "value": "2104086"
+    },
+    {
+      "path": "references[19].doi",
+      "value": "10.1109/TCSVT.2011.2163461"
+    },
+    {
+      "path": "citations[5].authors[5].authorId",
+      "value": "144361019"
+    },
+    {
+      "path": "references[16].authors[1].authorId",
+      "value": "1688283"
+    },
+    {
+      "path": "citations[6].authors[1].name",
+      "value": "M. Rahmati"
+    },
+    {
+      "path": "citations[6].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[6].url",
+      "value": "https://www.semanticscholar.org/paper/eae2e0fa72e898c289365c0af16daf57a7a6cf40"
+    },
+    {
+      "path": "references[12].url",
+      "value": "https://www.semanticscholar.org/paper/b189282ec4c65f4229105e1b62e0012f7ab551cb"
+    },
+    {
+      "path": "citations[5].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[13].doi",
+      "value": "10.1109/ICME.2009.5202492"
+    },
+    {
+      "path": "references[24].authors[4].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "references[7].authors[2].authorId",
+      "value": "2055029893"
+    },
+    {
+      "path": "citations[5].doi",
+      "value": "10.1109/TCYB.2020.2970104"
+    },
+    {
+      "path": "references[14].paperId",
+      "value": "09ad57265a1f0dfd60b3360daa499f5e93059c22"
+    },
+    {
+      "path": "citations[0].paperId",
+      "value": "f425c983257ace8b18604286b2f1b602db213046"
+    },
+    {
+      "path": "references[5].url",
+      "value": "https://www.semanticscholar.org/paper/b4018623293585e06e5ec159d11a9178f9f99380"
+    },
+    {
+      "path": "citations[4].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[8].authors[1].authorId",
+      "value": "50295995"
+    },
+    {
+      "path": "references[29].doi",
+      "value": "10.1109/TMM.2015.2434216"
+    },
+    {
+      "path": "citations[4].authors[3].name",
+      "value": "Yi Yu"
+    },
+    {
+      "path": "references[13].authors[2].authorId",
+      "value": "145175070"
+    },
+    {
+      "path": "references[22].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[22].authors[2].name",
+      "value": "Xinbo Gao"
+    },
+    {
+      "path": "references[19].year",
+      "value": "2011"
+    },
+    {
+      "path": "references[30].authors[0].authorId",
+      "value": "30459277"
+    },
+    {
+      "path": "references[10].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[31].authors[1].authorId",
+      "value": "2173683"
+    },
+    {
+      "path": "references[31].authors[0].name",
+      "value": "R. Timofte"
+    },
+    {
+      "path": "references[31].authors[2].authorId",
+      "value": "1681236"
+    },
+    {
+      "path": "references[36].authors[4].authorId",
+      "value": "1681921"
+    },
+    {
+      "path": "references[14].venue",
+      "value": "Pattern Recognit."
+    },
+    {
+      "path": "references[8].authors[0].authorId",
+      "value": "31843833"
+    },
+    {
+      "path": "references[25].venue",
+      "value": "IEEE Transactions on Multimedia"
+    },
+    {
+      "path": "references[19].url",
+      "value": "https://www.semanticscholar.org/paper/510257c8cedc079aae88ccbf3dd10a84051c8fdc"
+    },
+    {
+      "path": "citations[6].authors[0].authorId",
+      "value": "2142114752"
+    },
+    {
+      "path": "references[0].venue",
+      "value": "IEEE Trans. Pattern Anal. Mach. Intell."
+    },
+    {
+      "path": "references[15].authors[0].name",
+      "value": "Jinjun Wang"
+    },
+    {
+      "path": "references[37].authors[2].name",
+      "value": "Ferenc Husz�r"
+    },
+    {
+      "path": "references[4].authors[0].authorId",
+      "value": "33383055"
+    },
+    {
+      "path": "citations[8].paperId",
+      "value": "80746a36bd92dc2fe3338d5fc3a589e05d3278a5"
+    },
+    {
+      "path": "citations[6].authors[0].name",
+      "value": "Ali Abbasi"
+    },
+    {
+      "path": "citations[3].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[17].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[36].url",
+      "value": "https://www.semanticscholar.org/paper/bd8f77b7d3b9d272f7a68defc1412f73e5ac3135"
+    },
+    {
+      "path": "references[14].authors[1].authorId",
+      "value": "2111891265"
+    },
+    {
+      "path": "references[11].doi",
+      "value": "10.1109/ICIP.2008.4711992"
+    },
+    {
+      "path": "references[17].authors[3].authorId",
+      "value": "50032052"
+    },
+    {
+      "path": "references[35].authors[2].authorId",
+      "value": "48206011"
+    },
+    {
+      "path": "references[29].url",
+      "value": "https://www.semanticscholar.org/paper/9c0cda8cb2337fb0cf78051bd0fc6b086d7efbfc"
+    },
+    {
+      "path": "citations[6].title",
+      "value": "Identity-Preserving Pose-Robust Face Hallucination Through Face Subspace Prior"
+    },
+    {
+      "path": "citations[7].authors[1].authorId",
+      "value": "144808832"
+    },
+    {
+      "path": "references[18].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[6].url",
+      "value": "https://www.semanticscholar.org/paper/dc2ea22eca985c9456bb3d6f9820a348d02885b4"
+    },
+    {
+      "path": "references[11].authors[3].authorId",
+      "value": "153652752"
+    },
+    {
+      "path": "references[17].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "citations[6].venue",
+      "value": "ArXiv"
+    },
+    {
+      "path": "references[12].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[7].authors[0].name",
+      "value": "Baojin Huang"
+    },
+    {
+      "path": "references[10].authors[0].authorId",
+      "value": "48385803"
+    },
+    {
+      "path": "references[0].title",
+      "value": "Neural Network-Based Face Detection"
+    },
+    {
+      "path": "references[15].authors[5].name",
+      "value": "Yihong Gong"
+    },
+    {
+      "path": "references[17].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[5].doi",
+      "value": "10.1109/CVPR.2004.1315043"
+    },
+    {
+      "path": "references[0].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[11].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[30].title",
+      "value": "Image Super-Resolution Using Deep Convolutional Networks"
+    },
+    {
+      "path": "influentialCitationCount",
+      "value": "0"
+    },
+    {
+      "path": "references[35].year",
+      "value": "2017"
+    },
+    {
+      "path": "citations[3].authors[1].authorId",
+      "value": "2059027389"
+    },
+    {
+      "path": "topics[0].url",
+      "value": "https://www.semanticscholar.org/topic/57450"
+    },
+    {
+      "path": "references[29].paperId",
+      "value": "9c0cda8cb2337fb0cf78051bd0fc6b086d7efbfc"
+    },
+    {
+      "path": "references[37].authors[1].name",
+      "value": "Lucas Theis"
+    },
+    {
+      "path": "references[32].year",
+      "value": "2015"
+    },
+    {
+      "path": "references[34].authors[0].name",
+      "value": "Yibing Song"
+    },
+    {
+      "path": "references[34].authors[0].authorId",
+      "value": "2255687"
+    },
+    {
+      "path": "references[36].doi",
+      "value": "10.1109/CVPR.2017.713"
+    },
+    {
+      "path": "topics[3].topic",
+      "value": "algorithm"
+    },
+    {
+      "path": "references[0].authors[0].authorId",
+      "value": "39682833"
+    },
+    {
+      "path": "references[36].venue",
+      "value": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    {
+      "path": "citations[3].authors[2].authorId",
+      "value": "3004725"
+    },
+    {
+      "path": "references[15].authors[4].name",
+      "value": "Thomas S. Huang"
+    },
+    {
+      "path": "citations[1].venue",
+      "value": "ACM Computing Surveys"
+    },
+    {
+      "path": "references[30].venue",
+      "value": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    },
+    {
+      "path": "references[18].authors[0].name",
+      "value": "Chengdong Lan"
+    },
+    {
+      "path": "citations[7].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "citations[1].authors[3].name",
+      "value": "Jiayi Ma"
+    },
+    {
+      "path": "references[17].authors[2].authorId",
+      "value": "153652752"
+    },
+    {
+      "path": "citations[7].authors[2].authorId",
+      "value": "38655501"
+    },
+    {
+      "path": "citations[9].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[6].venue",
+      "value": "IEEE Transactions on Image Processing"
+    },
+    {
+      "path": "references[24].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "references[6].title",
+      "value": "Image quality assessment: from error visibility to structural similarity"
+    },
+    {
+      "path": "references[34].authors[2].name",
+      "value": "Shengfeng He"
+    },
+    {
+      "path": "references[27].year",
+      "value": "2015"
+    },
+    {
+      "path": "references[31].authors[1].name",
+      "value": "R. Rothe"
+    },
+    {
+      "path": "references[4].authors[1].name",
+      "value": "H. Shum"
+    },
+    {
+      "path": "references[7].authors[2].name",
+      "value": "Q. Xue"
+    },
+    {
+      "path": "references[10].authors[1].authorId",
+      "value": "48437987"
+    },
+    {
+      "path": "citations[4].authors[4].authorId",
+      "value": "144307145"
+    },
+    {
+      "path": "citations[7].authors[3].name",
+      "value": "Kui Jiang"
+    },
+    {
+      "path": "references[4].authors[1].authorId",
+      "value": "93596028"
+    },
+    {
+      "path": "references[2].paperId",
+      "value": "7c850f4c56f184891f3ccfe2de6213881dc0e08c"
+    },
+    {
+      "path": "references[36].title",
+      "value": "SphereFace: Deep Hypersphere Embedding for Face Recognition"
+    },
+    {
+      "path": "references[19].venue",
+      "value": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "path": "citations[5].paperId",
+      "value": "cd66f122b75fdd4ed743fa92c3783a2458a6b223"
+    },
+    {
+      "path": "references[7].authors[1].name",
+      "value": "Q. Tian"
+    },
+    {
+      "path": "references[31].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[19].paperId",
+      "value": "510257c8cedc079aae88ccbf3dd10a84051c8fdc"
+    },
+    {
+      "path": "references[25].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[28].year",
+      "value": "2015"
+    },
+    {
+      "path": "citations[4].authors[4].name",
+      "value": "J. Xie"
+    },
+    {
+      "path": "references[14].title",
+      "value": "Super-resolution of human face image using canonical correlation analysis"
+    },
+    {
+      "path": "references[34].authors[1].name",
+      "value": "Jiawei Zhang"
+    },
+    {
+      "path": "references[5].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[25].title",
+      "value": "Noise Robust Face Hallucination via Locality-Constrained Representation"
+    },
+    {
+      "path": "references[13].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[6].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[17].authors[0].name",
+      "value": "Jianchao Yang"
+    },
+    {
+      "path": "references[6].paperId",
+      "value": "eae2e0fa72e898c289365c0af16daf57a7a6cf40"
+    },
+    {
+      "path": "references[24].authors[3].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[26].authors[4].name",
+      "value": "Chunjie Zhang"
+    },
+    {
+      "path": "references[37].authors[5].name",
+      "value": "Alykhan Tejani"
+    },
+    {
+      "path": "citations[2].authors[4].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[21].authors[1].authorId",
+      "value": ""
+    },
+    {
+      "path": "references[22].authors[1].authorId",
+      "value": "143719920"
+    },
+    {
+      "path": "references[29].year",
+      "value": "2015"
+    },
+    {
+      "path": "references[25].authors[3].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[36].authors[4].name",
+      "value": "B. Raj"
+    },
+    {
+      "path": "references[14].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[3].year",
+      "value": "2003"
+    },
+    {
+      "path": "citations[4].authors[0].name",
+      "value": "Guangwei Gao"
+    },
+    {
+      "path": "citations[4].authors[6].authorId",
+      "value": "2111076685"
+    },
+    {
+      "path": "citations[4].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[14].doi",
+      "value": "10.1016/j.patcog.2010.02.007"
+    },
+    {
+      "path": "references[23].authors[3].authorId",
+      "value": "2111131284"
+    },
+    {
+      "path": "citations[2].paperId",
+      "value": "1bc897f87e5e0c61c496cdccdd168577a62ed501"
+    },
+    {
+      "path": "references[11].year",
+      "value": "2008"
+    },
+    {
+      "path": "citations[6].year",
+      "value": "2021"
+    },
+    {
+      "path": "citations[0].authors[1].name",
+      "value": "Ankush Jain"
+    },
+    {
+      "path": "citations[0].authors[2].authorId",
+      "value": "2149921717"
+    },
+    {
+      "path": "citations[5].authors[1].name",
+      "value": "Long Sun"
+    },
+    {
+      "path": "references[20].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[20].title",
+      "value": "An efficient local-structure-based face-hallucination method"
+    },
+    {
+      "path": "references[1].title",
+      "value": "Limits on super-resolution and how to break them"
+    },
+    {
+      "path": "references[13].title",
+      "value": "Position-based face hallucination method"
+    },
+    {
+      "path": "references[24].title",
+      "value": "Noise Face Image Hallucination via Data-Driven Local Eigentransformation"
+    },
+    {
+      "path": "references[5].title",
+      "value": "Super-resolution through neighbor embedding"
+    },
+    {
+      "path": "references[7].authors[3].name",
+      "value": "N. Sebe"
+    },
+    {
+      "path": "citations[2].authors[2].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "references[14].url",
+      "value": "https://www.semanticscholar.org/paper/09ad57265a1f0dfd60b3360daa499f5e93059c22"
+    },
+    {
+      "path": "references[10].authors[3].name",
+      "value": "Xilin Chen"
+    },
+    {
+      "path": "references[5].venue",
+      "value": "CVPR 2004"
+    },
+    {
+      "path": "references[15].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[3].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[8].year",
+      "value": "2005"
+    },
+    {
+      "path": "references[5].authors[1].name",
+      "value": "D. Yeung"
+    },
+    {
+      "path": "references[10].authors[5].authorId",
+      "value": "2108584873"
+    },
+    {
+      "path": "references[8].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[23].url",
+      "value": "https://www.semanticscholar.org/paper/baf38dbaaf81bfd250376ce7fc38d76c3821b309"
+    },
+    {
+      "path": "citations[1].authors[2].authorId",
+      "value": "2108681776"
+    },
+    {
+      "path": "references[13].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[27].authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[28].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[35].venue",
+      "value": "2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "path": "references[6].authors[2].name",
+      "value": "H. Sheikh"
+    },
+    {
+      "path": "references[25].intent[2]",
+      "value": "result"
+    },
+    {
+      "path": "references[13].venue",
+      "value": "2009 IEEE International Conference on Multimedia and Expo"
+    },
+    {
+      "path": "references[30].authors[3].name",
+      "value": "Xiaoou Tang"
+    },
+    {
+      "path": "citations[1].year",
+      "value": "2021"
+    },
+    {
+      "path": "references[31].venue",
+      "value": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    {
+      "path": "references[20].venue",
+      "value": "2012 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+    },
+    {
+      "path": "references[24].venue",
+      "value": "PCM"
+    },
+    {
+      "path": "references[1].venue",
+      "value": "Proceedings IEEE Conference on Computer Vision and Pattern Recognition. CVPR 2000 (Cat. No.PR00662)"
+    },
+    {
+      "path": "references[1].authors[1].authorId",
+      "value": "1733113"
+    },
+    {
+      "path": "references[30].year",
+      "value": "2014"
+    },
+    {
+      "path": "references[23].doi",
+      "value": "10.1109/ICIP.2013.6738201"
+    },
+    {
+      "path": "references[16].authors[0].authorId",
+      "value": "2363813"
+    },
+    {
+      "path": "references[21].authors[2].name",
+      "value": "Pingkun Yan"
+    },
+    {
+      "path": "references[35].authors[1].name",
+      "value": "Sanghyun Son"
+    },
+    {
+      "path": "references[25].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[6].authors[0].name",
+      "value": "Zhou Wang"
+    },
+    {
+      "path": "citations[6].doi",
+      "value": "10.36227/techrxiv.17055734"
+    },
+    {
+      "path": "references[29].authors[3].authorId",
+      "value": "1685088"
+    },
+    {
+      "path": "citations[8].title",
+      "value": "MSFSR: A Multi-Stage Face Super-Resolution with Accurate Facial Representation via Enhanced Facial Boundaries"
+    },
+    {
+      "path": "references[10].authors[3].authorId",
+      "value": "46772547"
+    },
+    {
+      "path": "references[0].authors[1].name",
+      "value": "S. Baluja"
+    },
+    {
+      "path": "arxivId",
+      "value": ""
+    },
+    {
+      "path": "topics[0].topic",
+      "value": "Anatomy, Regional"
+    },
+    {
+      "path": "citations[3].venue",
+      "value": "IEEE Transactions on Biometrics, Behavior, and Identity Science"
+    },
+    {
+      "path": "references[35].title",
+      "value": "Enhanced Deep Residual Networks for Single Image Super-Resolution"
+    },
+    {
+      "path": "references[25].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[27].url",
+      "value": "https://www.semanticscholar.org/paper/1b1eb9b758676f9b249ef17bb473cfd38c11e62d"
+    },
+    {
+      "path": "references[35].authors[1].authorId",
+      "value": "2055453482"
+    },
+    {
+      "path": "topics[2].topicId",
+      "value": "199704"
+    },
+    {
+      "path": "references[25].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[28].authors[1].authorId",
+      "value": "144847940"
+    },
+    {
+      "path": "references[24].authors[5].authorId",
+      "value": "144398790"
+    },
+    {
+      "path": "citations[2].authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "references[16].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[3].authors[1].authorId",
+      "value": "9330607"
+    },
+    {
+      "path": "references[18].year",
+      "value": "2010"
+    },
+    {
+      "path": "references[30].authors[1].name",
+      "value": "Chen Change Loy"
+    },
+    {
+      "path": "references[11].authors[2].name",
+      "value": "Yi Ma"
+    },
+    {
+      "path": "references[20].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[0].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[36].authors[3].authorId",
+      "value": "2150655769"
+    },
+    {
+      "path": "references[10].authors[6].name",
+      "value": "Debin Zhao"
+    },
+    {
+      "path": "citations[0].authors[3].name",
+      "value": "Ajay Kumar"
+    },
+    {
+      "path": "numCiting",
+      "value": "38"
+    },
+    {
+      "path": "references[33].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[3].year",
+      "value": "2021"
+    },
+    {
+      "path": "references[7].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[0].title",
+      "value": "Adaptive optimal multi-features learning based representation for face hallucination"
+    },
+    {
+      "path": "citations[3].title",
+      "value": "E-ComSupResNet: Enhanced Face Super-Resolution Through Compact Network"
+    },
+    {
+      "path": "references[22].authors[3].authorId",
+      "value": "67180560"
+    },
+    {
+      "path": "references[16].year",
+      "value": "2010"
+    },
+    {
+      "path": "references[4].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[0].venue",
+      "value": "Expert Syst. Appl."
+    },
+    {
+      "path": "citations[8].venue",
+      "value": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)"
+    },
+    {
+      "path": "citations[0].authors[0].authorId",
+      "value": "20921873"
+    },
+    {
+      "path": "references[37].authors[7].name",
+      "value": "Zehan Wang"
+    },
+    {
+      "path": "references[10].authors[5].name",
+      "value": "Xiaohua Zhang"
+    },
+    {
+      "path": "citations[3].authors[4].authorId",
+      "value": "151434651"
+    },
+    {
+      "path": "references[12].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[14].authors[0].authorId",
+      "value": "39925162"
+    },
+    {
+      "path": "references[27].authors[3].name",
+      "value": "Qing Li"
+    },
+    {
+      "path": "references[23].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "authors[1].authorId",
+      "value": "9416881"
+    },
+    {
+      "path": "references[29].title",
+      "value": "Learning-Based Joint Super-Resolution and Deblocking for a Highly Compressed Image"
+    },
+    {
+      "path": "references[37].authors[1].authorId",
+      "value": "2073063"
+    },
+    {
+      "path": "citations[4].year",
+      "value": "2021"
+    },
+    {
+      "path": "references[35].authors[3].name",
+      "value": "Seungjun Nah"
+    },
+    {
+      "path": "references[19].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[15].authors[3].authorId",
+      "value": "39157653"
+    },
+    {
+      "path": "references[36].authors[1].name",
+      "value": "Yandong Wen"
+    },
+    {
+      "path": "citations[8].authors[1].authorId",
+      "value": "2108053052"
+    },
+    {
+      "path": "citations[2].url",
+      "value": "https://www.semanticscholar.org/paper/1bc897f87e5e0c61c496cdccdd168577a62ed501"
+    },
+    {
+      "path": "references[23].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "numCitedBy",
+      "value": "10"
+    },
+    {
+      "path": "references[17].url",
+      "value": "https://www.semanticscholar.org/paper/f99d0bd1f1288fe35d46f719125844bfbaf544e3"
+    },
+    {
+      "path": "references[20].url",
+      "value": "https://www.semanticscholar.org/paper/e604febddc6294574cb6ca32d9f3e9af690e3200"
+    },
+    {
+      "path": "references[11].authors[1].name",
+      "value": "Hao Tang"
+    },
+    {
+      "path": "authors[2].url",
+      "value": "https://www.semanticscholar.org/author/2117896344"
+    },
+    {
+      "path": "references[37].authors[5].authorId",
+      "value": "41203992"
+    },
+    {
+      "path": "references[37].authors[8].name",
+      "value": "W. Shi"
+    },
+    {
+      "path": "references[20].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[6].year",
+      "value": "2004"
+    },
+    {
+      "path": "citations[9].authors[1].authorId",
+      "value": "9416881"
+    },
+    {
+      "path": "references[30].doi",
+      "value": "10.1109/TPAMI.2015.2439281"
+    },
+    {
+      "path": "references[7].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[9].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "citations[5].authors[4].name",
+      "value": "Cheng Pang"
+    },
+    {
+      "path": "references[16].venue",
+      "value": "Image Vis. Comput."
+    },
+    {
+      "path": "references[12].paperId",
+      "value": "b189282ec4c65f4229105e1b62e0012f7ab551cb"
+    },
+    {
+      "path": "references[35].paperId",
+      "value": "7ba5d3808e117e7a68dc40331ce1d483ceeedcb2"
+    },
+    {
+      "path": "references[27].venue",
+      "value": "Multimedia Tools and Applications"
+    },
+    {
+      "path": "references[29].authors[0].authorId",
+      "value": "1943622"
+    },
+    {
+      "path": "citations[9].year",
+      "value": "2020"
+    },
+    {
+      "path": "citations[3].paperId",
+      "value": "684dca76b28358a9cabf60283ab6dcc68ba17385"
+    },
+    {
+      "path": "references[0].paperId",
+      "value": "3d76ef8e61395a6e9c32627f1f108772d084e2e9"
+    },
+    {
+      "path": "references[0].authors[2].name",
+      "value": "T. Kanade"
+    },
+    {
+      "path": "references[37].authors[6].authorId",
+      "value": "1853456"
+    },
+    {
+      "path": "references[10].authors[0].name",
+      "value": "W. Gao"
+    },
+    {
+      "path": "references[8].title",
+      "value": "Hallucinating face by eigentransformation"
+    },
+    {
+      "path": "references[1].year",
+      "value": "2000"
+    },
+    {
+      "path": "references[20].authors[0].name",
+      "value": "Hui Zhuo"
+    },
+    {
+      "path": "references[8].venue",
+      "value": "IEEE Trans. Syst. Man Cybern. Part C"
+    },
+    {
+      "path": "references[17].authors[2].name",
+      "value": "Thomas S. Huang"
+    },
+    {
+      "path": "fieldsOfStudy[0]",
+      "value": "Computer Science"
+    },
+    {
+      "path": "authors[1].name",
+      "value": "Jinshan Pan"
+    },
+    {
+      "path": "references[30].url",
+      "value": "https://www.semanticscholar.org/paper/66e9dc728b5041271bff0cd6ac0d7eadcd88442f"
+    },
+    {
+      "path": "citations[9].doi",
+      "value": "10.1109/TIP.2020.3023580"
+    },
+    {
+      "path": "citations[2].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[5].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[15].paperId",
+      "value": "2f7713dcc35e7c05becf3be5522f36c9546b0364"
+    },
+    {
+      "path": "references[30].authors[2].authorId",
+      "value": "39353098"
+    },
+    {
+      "path": "references[17].doi",
+      "value": "10.1109/TIP.2010.2050625"
+    },
+    {
+      "path": "citations[8].authors[2].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "references[14].year",
+      "value": "2010"
+    },
+    {
+      "path": "references[22].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[2].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[7].year",
+      "value": "2005"
+    },
+    {
+      "path": "references[27].title",
+      "value": "A novel face super resolution approach for noisy images using contour feature and standard deviation prior"
+    },
+    {
+      "path": "references[9].authors[1].authorId",
+      "value": "1756114"
+    },
+    {
+      "path": "references[36].authors[2].name",
+      "value": "Zhiding Yu"
+    },
+    {
+      "path": "references[16].title",
+      "value": "A new ranking method for principal components analysis and its application to face image analysis"
+    },
+    {
+      "path": "citations[3].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[17].authors[3].name",
+      "value": "Yi Ma"
+    },
+    {
+      "path": "references[30].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[15].authors[2].authorId",
+      "value": "144782042"
+    },
+    {
+      "path": "references[35].authors[0].name",
+      "value": "Bee Lim"
+    },
+    {
+      "path": "references[0].year",
+      "value": "1998"
+    },
+    {
+      "path": "references[16].authors[1].name",
+      "value": "G. Giraldi"
+    },
+    {
+      "path": "citations[6].paperId",
+      "value": "dc2ea22eca985c9456bb3d6f9820a348d02885b4"
+    },
+    {
+      "path": "citations[9].authors[2].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[32].paperId",
+      "value": "b5f3e5d2912bedbcd9458952d664b08db6aed962"
+    },
+    {
+      "path": "references[5].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[13].year",
+      "value": "2009"
+    },
+    {
+      "path": "citations[5].authors[3].name",
+      "value": "Huimin Lu"
+    },
+    {
+      "path": "references[27].doi",
+      "value": "10.1007/s11042-015-3145-9"
+    },
+    {
+      "path": "citations[9].url",
+      "value": "https://www.semanticscholar.org/paper/9f2442c12c1dfde6dcd1986b6b12dc92f14aeb92"
+    },
+    {
+      "path": "references[29].authors[2].authorId",
+      "value": "2644084"
+    },
+    {
+      "path": "references[36].authors[2].authorId",
+      "value": "1751019"
+    },
+    {
+      "path": "references[6].authors[3].name",
+      "value": "Eero P. Simoncelli"
+    },
+    {
+      "path": "references[16].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[10].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[16].authors[0].name",
+      "value": "C. Thomaz"
+    },
+    {
+      "path": "references[36].authors[1].authorId",
+      "value": "145357606"
+    },
+    {
+      "path": "references[9].paperId",
+      "value": "cec734d7097ab6b1e60d95228ffd64248eb89d66"
+    },
+    {
+      "path": "references[10].authors[1].name",
+      "value": "B. Cao"
+    },
+    {
+      "path": "references[12].year",
+      "value": "2009"
+    },
+    {
+      "path": "citations[5].authors[0].name",
+      "value": "Rushi Lan"
+    },
+    {
+      "path": "citations[1].authors[0].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "citations[8].year",
+      "value": "2020"
+    },
+    {
+      "path": "references[26].authors[0].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[2].authors[1].authorId",
+      "value": "2149269035"
+    },
+    {
+      "path": "references[8].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[15].authors[0].authorId",
+      "value": "71563118"
+    },
+    {
+      "path": "references[9].doi",
+      "value": "10.1109/CVPR.2005.177"
+    },
+    {
+      "path": "isOpenAccess",
+      "value": "false"
+    },
+    {
+      "path": "topics[1].url",
+      "value": "https://www.semanticscholar.org/topic/10302"
+    },
+    {
+      "path": "references[20].authors[1].name",
+      "value": "K. Lam"
+    },
+    {
+      "path": "references[30].authors[3].authorId",
+      "value": "50295995"
+    },
+    {
+      "path": "references[26].authors[3].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[36].authors[0].authorId",
+      "value": "36326884"
+    },
+    {
+      "path": "authors[2].name",
+      "value": "Qing Li"
+    },
+    {
+      "path": "references[26].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[21].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[9].authors[4].authorId",
+      "value": "2108053052"
+    },
+    {
+      "path": "citations[1].authors[1].authorId",
+      "value": "2109501904"
+    },
+    {
+      "path": "references[37].authors[3].authorId",
+      "value": "145372820"
+    },
+    {
+      "path": "references[5].year",
+      "value": "2004"
+    },
+    {
+      "path": "references[33].title",
+      "value": "Face super resolution based on parent patch prior for VLQ scenarios"
+    },
+    {
+      "path": "references[10].url",
+      "value": "https://www.semanticscholar.org/paper/2485c98aa44131d1a2f7d1355b1e372f2bb148ad"
+    },
+    {
+      "path": "references[28].paperId",
+      "value": "91b1a59b9e0e7f4db0828bf36654b84ba53b0557"
+    },
+    {
+      "path": "references[2].year",
+      "value": "2003"
+    },
+    {
+      "path": "references[20].doi",
+      "value": "10.1109/ICASSP.2012.6288119"
+    },
+    {
+      "path": "references[29].authors[1].authorId",
+      "value": "3192517"
+    },
+    {
+      "path": "references[10].year",
+      "value": "2008"
+    },
+    {
+      "path": "references[23].authors[4].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "references[2].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[9].authors[0].authorId",
+      "value": "48950628"
+    },
+    {
+      "path": "references[3].venue",
+      "value": "J. Mach. Learn. Res."
+    },
+    {
+      "path": "references[25].paperId",
+      "value": "51ebd2067aa0e66d0d66e2b018b95f5e85993206"
+    },
+    {
+      "path": "references[22].paperId",
+      "value": "5a0d82e4efb74b1d74baea9ec794c1c66e637571"
+    },
+    {
+      "path": "isPublisherLicensed",
+      "value": "true"
+    },
+    {
+      "path": "references[22].authors[0].authorId",
+      "value": "144050305"
+    },
+    {
+      "path": "references[4].year",
+      "value": "2004"
+    },
+    {
+      "path": "references[15].authors[1].authorId",
+      "value": "1706007"
+    },
+    {
+      "path": "references[37].authors[4].authorId",
+      "value": "49931957"
+    },
+    {
+      "path": "citations[8].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[9].authors[3].authorId",
+      "value": "1519062623"
+    },
+    {
+      "path": "references[11].venue",
+      "value": "2008 15th IEEE International Conference on Image Processing"
+    },
+    {
+      "path": "references[26].authors[2].name",
+      "value": "Chao Liang"
+    },
+    {
+      "path": "references[33].venue",
+      "value": "Multimedia Tools and Applications"
+    },
+    {
+      "path": "citations[8].authors[0].authorId",
+      "value": "2140010411"
+    },
+    {
+      "path": "references[29].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[9].url",
+      "value": "https://www.semanticscholar.org/paper/cec734d7097ab6b1e60d95228ffd64248eb89d66"
+    },
+    {
+      "path": "references[22].venue",
+      "value": "International Journal of Computer Vision"
+    },
+    {
+      "path": "references[11].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[10].doi",
+      "value": "10.1109/TSMCA.2007.909557"
+    },
+    {
+      "path": "references[26].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[2].authors[0].authorId",
+      "value": "2115277167"
+    },
+    {
+      "path": "citations[2].doi",
+      "value": "10.1109/TIP.2021.3086595"
+    },
+    {
+      "path": "references[20].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[36].authors[5].name",
+      "value": "Le Song"
+    },
+    {
+      "path": "references[33].authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "citations[4].authors[6].name",
+      "value": "Meng Yang"
+    },
+    {
+      "path": "citations[6].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[33].url",
+      "value": "https://www.semanticscholar.org/paper/ddfc978b3a149015c9e517fbfe1b8563df5e7356"
+    },
+    {
+      "path": "authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "citations[9].paperId",
+      "value": "9f2442c12c1dfde6dcd1986b6b12dc92f14aeb92"
+    },
+    {
+      "path": "references[2].authors[2].name",
+      "value": "M. Kang"
+    },
+    {
+      "path": "citations[1].url",
+      "value": "https://www.semanticscholar.org/paper/0aff8d059bccd20014f250b8e87cf205dfc04f5b"
+    },
+    {
+      "path": "citations[8].authors[0].name",
+      "value": "Yunchen Zhang"
+    },
+    {
+      "path": "citations[1].doi",
+      "value": "10.1145/3485132"
+    },
+    {
+      "path": "references[24].authors[2].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "references[0].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[10].authors[6].authorId",
+      "value": "1725937"
+    },
+    {
+      "path": "references[16].url",
+      "value": "https://www.semanticscholar.org/paper/8b56e33f33e582f3e473dba573a16b598ed9bcdc"
+    },
+    {
+      "path": "references[15].title",
+      "value": "Locality-constrained Linear Coding for image classification"
+    },
+    {
+      "path": "citations[4].authors[5].authorId",
+      "value": "51460259"
+    },
+    {
+      "path": "references[13].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[6].authors[1].name",
+      "value": "A. Bovik"
+    },
+    {
+      "path": "references[26].title",
+      "value": "Face image super-resolution through locality-induced support regression"
+    },
+    {
+      "path": "references[37].authors[0].authorId",
+      "value": "1779917"
+    },
+    {
+      "path": "references[2].url",
+      "value": "https://www.semanticscholar.org/paper/7c850f4c56f184891f3ccfe2de6213881dc0e08c"
+    },
+    {
+      "path": "citations[4].authors[1].name",
+      "value": "Guangwei Gao"
+    },
+    {
+      "path": "citations[2].authors[4].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[34].paperId",
+      "value": "006a6e6efc6582b57fbbf6c689e29b69a0be1ce2"
+    },
+    {
+      "path": "references[22].authors[4].name",
+      "value": "Jie Li"
+    },
+    {
+      "path": "citations[3].authors[3].authorId",
+      "value": "34711412"
+    },
+    {
+      "path": "references[23].authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "references[19].authors[1].authorId",
+      "value": "2068345080"
+    },
+    {
+      "path": "citations[0].authors[1].authorId",
+      "value": "49148100"
+    },
+    {
+      "path": "references[13].authors[0].name",
+      "value": "Xiang-Wang Ma"
+    },
+    {
+      "path": "references[13].paperId",
+      "value": "d035c8bef0e0619fd68ab2cc1c9e71dfd730aefe"
+    },
+    {
+      "path": "references[24].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[11].authors[3].name",
+      "value": "Thomas S. Huang"
+    },
+    {
+      "path": "references[33].doi",
+      "value": "10.1007/s11042-016-3611-z"
+    },
+    {
+      "path": "references[29].authors[3].name",
+      "value": "Chia-Wen Lin"
+    },
+    {
+      "path": "references[18].paperId",
+      "value": "fed5e5a9be8947aa553ea4f526405b672a2ac36c"
+    },
+    {
+      "path": "citations[4].paperId",
+      "value": "aceb3d7f3cbe9f6035b84444436d7fb5cd46916b"
+    },
+    {
+      "path": "references[37].authors[4].name",
+      "value": "Andrew P. Aitken"
+    },
+    {
+      "path": "references[27].authors[4].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[26].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[23].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[7].authors[4].name",
+      "value": "J. Ma"
+    },
+    {
+      "path": "references[24].doi",
+      "value": "10.1007/978-3-319-13168-9_19"
+    },
+    {
+      "path": "citations[2].authors[5].authorId",
+      "value": "2780029"
+    },
+    {
+      "path": "citations[1].authors[1].name",
+      "value": "Chenyang Wang"
+    },
+    {
+      "path": "references[19].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[2].doi",
+      "value": "10.1109/MSP.2003.1203207"
+    },
+    {
+      "path": "references[29].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[14].authors[3].name",
+      "value": "Junping Zhang"
+    },
+    {
+      "path": "citations[7].year",
+      "value": "2020"
+    },
+    {
+      "path": "references[22].authors[2].authorId",
+      "value": "10699750"
+    },
+    {
+      "path": "references[28].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[8].paperId",
+      "value": "791d46aa9cdd40bc9d82067a2e9b71785c62838b"
+    },
+    {
+      "path": "citations[7].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[1].authors[0].authorId",
+      "value": "145347688"
+    },
+    {
+      "path": "references[3].paperId",
+      "value": "8db95dbd08e4ee64fb258e5380e78cfa507ed94d"
+    },
+    {
+      "path": "references[27].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[35].authors[0].authorId",
+      "value": "144717485"
+    },
+    {
+      "path": "references[32].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[9].authors[1].name",
+      "value": "B. Triggs"
+    },
+    {
+      "path": "citations[0].authors[2].name",
+      "value": "Pramod Kumar Singh"
+    },
+    {
+      "path": "citations[7].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[4].authors[1].authorId",
+      "value": "3306402"
+    },
+    {
+      "path": "references[10].authors[4].name",
+      "value": "Delong Zhou"
+    },
+    {
+      "path": "citations[3].authors[3].name",
+      "value": "K. Raja"
+    },
+    {
+      "path": "citations[2].authors[1].authorId",
+      "value": "9416881"
+    },
+    {
+      "path": "citations[9].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[19].authors[1].name",
+      "value": "Ning Wu"
+    },
+    {
+      "path": "topics[2].topic",
+      "value": "Flexed Sidebent Rotated"
+    },
+    {
+      "path": "references[34].venue",
+      "value": "IJCAI"
+    },
+    {
+      "path": "citations[5].title",
+      "value": "MADNet: A Fast and Lightweight Network for Single-Image Super Resolution"
+    },
+    {
+      "path": "citations[5].venue",
+      "value": "IEEE Transactions on Cybernetics"
+    },
+    {
+      "path": "references[37].title",
+      "value": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network"
+    },
+    {
+      "path": "references[33].authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "fieldsOfStudy[1]",
+      "value": "Medicine"
+    },
+    {
+      "path": "references[28].authors[0].name",
+      "value": "Muwei Jian"
+    },
+    {
+      "path": "citations[2].year",
+      "value": "2021"
+    },
+    {
+      "path": "references[29].authors[4].authorId",
+      "value": "1692617"
+    },
+    {
+      "path": "references[5].authors[2].name",
+      "value": "Yimin Xiong"
+    },
+    {
+      "path": "references[36].authors[0].name",
+      "value": "Weiyang Liu"
+    },
+    {
+      "path": "references[2].authors[2].authorId",
+      "value": "1839581"
+    },
+    {
+      "path": "references[20].year",
+      "value": "2012"
+    },
+    {
+      "path": "authors[0].url",
+      "value": "https://www.semanticscholar.org/author/2146032451"
+    },
+    {
+      "path": "references[7].venue",
+      "value": "2005 IEEE International Conference on Multimedia and Expo"
+    },
+    {
+      "path": "venue",
+      "value": "IEEE Transactions on Image Processing"
+    },
+    {
+      "path": "references[7].title",
+      "value": "Neighborhood issue in single-frame image super-resolution"
+    },
+    {
+      "path": "citations[9].authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "topics[3].url",
+      "value": "https://www.semanticscholar.org/topic/291901"
+    },
+    {
+      "path": "references[3].authors[0].name",
+      "value": "L. Saul"
+    },
+    {
+      "path": "references[17].year",
+      "value": "2010"
+    },
+    {
+      "path": "citations[5].authors[5].name",
+      "value": "Xiaonan Luo"
+    },
+    {
+      "path": "title",
+      "value": "Robust Face Image Super-Resolution via Joint Learning of Subdivided Contextual Model"
+    },
+    {
+      "path": "references[10].venue",
+      "value": "IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans"
+    },
+    {
+      "path": "references[35].authors[2].name",
+      "value": "Heewon Kim"
+    },
+    {
+      "path": "references[31].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[30].arxivId",
+      "value": "1501.00092"
+    },
+    {
+      "path": "references[3].authors[0].authorId",
+      "value": "1796044"
+    },
+    {
+      "path": "references[37].authors[7].authorId",
+      "value": "34627233"
+    },
+    {
+      "path": "references[0].authors[0].name",
+      "value": "H. Rowley"
+    },
+    {
+      "path": "references[1].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[15].venue",
+      "value": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+    },
+    {
+      "path": "references[18].title",
+      "value": "Face hallucination with shape parameters projection constraint"
+    },
+    {
+      "path": "references[30].authors[0].name",
+      "value": "Chao Dong"
+    },
+    {
+      "path": "references[21].authors[0].authorId",
+      "value": "7828998"
+    },
+    {
+      "path": "references[21].year",
+      "value": "2013"
+    },
+    {
+      "path": "references[37].venue",
+      "value": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    {
+      "path": "references[26].venue",
+      "value": "Signal Process."
+    },
+    {
+      "path": "references[19].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[32].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[12].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[32].doi",
+      "value": "10.1109/CVPR.2016.182"
+    },
+    {
+      "path": "references[10].title",
+      "value": "The CAS-PEAL Large-Scale Chinese Face Database and Baseline Evaluations"
+    },
+    {
+      "path": "references[0].authors[2].authorId",
+      "value": "1733113"
+    },
+    {
+      "path": "citations[1].authors[3].authorId",
+      "value": "8555475"
+    },
+    {
+      "path": "references[11].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[30].authors[1].authorId",
+      "value": "1717179"
+    },
+    {
+      "path": "references[20].paperId",
+      "value": "e604febddc6294574cb6ca32d9f3e9af690e3200"
+    },
+    {
+      "path": "references[7].authors[0].name",
+      "value": "Xu Su"
+    },
+    {
+      "path": "references[35].authors[4].authorId",
+      "value": "2135837"
+    },
+    {
+      "path": "references[34].authors[4].name",
+      "value": "Qingxiong Yang"
+    },
+    {
+      "path": "references[0].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[32].authors[2].authorId",
+      "value": "2135837"
+    },
+    {
+      "path": "references[36].authors[5].authorId",
+      "value": "1779453"
+    },
+    {
+      "path": "references[14].authors[2].authorId",
+      "value": "144309189"
+    },
+    {
+      "path": "citations[7].authors[0].authorId",
+      "value": "1581795258"
+    },
+    {
+      "path": "references[7].authors[0].authorId",
+      "value": "2106352399"
+    },
+    {
+      "path": "references[7].authors[1].authorId",
+      "value": "144876831"
+    },
+    {
+      "path": "citations[7].authors[1].name",
+      "value": "Zheng He"
+    },
+    {
+      "path": "references[25].authors[0].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[34].url",
+      "value": "https://www.semanticscholar.org/paper/006a6e6efc6582b57fbbf6c689e29b69a0be1ce2"
+    },
+    {
+      "path": "references[3].doi",
+      "value": "10.1162/153244304322972667"
+    },
+    {
+      "path": "references[15].authors[4].authorId",
+      "value": "153652752"
+    },
+    {
+      "path": "references[32].url",
+      "value": "https://www.semanticscholar.org/paper/b5f3e5d2912bedbcd9458952d664b08db6aed962"
+    },
+    {
+      "path": "references[18].venue",
+      "value": "ACM Multimedia"
+    },
+    {
+      "path": "references[27].paperId",
+      "value": "1b1eb9b758676f9b249ef17bb473cfd38c11e62d"
+    },
+    {
+      "path": "references[5].paperId",
+      "value": "b4018623293585e06e5ec159d11a9178f9f99380"
+    },
+    {
+      "path": "references[1].doi",
+      "value": "10.1109/CVPR.2000.854852"
+    },
+    {
+      "path": "references[32].arxivId",
+      "value": "1511.04587"
+    },
+    {
+      "path": "citations[0].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[27].authors[2].name",
+      "value": "Chao Liang"
+    },
+    {
+      "path": "references[26].year",
+      "value": "2014"
+    },
+    {
+      "path": "references[29].venue",
+      "value": "IEEE Transactions on Multimedia"
+    },
+    {
+      "path": "references[34].authors[2].authorId",
+      "value": "2548483"
+    },
+    {
+      "path": "references[26].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[7].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[16].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[14].arxivId",
+      "value": ""
+    },
+    {
+      "path": "doi",
+      "value": "10.1109/TIP.2019.2920510"
+    },
+    {
+      "path": "citations[1].authors[0].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[15].authors[5].authorId",
+      "value": "144768792"
+    },
+    {
+      "path": "citations[6].authors[1].authorId",
+      "value": "143707367"
+    },
+    {
+      "path": "references[34].doi",
+      "value": "10.24963/ijcai.2017/633"
+    },
+    {
+      "path": "references[21].authors[0].name",
+      "value": "Xiaoqiang Lu"
+    },
+    {
+      "path": "references[34].authors[1].authorId",
+      "value": "1519062623"
+    },
+    {
+      "path": "references[10].paperId",
+      "value": "2485c98aa44131d1a2f7d1355b1e372f2bb148ad"
+    },
+    {
+      "path": "citations[2].title",
+      "value": "Multi-Stage Degradation Homogenization for Super-Resolution of Face Images With Extreme Degradations"
+    },
+    {
+      "path": "citations[5].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[37].authors[3].name",
+      "value": "Jose Caballero"
+    },
+    {
+      "path": "references[37].authors[8].authorId",
+      "value": "152554375"
+    },
+    {
+      "path": "references[1].url",
+      "value": "https://www.semanticscholar.org/paper/66d890912381e2536d2dbc117a0ce59158c3be90"
+    },
+    {
+      "path": "citations[2].venue",
+      "value": "IEEE Transactions on Image Processing"
+    },
+    {
+      "path": "topics[2].url",
+      "value": "https://www.semanticscholar.org/topic/199704"
+    },
+    {
+      "path": "references[4].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "url",
+      "value": "https://www.semanticscholar.org/paper/d8c1ed5070958836eef2d2c239ac12963996f756"
+    },
+    {
+      "path": "references[18].authors[3].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[22].authors[3].name",
+      "value": "Xuelong Li"
+    },
+    {
+      "path": "references[27].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "references[13].authors[1].authorId",
+      "value": "47539666"
+    },
+    {
+      "path": "references[31].authors[0].authorId",
+      "value": "1732855"
+    },
+    {
+      "path": "references[21].authors[1].name",
+      "value": "Yuan Yuan"
+    },
+    {
+      "path": "references[24].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[37].paperId",
+      "value": "df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3"
+    },
+    {
+      "path": "references[17].authors[1].authorId",
+      "value": "143607492"
+    },
+    {
+      "path": "references[25].year",
+      "value": "2014"
+    },
+    {
+      "path": "references[25].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[35].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "citations[8].url",
+      "value": "https://www.semanticscholar.org/paper/80746a36bd92dc2fe3338d5fc3a589e05d3278a5"
+    },
+    {
+      "path": "references[24].authors[0].name",
+      "value": "Xiaohui Dong"
+    },
+    {
+      "path": "citations[7].authors[3].authorId",
+      "value": "51360637"
+    },
+    {
+      "path": "citations[7].title",
+      "value": "Lightweight Progressive Residual Clique Network for Image Super-Resolution"
+    },
+    {
+      "path": "references[26].url",
+      "value": "https://www.semanticscholar.org/paper/c397408e784004240e866d0f31cea7b9e44fdd0c"
+    },
+    {
+      "path": "citations[3].authors[0].authorId",
+      "value": "38824959"
+    },
+    {
+      "path": "citations[4].authors[2].name",
+      "value": "Guangwei Gao"
+    },
+    {
+      "path": "references[4].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[35].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "citations[7].venue",
+      "value": "2020 IEEE 32nd International Conference on Tools with Artificial Intelligence (ICTAI)"
+    },
+    {
+      "path": "references[34].authors[3].name",
+      "value": "Linchao Bao"
+    },
+    {
+      "path": "references[33].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[4].authors[0].name",
+      "value": "Zhouchen Lin"
+    },
+    {
+      "path": "references[24].url",
+      "value": "https://www.semanticscholar.org/paper/3e649f31eb2916213d5b064dd4f3225ff689651e"
+    },
+    {
+      "path": "references[10].authors[2].authorId",
+      "value": "145455919"
+    },
+    {
+      "path": "references[31].title",
+      "value": "Seven Ways to Improve Example-Based Single Image Super Resolution"
+    },
+    {
+      "path": "references[18].authors[3].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "citations[7].authors[2].name",
+      "value": "Zhongyuan Wang"
+    },
+    {
+      "path": "topics[0].topicId",
+      "value": "57450"
+    },
+    {
+      "path": "topics[3].topicId",
+      "value": "291901"
+    },
+    {
+      "path": "references[6].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[10].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "citationVelocity",
+      "value": "0"
+    },
+    {
+      "path": "references[26].doi",
+      "value": "10.1016/j.sigpro.2014.02.014"
+    },
+    {
+      "path": "references[31].paperId",
+      "value": "af0892ab043b1a37f3e8f81b148c66369d64d391"
+    },
+    {
+      "path": "references[37].authors[0].name",
+      "value": "C. Ledig"
+    },
+    {
+      "path": "references[27].authors[0].authorId",
+      "value": "2146032451"
+    },
+    {
+      "path": "citations[4].authors[5].name",
+      "value": "Jian Yang"
+    },
+    {
+      "path": "references[17].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[9].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[18].authors[2].name",
+      "value": "Kebin Huang"
+    },
+    {
+      "path": "references[15].authors[1].name",
+      "value": "Jianchao Yang"
+    },
+    {
+      "path": "references[13].authors[0].authorId",
+      "value": "3138386"
+    },
+    {
+      "path": "references[34].year",
+      "value": "2017"
+    },
+    {
+      "path": "references[16].doi",
+      "value": "10.1016/j.imavis.2009.11.005"
+    },
+    {
+      "path": "citations[1].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[15].authors[2].name",
+      "value": "Kai Yu"
+    },
+    {
+      "path": "references[31].authors[2].name",
+      "value": "L. Gool"
+    },
+    {
+      "path": "references[0].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[3].url",
+      "value": "https://www.semanticscholar.org/paper/8db95dbd08e4ee64fb258e5380e78cfa507ed94d"
+    },
+    {
+      "path": "references[35].arxivId",
+      "value": "1707.02921"
+    },
+    {
+      "path": "references[14].authors[3].authorId",
+      "value": "47539666"
+    },
+    {
+      "path": "references[33].year",
+      "value": "2017"
+    },
+    {
+      "path": "citations[8].doi",
+      "value": "10.1109/CVPRW50498.2020.00260"
+    },
+    {
+      "path": "references[22].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[35].authors[3].authorId",
+      "value": "40648435"
+    },
+    {
+      "path": "references[15].authors[3].name",
+      "value": "Fengjun Lv"
+    },
+    {
+      "path": "references[11].paperId",
+      "value": "2e38ff75a80ec92111261bf368781c7eef89eb14"
+    },
+    {
+      "path": "references[33].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[31].doi",
+      "value": "10.1109/CVPR.2016.206"
+    },
+    {
+      "path": "references[18].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "citations[1].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[4].url",
+      "value": "https://www.semanticscholar.org/paper/6254833a3e48df65a535678959aa2b670f54d465"
+    },
+    {
+      "path": "references[36].paperId",
+      "value": "bd8f77b7d3b9d272f7a68defc1412f73e5ac3135"
+    },
+    {
+      "path": "citations[1].authors[2].name",
+      "value": "Xianming Liu"
+    },
+    {
+      "path": "references[18].url",
+      "value": "https://www.semanticscholar.org/paper/fed5e5a9be8947aa553ea4f526405b672a2ac36c"
+    },
+    {
+      "path": "references[28].authors[1].name",
+      "value": "K. Lam"
+    },
+    {
+      "path": "references[17].title",
+      "value": "Image Super-Resolution Via Sparse Representation"
+    },
+    {
+      "path": "references[35].url",
+      "value": "https://www.semanticscholar.org/paper/7ba5d3808e117e7a68dc40331ce1d483ceeedcb2"
+    },
+    {
+      "path": "citations[4].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[9].authors[0].name",
+      "value": "N. Dalal"
+    },
+    {
+      "path": "references[14].authors[2].name",
+      "value": "Xin Fan"
+    },
+    {
+      "path": "references[4].doi",
+      "value": "10.1109/TPAMI.2004.1261081"
+    },
+    {
+      "path": "references[26].authors[3].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[16].paperId",
+      "value": "8b56e33f33e582f3e473dba573a16b598ed9bcdc"
+    },
+    {
+      "path": "references[29].authors[2].name",
+      "value": "Boqi Zhuang"
+    },
+    {
+      "path": "references[3].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[8].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[24].authors[2].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[19].authors[0].authorId",
+      "value": "39925162"
+    },
+    {
+      "path": "references[28].title",
+      "value": "Simultaneous Hallucination and Recognition of Low-Resolution Faces Based on Singular Value Decomposition"
+    },
+    {
+      "path": "references[8].url",
+      "value": "https://www.semanticscholar.org/paper/791d46aa9cdd40bc9d82067a2e9b71785c62838b"
+    },
+    {
+      "path": "references[9].title",
+      "value": "Histograms of oriented gradients for human detection"
+    },
+    {
+      "path": "references[9].venue",
+      "value": "2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)"
+    },
+    {
+      "path": "references[18].authors[0].authorId",
+      "value": "3216340"
+    },
+    {
+      "path": "citations[0].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[3].authors[4].name",
+      "value": "Raghavendra Ramachandra"
+    },
+    {
+      "path": "references[0].authors[1].authorId",
+      "value": "1767244"
+    },
+    {
+      "path": "references[18].doi",
+      "value": "10.1145/1873951.1874103"
+    },
+    {
+      "path": "references[21].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[1].paperId",
+      "value": "66d890912381e2536d2dbc117a0ce59158c3be90"
+    },
+    {
+      "path": "references[37].year",
+      "value": "2016"
+    },
+    {
+      "path": "references[1].authors[0].name",
+      "value": "S. Baker"
+    },
+    {
+      "path": "references[12].authors[0].name",
+      "value": "H. Greenspan"
+    },
+    {
+      "path": "citations[3].doi",
+      "value": "10.1109/TBIOM.2021.3059196"
+    },
+    {
+      "path": "references[24].year",
+      "value": "2014"
+    },
+    {
+      "path": "references[17].venue",
+      "value": "IEEE Transactions on Image Processing"
+    },
+    {
+      "path": "citations[2].authors[3].name",
+      "value": "Jiawei Zhang"
+    },
+    {
+      "path": "references[17].authors[0].authorId",
+      "value": "1706007"
+    },
+    {
+      "path": "references[20].authors[1].authorId",
+      "value": "144847940"
+    },
+    {
+      "path": "citations[3].url",
+      "value": "https://www.semanticscholar.org/paper/684dca76b28358a9cabf60283ab6dcc68ba17385"
+    },
+    {
+      "path": "citations[4].authors[7].name",
+      "value": "Jian Zhang"
+    },
+    {
+      "path": "references[25].authors[3].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[28].venue",
+      "value": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "path": "references[13].authors[1].name",
+      "value": "Junping Zhang"
+    },
+    {
+      "path": "references[8].doi",
+      "value": "10.1109/TSMCC.2005.848171"
+    },
+    {
+      "path": "references[32].authors[0].name",
+      "value": "Jiwon Kim"
+    },
+    {
+      "path": "citations[7].authors[4].authorId",
+      "value": "2042656075"
+    },
+    {
+      "path": "references[37].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[2].authors[1].name",
+      "value": "Min Kyu Park"
+    },
+    {
+      "path": "references[11].url",
+      "value": "https://www.semanticscholar.org/paper/2e38ff75a80ec92111261bf368781c7eef89eb14"
+    },
+    {
+      "path": "citations[4].authors[2].authorId",
+      "value": "3306402"
+    },
+    {
+      "path": "references[22].year",
+      "value": "2013"
+    },
+    {
+      "path": "references[18].authors[2].authorId",
+      "value": "2111005"
+    },
+    {
+      "path": "references[1].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[0].url",
+      "value": "https://www.semanticscholar.org/paper/3d76ef8e61395a6e9c32627f1f108772d084e2e9"
+    },
+    {
+      "path": "references[18].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[22].doi",
+      "value": "10.1007/s11263-013-0645-9"
+    },
+    {
+      "path": "citations[9].authors[2].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[24].paperId",
+      "value": "3e649f31eb2916213d5b064dd4f3225ff689651e"
+    },
+    {
+      "path": "citations[2].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[32].venue",
+      "value": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    },
+    {
+      "path": "citations[9].authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[33].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[7].doi",
+      "value": "10.1109/ICME.2005.1521623"
+    },
+    {
+      "path": "citations[3].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[23].paperId",
+      "value": "baf38dbaaf81bfd250376ce7fc38d76c3821b309"
+    },
+    {
+      "path": "citations[5].authors[4].authorId",
+      "value": "2054086734"
+    },
+    {
+      "path": "references[25].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "citations[2].authors[5].name",
+      "value": "Linchao Bao"
+    },
+    {
+      "path": "references[24].authors[5].name",
+      "value": "Ge Gao"
+    },
+    {
+      "path": "citations[7].paperId",
+      "value": "1535eebff109eb753b695003599764991691bb62"
+    },
+    {
+      "path": "references[0].doi",
+      "value": "10.1109/34.655647"
+    },
+    {
+      "path": "references[27].authors[3].authorId",
+      "value": "1930238"
+    },
+    {
+      "path": "citations[3].authors[1].name",
+      "value": "Kartik Nighania"
+    },
+    {
+      "path": "references[2].venue",
+      "value": "IEEE Signal Process. Mag."
+    },
+    {
+      "path": "references[5].authors[1].authorId",
+      "value": "1739816"
+    },
+    {
+      "path": "references[22].url",
+      "value": "https://www.semanticscholar.org/paper/5a0d82e4efb74b1d74baea9ec794c1c66e637571"
+    },
+    {
+      "path": "references[31].url",
+      "value": "https://www.semanticscholar.org/paper/af0892ab043b1a37f3e8f81b148c66369d64d391"
+    },
+    {
+      "path": "authors[1].url",
+      "value": "https://www.semanticscholar.org/author/9416881"
+    },
+    {
+      "path": "references[7].paperId",
+      "value": "6555c0e5764eacfcd09106450b6e3152daa8e449"
+    },
+    {
+      "path": "references[18].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[14].authors[0].name",
+      "value": "Hua Huang"
+    },
+    {
+      "path": "references[24].authors[4].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[21].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[22].authors[0].name",
+      "value": "N. Wang"
+    },
+    {
+      "path": "citations[3].authors[2].name",
+      "value": "K. Upla"
+    },
+    {
+      "path": "references[2].title",
+      "value": "Super-resolution image reconstruction: a technical overview"
+    },
+    {
+      "path": "references[32].title",
+      "value": "Accurate Image Super-Resolution Using Very Deep Convolutional Networks"
+    },
+    {
+      "path": "references[30].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[21].title",
+      "value": "Image Super-Resolution Via Double Sparsity Regularized Manifold Learning"
+    },
+    {
+      "path": "citations[9].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[17].paperId",
+      "value": "f99d0bd1f1288fe35d46f719125844bfbaf544e3"
+    },
+    {
+      "path": "references[36].intent[0]",
+      "value": "methodology"
+    },
+    {
+      "path": "references[6].authors[0].authorId",
+      "value": "41210105"
+    },
+    {
+      "path": "references[15].doi",
+      "value": "10.1109/CVPR.2010.5540018"
+    },
+    {
+      "path": "references[23].authors[3].name",
+      "value": "Yang Xia"
+    },
+    {
+      "path": "references[3].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[11].authors[0].authorId",
+      "value": "1706007"
+    },
+    {
+      "path": "citations[0].doi",
+      "value": "10.1016/j.eswa.2021.116141"
+    },
+    {
+      "path": "references[35].isInfluential",
+      "value": "true"
+    },
+    {
+      "path": "references[8].authors[1].name",
+      "value": "Xiaoou Tang"
+    },
+    {
+      "path": "references[34].authors[3].authorId",
+      "value": "2780029"
+    },
+    {
+      "path": "references[30].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[33].authors[3].name",
+      "value": "Qing Li"
+    },
+    {
+      "path": "references[12].authors[0].authorId",
+      "value": "143942875"
+    },
+    {
+      "path": "references[30].paperId",
+      "value": "66e9dc728b5041271bff0cd6ac0d7eadcd88442f"
+    },
+    {
+      "path": "references[32].authors[1].authorId",
+      "value": "2119170990"
+    },
+    {
+      "path": "references[21].venue",
+      "value": "IEEE Transactions on Circuits and Systems for Video Technology"
+    },
+    {
+      "path": "references[23].venue",
+      "value": "2013 IEEE International Conference on Image Processing"
+    },
+    {
+      "path": "references[3].authors[1].name",
+      "value": "S. Roweis"
+    },
+    {
+      "path": "references[6].authors[1].authorId",
+      "value": "1747569"
+    },
+    {
+      "path": "references[2].arxivId",
+      "value": ""
+    },
+    {
+      "path": "citations[5].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[32].authors[2].name",
+      "value": "Kyoung Mu Lee"
+    },
+    {
+      "path": "references[33].authors[3].authorId",
+      "value": "1930238"
+    },
+    {
+      "path": "references[11].authors[1].authorId",
+      "value": "2109238630"
+    },
+    {
+      "path": "references[37].arxivId",
+      "value": "1609.04802"
+    },
+    {
+      "path": "references[32].authors[0].authorId",
+      "value": "3968500"
+    },
+    {
+      "path": "citations[1].paperId",
+      "value": "0aff8d059bccd20014f250b8e87cf205dfc04f5b"
+    },
+    {
+      "path": "references[4].venue",
+      "value": ""
+    },
+    {
+      "path": "citations[9].authors[3].name",
+      "value": "Jiawei Zhang"
+    },
+    {
+      "path": "references[2].authors[0].name",
+      "value": "Sung Cheol Park"
+    },
+    {
+      "path": "references[29].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[33].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "references[2].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "citations[5].authors[0].authorId",
+      "value": "36034272"
+    },
+    {
+      "path": "references[12].venue",
+      "value": "Comput. J."
+    },
+    {
+      "path": "references[23].authors[4].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "references[7].url",
+      "value": "https://www.semanticscholar.org/paper/6555c0e5764eacfcd09106450b6e3152daa8e449"
+    },
+    {
+      "path": "references[33].authors[4].authorId",
+      "value": "2115884025"
+    },
+    {
+      "path": "paperId",
+      "value": "d8c1ed5070958836eef2d2c239ac12963996f756"
+    },
+    {
+      "path": "references[32].authors[1].name",
+      "value": "Jung Kwon Lee"
+    },
+    {
+      "path": "references[7].authors[3].authorId",
+      "value": "1703601"
+    },
+    {
+      "path": "references[5].authors[0].authorId",
+      "value": "120076009"
+    },
+    {
+      "path": "references[34].title",
+      "value": "Learning to Hallucinate Face Images via Component Generation and Enhancement"
+    },
+    {
+      "path": "references[19].authors[0].name",
+      "value": "Hua Huang"
+    },
+    {
+      "path": "citations[0].url",
+      "value": "https://www.semanticscholar.org/paper/f425c983257ace8b18604286b2f1b602db213046"
+    },
+    {
+      "path": "abstract",
+      "value": "In this paper, we focus on restoring high-resolution facial images under noisy low-resolution scenarios. This problem is a challenging problem as the most important structures and details of captured facial images are missing. To address this problem, we propose a novel local patch-based face super-resolution (FSR) method via the joint learning of the contextual model. The contextual model is based on the topology consisting of contextual sub-patches, which provide more useful structural information than the commonly used local contextual structures due to the finer patch size. In this way, the contextual models are able to recover the missing local structures in target patches. In order to further strengthen the structural compensation function of contextual topology, we introduce the recognition feature as additional regularity. Based on the contextual model, we formulate the super-resolved procedure as a contextual joint representation with respect to the target patch and its adjacent patches. The high-resolution image is obtained by weighting contextual estimations. Both quantitative and qualitative validations show that the proposed method performs favorably against state-of-the-art algorithms."
+    },
+    {
+      "path": "citations[8].authors[2].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "citations[9].authors[4].name",
+      "value": "Yi Wu"
+    },
+    {
+      "path": "references[5].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[6].authors[3].authorId",
+      "value": "1689350"
+    },
+    {
+      "path": "references[33].authors[2].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "references[12].title",
+      "value": "Super-Resolution in Medical Imaging"
+    },
+    {
+      "path": "references[34].arxivId",
+      "value": "1708.00223"
+    },
+    {
+      "path": "references[6].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[23].title",
+      "value": "A joint learning based face hallucination approach for low quality face image"
+    },
+    {
+      "path": "references[8].authors[0].name",
+      "value": "Xiaogang Wang"
+    },
+    {
+      "path": "references[4].title",
+      "value": "Fundamental limits of reconstruction-based superresolution algorithms under local translation"
+    },
+    {
+      "path": "citations[4].authors[0].authorId",
+      "value": "3306402"
+    },
+    {
+      "path": "references[29].authors[4].name",
+      "value": "C. Yeh"
+    },
+    {
+      "path": "references[34].authors[4].authorId",
+      "value": "1777434"
+    },
+    {
+      "path": "citations[8].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[7].authors[4].authorId",
+      "value": "3179335"
+    },
+    {
+      "path": "references[25].authors[0].authorId",
+      "value": "1708439"
+    },
+    {
+      "path": "citations[2].authors[2].name",
+      "value": "Junjun Jiang"
+    },
+    {
+      "path": "citations[8].authors[1].name",
+      "value": "Yi Wu"
+    },
+    {
+      "path": "citations[5].authors[2].authorId",
+      "value": "1904697"
+    },
+    {
+      "path": "references[25].url",
+      "value": "https://www.semanticscholar.org/paper/51ebd2067aa0e66d0d66e2b018b95f5e85993206"
+    },
+    {
+      "path": "citations[7].url",
+      "value": "https://www.semanticscholar.org/paper/1535eebff109eb753b695003599764991691bb62"
+    },
+    {
+      "path": "citations[5].authors[3].authorId",
+      "value": "143663452"
+    },
+    {
+      "path": "references[26].authors[1].authorId",
+      "value": "144328091"
+    },
+    {
+      "path": "citations[9].title",
+      "value": "Robust Face Super-Resolution via Position Relation Model Based on Global Face Context"
+    },
+    {
+      "path": "topics[1].topic",
+      "value": "Face"
+    },
+    {
+      "path": "citations[7].doi",
+      "value": "10.1109/ICTAI50040.2020.00122"
+    },
+    {
+      "path": "is_publisher_licensed",
+      "value": "true"
+    },
+    {
+      "path": "citations[9].venue",
+      "value": "IEEE Transactions on Image Processing"
+    },
+    {
+      "path": "references[15].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "citations[5].authors[1].authorId",
+      "value": "1476719517"
+    },
+    {
+      "path": "references[33].authors[4].name",
+      "value": "Zheng Lu"
+    },
+    {
+      "path": "references[28].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[27].intent",
+      "value": "[]"
+    },
+    {
+      "path": "references[1].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[23].authors[1].name",
+      "value": "R. Hu"
+    },
+    {
+      "path": "references[36].isInfluential",
+      "value": "false"
+    },
+    {
+      "path": "references[6].authors[2].authorId",
+      "value": "2387140"
+    },
+    {
+      "path": "corpusId",
+      "value": "184485848"
+    },
+    {
+      "path": "references[25].doi",
+      "value": "10.1109/TMM.2014.2311320"
+    },
+    {
+      "path": "references[15].url",
+      "value": "https://www.semanticscholar.org/paper/2f7713dcc35e7c05becf3be5522f36c9546b0364"
+    },
+    {
+      "path": "citations[2].authors[1].name",
+      "value": "Jinshan Pan"
+    },
+    {
+      "path": "references[29].authors[0].name",
+      "value": "Li-Wei Kang"
+    },
+    {
+      "path": "citations[4].title",
+      "value": "Constructing multilayer locality-constrained matrix regression framework for noise robust face super-resolution"
+    },
+    {
+      "path": "references[24].intent[0]",
+      "value": "background"
+    },
+    {
+      "path": "references[23].authors[2].name",
+      "value": "Zhen Han"
+    },
+    {
+      "path": "citations[9].intent[1]",
+      "value": "methodology"
+    },
+    {
+      "path": "citations[4].venue",
+      "value": "Pattern Recognit."
+    },
+    {
+      "path": "citations[2].arxivId",
+      "value": ""
+    },
+    {
+      "path": "references[33].authors[2].authorId",
+      "value": "144725609"
+    },
+    {
+      "path": "references[26].authors[2].authorId",
+      "value": "143869248"
+    },
+    {
+      "path": "citations[2].authors[0].name",
+      "value": "Liang Chen"
+    },
+    {
+      "path": "references[29].authors[1].name",
+      "value": "Chih-Chung Hsu"
+    },
+    {
+      "path": "references[35].doi",
+      "value": "10.1109/CVPRW.2017.151"
+    }
+  ],
+  "originalResponse": {
+    "is_publisher_licensed": true,
+    "venue": "IEEE Transactions on Image Processing",
+    "references": [
+      {
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell.",
+        "isInfluential": true,
+        "year": 1998,
+        "title": "Neural Network-Based Face Detection",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "3d76ef8e61395a6e9c32627f1f108772d084e2e9",
+        "url": "https://www.semanticscholar.org/paper/3d76ef8e61395a6e9c32627f1f108772d084e2e9",
+        "authors": [
+          {
+            "name": "H. Rowley",
+            "authorId": "39682833"
+          },
+          {
+            "name": "S. Baluja",
+            "authorId": "1767244"
+          },
+          {
+            "name": "T. Kanade",
+            "authorId": "1733113"
+          }
+        ],
+        "doi": "10.1109/34.655647"
+      },
+      {
+        "venue": "Proceedings IEEE Conference on Computer Vision and Pattern Recognition. CVPR 2000 (Cat. No.PR00662)",
+        "isInfluential": false,
+        "year": 2000,
+        "title": "Limits on super-resolution and how to break them",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "66d890912381e2536d2dbc117a0ce59158c3be90",
+        "url": "https://www.semanticscholar.org/paper/66d890912381e2536d2dbc117a0ce59158c3be90",
+        "authors": [
+          {
+            "name": "S. Baker",
+            "authorId": "145347688"
+          },
+          {
+            "name": "T. Kanade",
+            "authorId": "1733113"
+          }
+        ],
+        "doi": "10.1109/CVPR.2000.854852"
+      },
+      {
+        "venue": "IEEE Signal Process. Mag.",
+        "isInfluential": false,
+        "year": 2003,
+        "title": "Super-resolution image reconstruction: a technical overview",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "7c850f4c56f184891f3ccfe2de6213881dc0e08c",
+        "url": "https://www.semanticscholar.org/paper/7c850f4c56f184891f3ccfe2de6213881dc0e08c",
+        "authors": [
+          {
+            "name": "Sung Cheol Park",
+            "authorId": "2115277167"
+          },
+          {
+            "name": "Min Kyu Park",
+            "authorId": "2149269035"
+          },
+          {
+            "name": "M. Kang",
+            "authorId": "1839581"
+          }
+        ],
+        "doi": "10.1109/MSP.2003.1203207"
+      },
+      {
+        "venue": "J. Mach. Learn. Res.",
+        "isInfluential": false,
+        "year": 2003,
+        "title": "Think Globally, Fit Locally: Unsupervised Learning of Low Dimensional Manifold",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "8db95dbd08e4ee64fb258e5380e78cfa507ed94d",
+        "url": "https://www.semanticscholar.org/paper/8db95dbd08e4ee64fb258e5380e78cfa507ed94d",
+        "authors": [
+          {
+            "name": "L. Saul",
+            "authorId": "1796044"
+          },
+          {
+            "name": "S. Roweis",
+            "authorId": "9330607"
+          }
+        ],
+        "doi": "10.1162/153244304322972667"
+      },
+      {
+        "venue": "",
+        "isInfluential": false,
+        "year": 2004,
+        "title": "Fundamental limits of reconstruction-based superresolution algorithms under local translation",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "6254833a3e48df65a535678959aa2b670f54d465",
+        "url": "https://www.semanticscholar.org/paper/6254833a3e48df65a535678959aa2b670f54d465",
+        "authors": [
+          {
+            "name": "Zhouchen Lin",
+            "authorId": "33383055"
+          },
+          {
+            "name": "H. Shum",
+            "authorId": "93596028"
+          }
+        ],
+        "doi": "10.1109/TPAMI.2004.1261081"
+      },
+      {
+        "venue": "CVPR 2004",
+        "isInfluential": true,
+        "year": 2004,
+        "title": "Super-resolution through neighbor embedding",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "b4018623293585e06e5ec159d11a9178f9f99380",
+        "url": "https://www.semanticscholar.org/paper/b4018623293585e06e5ec159d11a9178f9f99380",
+        "authors": [
+          {
+            "name": "Hong Chang",
+            "authorId": "120076009"
+          },
+          {
+            "name": "D. Yeung",
+            "authorId": "1739816"
+          },
+          {
+            "name": "Yimin Xiong",
+            "authorId": "2112719095"
+          }
+        ],
+        "doi": "10.1109/CVPR.2004.1315043"
+      },
+      {
+        "venue": "IEEE Transactions on Image Processing",
+        "isInfluential": true,
+        "year": 2004,
+        "title": "Image quality assessment: from error visibility to structural similarity",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "eae2e0fa72e898c289365c0af16daf57a7a6cf40",
+        "url": "https://www.semanticscholar.org/paper/eae2e0fa72e898c289365c0af16daf57a7a6cf40",
+        "authors": [
+          {
+            "name": "Zhou Wang",
+            "authorId": "41210105"
+          },
+          {
+            "name": "A. Bovik",
+            "authorId": "1747569"
+          },
+          {
+            "name": "H. Sheikh",
+            "authorId": "2387140"
+          },
+          {
+            "name": "Eero P. Simoncelli",
+            "authorId": "1689350"
+          }
+        ],
+        "doi": "10.1109/TIP.2003.819861"
+      },
+      {
+        "venue": "2005 IEEE International Conference on Multimedia and Expo",
+        "isInfluential": false,
+        "year": 2005,
+        "title": "Neighborhood issue in single-frame image super-resolution",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "6555c0e5764eacfcd09106450b6e3152daa8e449",
+        "url": "https://www.semanticscholar.org/paper/6555c0e5764eacfcd09106450b6e3152daa8e449",
+        "authors": [
+          {
+            "name": "Xu Su",
+            "authorId": "2106352399"
+          },
+          {
+            "name": "Q. Tian",
+            "authorId": "144876831"
+          },
+          {
+            "name": "Q. Xue",
+            "authorId": "2055029893"
+          },
+          {
+            "name": "N. Sebe",
+            "authorId": "1703601"
+          },
+          {
+            "name": "J. Ma",
+            "authorId": "3179335"
+          }
+        ],
+        "doi": "10.1109/ICME.2005.1521623"
+      },
+      {
+        "venue": "IEEE Trans. Syst. Man Cybern. Part C",
+        "isInfluential": false,
+        "year": 2005,
+        "title": "Hallucinating face by eigentransformation",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "791d46aa9cdd40bc9d82067a2e9b71785c62838b",
+        "url": "https://www.semanticscholar.org/paper/791d46aa9cdd40bc9d82067a2e9b71785c62838b",
+        "authors": [
+          {
+            "name": "Xiaogang Wang",
+            "authorId": "31843833"
+          },
+          {
+            "name": "Xiaoou Tang",
+            "authorId": "50295995"
+          }
+        ],
+        "doi": "10.1109/TSMCC.2005.848171"
+      },
+      {
+        "venue": "2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)",
+        "isInfluential": true,
+        "year": 2005,
+        "title": "Histograms of oriented gradients for human detection",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "cec734d7097ab6b1e60d95228ffd64248eb89d66",
+        "url": "https://www.semanticscholar.org/paper/cec734d7097ab6b1e60d95228ffd64248eb89d66",
+        "authors": [
+          {
+            "name": "N. Dalal",
+            "authorId": "48950628"
+          },
+          {
+            "name": "B. Triggs",
+            "authorId": "1756114"
+          }
+        ],
+        "doi": "10.1109/CVPR.2005.177"
+      },
+      {
+        "venue": "IEEE Transactions on Systems, Man, and Cybernetics - Part A: Systems and Humans",
+        "isInfluential": true,
+        "year": 2008,
+        "title": "The CAS-PEAL Large-Scale Chinese Face Database and Baseline Evaluations",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "2485c98aa44131d1a2f7d1355b1e372f2bb148ad",
+        "url": "https://www.semanticscholar.org/paper/2485c98aa44131d1a2f7d1355b1e372f2bb148ad",
+        "authors": [
+          {
+            "name": "W. Gao",
+            "authorId": "48385803"
+          },
+          {
+            "name": "B. Cao",
+            "authorId": "48437987"
+          },
+          {
+            "name": "S. Shan",
+            "authorId": "145455919"
+          },
+          {
+            "name": "Xilin Chen",
+            "authorId": "46772547"
+          },
+          {
+            "name": "Delong Zhou",
+            "authorId": "2104086"
+          },
+          {
+            "name": "Xiaohua Zhang",
+            "authorId": "2108584873"
+          },
+          {
+            "name": "Debin Zhao",
+            "authorId": "1725937"
+          }
+        ],
+        "doi": "10.1109/TSMCA.2007.909557"
+      },
+      {
+        "venue": "2008 15th IEEE International Conference on Image Processing",
+        "isInfluential": false,
+        "year": 2008,
+        "title": "Face hallucination VIA sparse coding",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "2e38ff75a80ec92111261bf368781c7eef89eb14",
+        "url": "https://www.semanticscholar.org/paper/2e38ff75a80ec92111261bf368781c7eef89eb14",
+        "authors": [
+          {
+            "name": "Jianchao Yang",
+            "authorId": "1706007"
+          },
+          {
+            "name": "Hao Tang",
+            "authorId": "2109238630"
+          },
+          {
+            "name": "Yi Ma",
+            "authorId": "50032052"
+          },
+          {
+            "name": "Thomas S. Huang",
+            "authorId": "153652752"
+          }
+        ],
+        "doi": "10.1109/ICIP.2008.4711992"
+      },
+      {
+        "venue": "Comput. J.",
+        "isInfluential": false,
+        "year": 2009,
+        "title": "Super-Resolution in Medical Imaging",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "b189282ec4c65f4229105e1b62e0012f7ab551cb",
+        "url": "https://www.semanticscholar.org/paper/b189282ec4c65f4229105e1b62e0012f7ab551cb",
+        "authors": [
+          {
+            "name": "H. Greenspan",
+            "authorId": "143942875"
+          }
+        ],
+        "doi": "10.1093/comjnl/bxm075"
+      },
+      {
+        "venue": "2009 IEEE International Conference on Multimedia and Expo",
+        "isInfluential": false,
+        "year": 2009,
+        "title": "Position-based face hallucination method",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "d035c8bef0e0619fd68ab2cc1c9e71dfd730aefe",
+        "url": "https://www.semanticscholar.org/paper/d035c8bef0e0619fd68ab2cc1c9e71dfd730aefe",
+        "authors": [
+          {
+            "name": "Xiang-Wang Ma",
+            "authorId": "3138386"
+          },
+          {
+            "name": "Junping Zhang",
+            "authorId": "47539666"
+          },
+          {
+            "name": "C. Qi",
+            "authorId": "145175070"
+          }
+        ],
+        "doi": "10.1109/ICME.2009.5202492"
+      },
+      {
+        "venue": "Pattern Recognit.",
+        "isInfluential": false,
+        "year": 2010,
+        "title": "Super-resolution of human face image using canonical correlation analysis",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "09ad57265a1f0dfd60b3360daa499f5e93059c22",
+        "url": "https://www.semanticscholar.org/paper/09ad57265a1f0dfd60b3360daa499f5e93059c22",
+        "authors": [
+          {
+            "name": "Hua Huang",
+            "authorId": "39925162"
+          },
+          {
+            "name": "Hui He",
+            "authorId": "2111891265"
+          },
+          {
+            "name": "Xin Fan",
+            "authorId": "144309189"
+          },
+          {
+            "name": "Junping Zhang",
+            "authorId": "47539666"
+          }
+        ],
+        "doi": "10.1016/j.patcog.2010.02.007"
+      },
+      {
+        "venue": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+        "isInfluential": false,
+        "year": 2010,
+        "title": "Locality-constrained Linear Coding for image classification",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "2f7713dcc35e7c05becf3be5522f36c9546b0364",
+        "url": "https://www.semanticscholar.org/paper/2f7713dcc35e7c05becf3be5522f36c9546b0364",
+        "authors": [
+          {
+            "name": "Jinjun Wang",
+            "authorId": "71563118"
+          },
+          {
+            "name": "Jianchao Yang",
+            "authorId": "1706007"
+          },
+          {
+            "name": "Kai Yu",
+            "authorId": "144782042"
+          },
+          {
+            "name": "Fengjun Lv",
+            "authorId": "39157653"
+          },
+          {
+            "name": "Thomas S. Huang",
+            "authorId": "153652752"
+          },
+          {
+            "name": "Yihong Gong",
+            "authorId": "144768792"
+          }
+        ],
+        "doi": "10.1109/CVPR.2010.5540018"
+      },
+      {
+        "venue": "Image Vis. Comput.",
+        "isInfluential": true,
+        "year": 2010,
+        "title": "A new ranking method for principal components analysis and its application to face image analysis",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "8b56e33f33e582f3e473dba573a16b598ed9bcdc",
+        "url": "https://www.semanticscholar.org/paper/8b56e33f33e582f3e473dba573a16b598ed9bcdc",
+        "authors": [
+          {
+            "name": "C. Thomaz",
+            "authorId": "2363813"
+          },
+          {
+            "name": "G. Giraldi",
+            "authorId": "1688283"
+          }
+        ],
+        "doi": "10.1016/j.imavis.2009.11.005"
+      },
+      {
+        "venue": "IEEE Transactions on Image Processing",
+        "isInfluential": false,
+        "year": 2010,
+        "title": "Image Super-Resolution Via Sparse Representation",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "f99d0bd1f1288fe35d46f719125844bfbaf544e3",
+        "url": "https://www.semanticscholar.org/paper/f99d0bd1f1288fe35d46f719125844bfbaf544e3",
+        "authors": [
+          {
+            "name": "Jianchao Yang",
+            "authorId": "1706007"
+          },
+          {
+            "name": "John Wright",
+            "authorId": "143607492"
+          },
+          {
+            "name": "Thomas S. Huang",
+            "authorId": "153652752"
+          },
+          {
+            "name": "Yi Ma",
+            "authorId": "50032052"
+          }
+        ],
+        "doi": "10.1109/TIP.2010.2050625"
+      },
+      {
+        "venue": "ACM Multimedia",
+        "isInfluential": false,
+        "year": 2010,
+        "title": "Face hallucination with shape parameters projection constraint",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "fed5e5a9be8947aa553ea4f526405b672a2ac36c",
+        "url": "https://www.semanticscholar.org/paper/fed5e5a9be8947aa553ea4f526405b672a2ac36c",
+        "authors": [
+          {
+            "name": "Chengdong Lan",
+            "authorId": "3216340"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Kebin Huang",
+            "authorId": "2111005"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          }
+        ],
+        "doi": "10.1145/1873951.1874103"
+      },
+      {
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "isInfluential": false,
+        "year": 2011,
+        "title": "Fast Facial Image Super-Resolution via Local Linear Transformations for Resource-Limited Applications",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "510257c8cedc079aae88ccbf3dd10a84051c8fdc",
+        "url": "https://www.semanticscholar.org/paper/510257c8cedc079aae88ccbf3dd10a84051c8fdc",
+        "authors": [
+          {
+            "name": "Hua Huang",
+            "authorId": "39925162"
+          },
+          {
+            "name": "Ning Wu",
+            "authorId": "2068345080"
+          }
+        ],
+        "doi": "10.1109/TCSVT.2011.2163461"
+      },
+      {
+        "venue": "2012 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "isInfluential": true,
+        "year": 2012,
+        "title": "An efficient local-structure-based face-hallucination method",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "e604febddc6294574cb6ca32d9f3e9af690e3200",
+        "url": "https://www.semanticscholar.org/paper/e604febddc6294574cb6ca32d9f3e9af690e3200",
+        "authors": [
+          {
+            "name": "Hui Zhuo",
+            "authorId": "2064762548"
+          },
+          {
+            "name": "K. Lam",
+            "authorId": "144847940"
+          }
+        ],
+        "doi": "10.1109/ICASSP.2012.6288119"
+      },
+      {
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "isInfluential": false,
+        "year": 2013,
+        "title": "Image Super-Resolution Via Double Sparsity Regularized Manifold Learning",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "170102b7809b43691b06618cdbbc90c8dbc2dd27",
+        "url": "https://www.semanticscholar.org/paper/170102b7809b43691b06618cdbbc90c8dbc2dd27",
+        "authors": [
+          {
+            "name": "Xiaoqiang Lu",
+            "authorId": "7828998"
+          },
+          {
+            "name": "Yuan Yuan",
+            "authorId": null
+          },
+          {
+            "name": "Pingkun Yan",
+            "authorId": "144855557"
+          }
+        ],
+        "doi": "10.1109/TCSVT.2013.2244798"
+      },
+      {
+        "venue": "International Journal of Computer Vision",
+        "isInfluential": false,
+        "year": 2013,
+        "title": "A Comprehensive Survey to Face Hallucination",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "5a0d82e4efb74b1d74baea9ec794c1c66e637571",
+        "url": "https://www.semanticscholar.org/paper/5a0d82e4efb74b1d74baea9ec794c1c66e637571",
+        "authors": [
+          {
+            "name": "N. Wang",
+            "authorId": "144050305"
+          },
+          {
+            "name": "D. Tao",
+            "authorId": "143719920"
+          },
+          {
+            "name": "Xinbo Gao",
+            "authorId": "10699750"
+          },
+          {
+            "name": "Xuelong Li",
+            "authorId": "67180560"
+          },
+          {
+            "name": "Jie Li",
+            "authorId": "2149869567"
+          }
+        ],
+        "doi": "10.1007/s11263-013-0645-9"
+      },
+      {
+        "venue": "2013 IEEE International Conference on Image Processing",
+        "isInfluential": false,
+        "year": 2013,
+        "title": "A joint learning based face hallucination approach for low quality face image",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "baf38dbaaf81bfd250376ce7fc38d76c3821b309",
+        "url": "https://www.semanticscholar.org/paper/baf38dbaaf81bfd250376ce7fc38d76c3821b309",
+        "authors": [
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          },
+          {
+            "name": "Yang Xia",
+            "authorId": "2111131284"
+          },
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          }
+        ],
+        "doi": "10.1109/ICIP.2013.6738201"
+      },
+      {
+        "venue": "PCM",
+        "isInfluential": true,
+        "year": 2014,
+        "title": "Noise Face Image Hallucination via Data-Driven Local Eigentransformation",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "3e649f31eb2916213d5b064dd4f3225ff689651e",
+        "url": "https://www.semanticscholar.org/paper/3e649f31eb2916213d5b064dd4f3225ff689651e",
+        "authors": [
+          {
+            "name": "Xiaohui Dong",
+            "authorId": "2118187952"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          },
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "Ge Gao",
+            "authorId": "144398790"
+          }
+        ],
+        "doi": "10.1007/978-3-319-13168-9_19"
+      },
+      {
+        "venue": "IEEE Transactions on Multimedia",
+        "isInfluential": true,
+        "year": 2014,
+        "title": "Noise Robust Face Hallucination via Locality-Constrained Representation",
+        "intent": [
+          "background",
+          "methodology",
+          "result"
+        ],
+        "arxivId": null,
+        "paperId": "51ebd2067aa0e66d0d66e2b018b95f5e85993206",
+        "url": "https://www.semanticscholar.org/paper/51ebd2067aa0e66d0d66e2b018b95f5e85993206",
+        "authors": [
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Zhongyuan Wang",
+            "authorId": "38655501"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          }
+        ],
+        "doi": "10.1109/TMM.2014.2311320"
+      },
+      {
+        "venue": "Signal Process.",
+        "isInfluential": false,
+        "year": 2014,
+        "title": "Face image super-resolution through locality-induced support regression",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "c397408e784004240e866d0f31cea7b9e44fdd0c",
+        "url": "https://www.semanticscholar.org/paper/c397408e784004240e866d0f31cea7b9e44fdd0c",
+        "authors": [
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Chao Liang",
+            "authorId": "143869248"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          },
+          {
+            "name": "Chunjie Zhang",
+            "authorId": "1713887"
+          }
+        ],
+        "doi": "10.1016/j.sigpro.2014.02.014"
+      },
+      {
+        "venue": "Multimedia Tools and Applications",
+        "isInfluential": false,
+        "year": 2015,
+        "title": "A novel face super resolution approach for noisy images using contour feature and standard deviation prior",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "1b1eb9b758676f9b249ef17bb473cfd38c11e62d",
+        "url": "https://www.semanticscholar.org/paper/1b1eb9b758676f9b249ef17bb473cfd38c11e62d",
+        "authors": [
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Chao Liang",
+            "authorId": "143869248"
+          },
+          {
+            "name": "Qing Li",
+            "authorId": "1930238"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          }
+        ],
+        "doi": "10.1007/s11042-015-3145-9"
+      },
+      {
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "isInfluential": false,
+        "year": 2015,
+        "title": "Simultaneous Hallucination and Recognition of Low-Resolution Faces Based on Singular Value Decomposition",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "91b1a59b9e0e7f4db0828bf36654b84ba53b0557",
+        "url": "https://www.semanticscholar.org/paper/91b1a59b9e0e7f4db0828bf36654b84ba53b0557",
+        "authors": [
+          {
+            "name": "Muwei Jian",
+            "authorId": "1783889"
+          },
+          {
+            "name": "K. Lam",
+            "authorId": "144847940"
+          }
+        ],
+        "doi": "10.1109/TCSVT.2015.2400772"
+      },
+      {
+        "venue": "IEEE Transactions on Multimedia",
+        "isInfluential": false,
+        "year": 2015,
+        "title": "Learning-Based Joint Super-Resolution and Deblocking for a Highly Compressed Image",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "9c0cda8cb2337fb0cf78051bd0fc6b086d7efbfc",
+        "url": "https://www.semanticscholar.org/paper/9c0cda8cb2337fb0cf78051bd0fc6b086d7efbfc",
+        "authors": [
+          {
+            "name": "Li-Wei Kang",
+            "authorId": "1943622"
+          },
+          {
+            "name": "Chih-Chung Hsu",
+            "authorId": "3192517"
+          },
+          {
+            "name": "Boqi Zhuang",
+            "authorId": "2644084"
+          },
+          {
+            "name": "Chia-Wen Lin",
+            "authorId": "1685088"
+          },
+          {
+            "name": "C. Yeh",
+            "authorId": "1692617"
+          }
+        ],
+        "doi": "10.1109/TMM.2015.2434216"
+      },
+      {
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "isInfluential": true,
+        "year": 2014,
+        "title": "Image Super-Resolution Using Deep Convolutional Networks",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": "1501.00092",
+        "paperId": "66e9dc728b5041271bff0cd6ac0d7eadcd88442f",
+        "url": "https://www.semanticscholar.org/paper/66e9dc728b5041271bff0cd6ac0d7eadcd88442f",
+        "authors": [
+          {
+            "name": "Chao Dong",
+            "authorId": "30459277"
+          },
+          {
+            "name": "Chen Change Loy",
+            "authorId": "1717179"
+          },
+          {
+            "name": "Kaiming He",
+            "authorId": "39353098"
+          },
+          {
+            "name": "Xiaoou Tang",
+            "authorId": "50295995"
+          }
+        ],
+        "doi": "10.1109/TPAMI.2015.2439281"
+      },
+      {
+        "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "isInfluential": false,
+        "year": 2015,
+        "title": "Seven Ways to Improve Example-Based Single Image Super Resolution",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": "1511.02228",
+        "paperId": "af0892ab043b1a37f3e8f81b148c66369d64d391",
+        "url": "https://www.semanticscholar.org/paper/af0892ab043b1a37f3e8f81b148c66369d64d391",
+        "authors": [
+          {
+            "name": "R. Timofte",
+            "authorId": "1732855"
+          },
+          {
+            "name": "R. Rothe",
+            "authorId": "2173683"
+          },
+          {
+            "name": "L. Gool",
+            "authorId": "1681236"
+          }
+        ],
+        "doi": "10.1109/CVPR.2016.206"
+      },
+      {
+        "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "isInfluential": true,
+        "year": 2015,
+        "title": "Accurate Image Super-Resolution Using Very Deep Convolutional Networks",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": "1511.04587",
+        "paperId": "b5f3e5d2912bedbcd9458952d664b08db6aed962",
+        "url": "https://www.semanticscholar.org/paper/b5f3e5d2912bedbcd9458952d664b08db6aed962",
+        "authors": [
+          {
+            "name": "Jiwon Kim",
+            "authorId": "3968500"
+          },
+          {
+            "name": "Jung Kwon Lee",
+            "authorId": "2119170990"
+          },
+          {
+            "name": "Kyoung Mu Lee",
+            "authorId": "2135837"
+          }
+        ],
+        "doi": "10.1109/CVPR.2016.182"
+      },
+      {
+        "venue": "Multimedia Tools and Applications",
+        "isInfluential": false,
+        "year": 2017,
+        "title": "Face super resolution based on parent patch prior for VLQ scenarios",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "ddfc978b3a149015c9e517fbfe1b8563df5e7356",
+        "url": "https://www.semanticscholar.org/paper/ddfc978b3a149015c9e517fbfe1b8563df5e7356",
+        "authors": [
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "R. Hu",
+            "authorId": "144328091"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          },
+          {
+            "name": "Qing Li",
+            "authorId": "1930238"
+          },
+          {
+            "name": "Zheng Lu",
+            "authorId": "2115884025"
+          }
+        ],
+        "doi": "10.1007/s11042-016-3611-z"
+      },
+      {
+        "venue": "IJCAI",
+        "isInfluential": false,
+        "year": 2017,
+        "title": "Learning to Hallucinate Face Images via Component Generation and Enhancement",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": "1708.00223",
+        "paperId": "006a6e6efc6582b57fbbf6c689e29b69a0be1ce2",
+        "url": "https://www.semanticscholar.org/paper/006a6e6efc6582b57fbbf6c689e29b69a0be1ce2",
+        "authors": [
+          {
+            "name": "Yibing Song",
+            "authorId": "2255687"
+          },
+          {
+            "name": "Jiawei Zhang",
+            "authorId": "1519062623"
+          },
+          {
+            "name": "Shengfeng He",
+            "authorId": "2548483"
+          },
+          {
+            "name": "Linchao Bao",
+            "authorId": "2780029"
+          },
+          {
+            "name": "Qingxiong Yang",
+            "authorId": "1777434"
+          }
+        ],
+        "doi": "10.24963/ijcai.2017/633"
+      },
+      {
+        "venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+        "isInfluential": true,
+        "year": 2017,
+        "title": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": "1707.02921",
+        "paperId": "7ba5d3808e117e7a68dc40331ce1d483ceeedcb2",
+        "url": "https://www.semanticscholar.org/paper/7ba5d3808e117e7a68dc40331ce1d483ceeedcb2",
+        "authors": [
+          {
+            "name": "Bee Lim",
+            "authorId": "144717485"
+          },
+          {
+            "name": "Sanghyun Son",
+            "authorId": "2055453482"
+          },
+          {
+            "name": "Heewon Kim",
+            "authorId": "48206011"
+          },
+          {
+            "name": "Seungjun Nah",
+            "authorId": "40648435"
+          },
+          {
+            "name": "Kyoung Mu Lee",
+            "authorId": "2135837"
+          }
+        ],
+        "doi": "10.1109/CVPRW.2017.151"
+      },
+      {
+        "venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "isInfluential": false,
+        "year": 2017,
+        "title": "SphereFace: Deep Hypersphere Embedding for Face Recognition",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": "1704.08063",
+        "paperId": "bd8f77b7d3b9d272f7a68defc1412f73e5ac3135",
+        "url": "https://www.semanticscholar.org/paper/bd8f77b7d3b9d272f7a68defc1412f73e5ac3135",
+        "authors": [
+          {
+            "name": "Weiyang Liu",
+            "authorId": "36326884"
+          },
+          {
+            "name": "Yandong Wen",
+            "authorId": "145357606"
+          },
+          {
+            "name": "Zhiding Yu",
+            "authorId": "1751019"
+          },
+          {
+            "name": "Ming Li",
+            "authorId": "2150655769"
+          },
+          {
+            "name": "B. Raj",
+            "authorId": "1681921"
+          },
+          {
+            "name": "Le Song",
+            "authorId": "1779453"
+          }
+        ],
+        "doi": "10.1109/CVPR.2017.713"
+      },
+      {
+        "venue": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "isInfluential": false,
+        "year": 2016,
+        "title": "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network",
+        "intent": [],
+        "arxivId": "1609.04802",
+        "paperId": "df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3",
+        "url": "https://www.semanticscholar.org/paper/df0c54fe61f0ffb9f0e36a17c2038d9a1964cba3",
+        "authors": [
+          {
+            "name": "C. Ledig",
+            "authorId": "1779917"
+          },
+          {
+            "name": "Lucas Theis",
+            "authorId": "2073063"
+          },
+          {
+            "name": "Ferenc Husz�r",
+            "authorId": "3108066"
+          },
+          {
+            "name": "Jose Caballero",
+            "authorId": "145372820"
+          },
+          {
+            "name": "Andrew P. Aitken",
+            "authorId": "49931957"
+          },
+          {
+            "name": "Alykhan Tejani",
+            "authorId": "41203992"
+          },
+          {
+            "name": "J. Totz",
+            "authorId": "1853456"
+          },
+          {
+            "name": "Zehan Wang",
+            "authorId": "34627233"
+          },
+          {
+            "name": "W. Shi",
+            "authorId": "152554375"
+          }
+        ],
+        "doi": "10.1109/CVPR.2017.19"
+      }
+    ],
+    "year": 2019,
+    "topics": [
+      {
+        "topicId": "57450",
+        "topic": "Anatomy, Regional",
+        "url": "https://www.semanticscholar.org/topic/57450"
+      },
+      {
+        "topicId": "10302",
+        "topic": "Face",
+        "url": "https://www.semanticscholar.org/topic/10302"
+      },
+      {
+        "topicId": "199704",
+        "topic": "Flexed Sidebent Rotated",
+        "url": "https://www.semanticscholar.org/topic/199704"
+      },
+      {
+        "topicId": "291901",
+        "topic": "algorithm",
+        "url": "https://www.semanticscholar.org/topic/291901"
+      }
+    ],
+    "is_open_access": false,
+    "abstract": "In this paper, we focus on restoring high-resolution facial images under noisy low-resolution scenarios. This problem is a challenging problem as the most important structures and details of captured facial images are missing. To address this problem, we propose a novel local patch-based face super-resolution (FSR) method via the joint learning of the contextual model. The contextual model is based on the topology consisting of contextual sub-patches, which provide more useful structural information than the commonly used local contextual structures due to the finer patch size. In this way, the contextual models are able to recover the missing local structures in target patches. In order to further strengthen the structural compensation function of contextual topology, we introduce the recognition feature as additional regularity. Based on the contextual model, we formulate the super-resolved procedure as a contextual joint representation with respect to the target patch and its adjacent patches. The high-resolution image is obtained by weighting contextual estimations. Both quantitative and qualitative validations show that the proposed method performs favorably against state-of-the-art algorithms.",
+    "numCitedBy": 10,
+    "citationVelocity": 0,
+    "title": "Robust Face Image Super-Resolution via Joint Learning of Subdivided Contextual Model",
+    "isPublisherLicensed": true,
+    "url": "https://www.semanticscholar.org/paper/d8c1ed5070958836eef2d2c239ac12963996f756",
+    "numCiting": 38,
+    "corpusId": 184485848,
+    "citations": [
+      {
+        "venue": "Expert Syst. Appl.",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Adaptive optimal multi-features learning based representation for face hallucination",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "f425c983257ace8b18604286b2f1b602db213046",
+        "url": "https://www.semanticscholar.org/paper/f425c983257ace8b18604286b2f1b602db213046",
+        "authors": [
+          {
+            "name": "Surendra Nagar",
+            "authorId": "20921873"
+          },
+          {
+            "name": "Ankush Jain",
+            "authorId": "49148100"
+          },
+          {
+            "name": "Pramod Kumar Singh",
+            "authorId": "2149921717"
+          },
+          {
+            "name": "Ajay Kumar",
+            "authorId": null
+          }
+        ],
+        "doi": "10.1016/j.eswa.2021.116141"
+      },
+      {
+        "venue": "ACM Computing Surveys",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Deep Learning-based Face Super-resolution: A Survey",
+        "intent": [],
+        "arxivId": "2101.03749",
+        "paperId": "0aff8d059bccd20014f250b8e87cf205dfc04f5b",
+        "url": "https://www.semanticscholar.org/paper/0aff8d059bccd20014f250b8e87cf205dfc04f5b",
+        "authors": [
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "Chenyang Wang",
+            "authorId": "2109501904"
+          },
+          {
+            "name": "Xianming Liu",
+            "authorId": "2108681776"
+          },
+          {
+            "name": "Jiayi Ma",
+            "authorId": "8555475"
+          }
+        ],
+        "doi": "10.1145/3485132"
+      },
+      {
+        "venue": "IEEE Transactions on Image Processing",
+        "isInfluential": true,
+        "year": 2021,
+        "title": "Multi-Stage Degradation Homogenization for Super-Resolution of Face Images With Extreme Degradations",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "1bc897f87e5e0c61c496cdccdd168577a62ed501",
+        "url": "https://www.semanticscholar.org/paper/1bc897f87e5e0c61c496cdccdd168577a62ed501",
+        "authors": [
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "Jinshan Pan",
+            "authorId": "9416881"
+          },
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "Jiawei Zhang",
+            "authorId": "1519062623"
+          },
+          {
+            "name": "Zhen Han",
+            "authorId": "144725609"
+          },
+          {
+            "name": "Linchao Bao",
+            "authorId": "2780029"
+          }
+        ],
+        "doi": "10.1109/TIP.2021.3086595"
+      },
+      {
+        "venue": "IEEE Transactions on Biometrics, Behavior, and Identity Science",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "E-ComSupResNet: Enhanced Face Super-Resolution Through Compact Network",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "684dca76b28358a9cabf60283ab6dcc68ba17385",
+        "url": "https://www.semanticscholar.org/paper/684dca76b28358a9cabf60283ab6dcc68ba17385",
+        "authors": [
+          {
+            "name": "Vishal M. Chudasama",
+            "authorId": "38824959"
+          },
+          {
+            "name": "Kartik Nighania",
+            "authorId": "2059027389"
+          },
+          {
+            "name": "K. Upla",
+            "authorId": "3004725"
+          },
+          {
+            "name": "K. Raja",
+            "authorId": "34711412"
+          },
+          {
+            "name": "Raghavendra Ramachandra",
+            "authorId": "151434651"
+          },
+          {
+            "name": "C. Busch",
+            "authorId": "46347050"
+          }
+        ],
+        "doi": "10.1109/TBIOM.2021.3059196"
+      },
+      {
+        "venue": "Pattern Recognit.",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Constructing multilayer locality-constrained matrix regression framework for noise robust face super-resolution",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "aceb3d7f3cbe9f6035b84444436d7fb5cd46916b",
+        "url": "https://www.semanticscholar.org/paper/aceb3d7f3cbe9f6035b84444436d7fb5cd46916b",
+        "authors": [
+          {
+            "name": "Guangwei Gao",
+            "authorId": "3306402"
+          },
+          {
+            "name": "Guangwei Gao",
+            "authorId": "3306402"
+          },
+          {
+            "name": "Guangwei Gao",
+            "authorId": "3306402"
+          },
+          {
+            "name": "Yi Yu",
+            "authorId": "47111778"
+          },
+          {
+            "name": "J. Xie",
+            "authorId": "144307145"
+          },
+          {
+            "name": "Jian Yang",
+            "authorId": "51460259"
+          },
+          {
+            "name": "Meng Yang",
+            "authorId": "2111076685"
+          },
+          {
+            "name": "Jian Zhang",
+            "authorId": "123275544"
+          }
+        ],
+        "doi": "10.1016/j.patcog.2020.107539"
+      },
+      {
+        "venue": "IEEE Transactions on Cybernetics",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "MADNet: A Fast and Lightweight Network for Single-Image Super Resolution",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "cd66f122b75fdd4ed743fa92c3783a2458a6b223",
+        "url": "https://www.semanticscholar.org/paper/cd66f122b75fdd4ed743fa92c3783a2458a6b223",
+        "authors": [
+          {
+            "name": "Rushi Lan",
+            "authorId": "36034272"
+          },
+          {
+            "name": "Long Sun",
+            "authorId": "1476719517"
+          },
+          {
+            "name": "Zhenbing Liu",
+            "authorId": "1904697"
+          },
+          {
+            "name": "Huimin Lu",
+            "authorId": "143663452"
+          },
+          {
+            "name": "Cheng Pang",
+            "authorId": "2054086734"
+          },
+          {
+            "name": "Xiaonan Luo",
+            "authorId": "144361019"
+          }
+        ],
+        "doi": "10.1109/TCYB.2020.2970104"
+      },
+      {
+        "venue": "ArXiv",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Identity-Preserving Pose-Robust Face Hallucination Through Face Subspace Prior",
+        "intent": [
+          "background"
+        ],
+        "arxivId": "2111.10634",
+        "paperId": "dc2ea22eca985c9456bb3d6f9820a348d02885b4",
+        "url": "https://www.semanticscholar.org/paper/dc2ea22eca985c9456bb3d6f9820a348d02885b4",
+        "authors": [
+          {
+            "name": "Ali Abbasi",
+            "authorId": "2142114752"
+          },
+          {
+            "name": "M. Rahmati",
+            "authorId": "143707367"
+          }
+        ],
+        "doi": "10.36227/techrxiv.17055734"
+      },
+      {
+        "venue": "2020 IEEE 32nd International Conference on Tools with Artificial Intelligence (ICTAI)",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "Lightweight Progressive Residual Clique Network for Image Super-Resolution",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "1535eebff109eb753b695003599764991691bb62",
+        "url": "https://www.semanticscholar.org/paper/1535eebff109eb753b695003599764991691bb62",
+        "authors": [
+          {
+            "name": "Baojin Huang",
+            "authorId": "1581795258"
+          },
+          {
+            "name": "Zheng He",
+            "authorId": "144808832"
+          },
+          {
+            "name": "Zhongyuan Wang",
+            "authorId": "38655501"
+          },
+          {
+            "name": "Kui Jiang",
+            "authorId": "51360637"
+          },
+          {
+            "name": "Guangcheng Wang",
+            "authorId": "2042656075"
+          }
+        ],
+        "doi": "10.1109/ICTAI50040.2020.00122"
+      },
+      {
+        "venue": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "MSFSR: A Multi-Stage Face Super-Resolution with Accurate Facial Representation via Enhanced Facial Boundaries",
+        "intent": [
+          "background"
+        ],
+        "arxivId": null,
+        "paperId": "80746a36bd92dc2fe3338d5fc3a589e05d3278a5",
+        "url": "https://www.semanticscholar.org/paper/80746a36bd92dc2fe3338d5fc3a589e05d3278a5",
+        "authors": [
+          {
+            "name": "Yunchen Zhang",
+            "authorId": "2140010411"
+          },
+          {
+            "name": "Yi Wu",
+            "authorId": "2108053052"
+          },
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          }
+        ],
+        "doi": "10.1109/CVPRW50498.2020.00260"
+      },
+      {
+        "venue": "IEEE Transactions on Image Processing",
+        "isInfluential": true,
+        "year": 2020,
+        "title": "Robust Face Super-Resolution via Position Relation Model Based on Global Face Context",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "9f2442c12c1dfde6dcd1986b6b12dc92f14aeb92",
+        "url": "https://www.semanticscholar.org/paper/9f2442c12c1dfde6dcd1986b6b12dc92f14aeb92",
+        "authors": [
+          {
+            "name": "Liang Chen",
+            "authorId": "2146032451"
+          },
+          {
+            "name": "Jinshan Pan",
+            "authorId": "9416881"
+          },
+          {
+            "name": "Junjun Jiang",
+            "authorId": "1708439"
+          },
+          {
+            "name": "Jiawei Zhang",
+            "authorId": "1519062623"
+          },
+          {
+            "name": "Yi Wu",
+            "authorId": "2108053052"
+          }
+        ],
+        "doi": "10.1109/TIP.2020.3023580"
+      }
+    ],
+    "fieldsOfStudy": [
+      "Computer Science",
+      "Medicine"
+    ],
+    "isOpenAccess": false,
+    "arxivId": null,
+    "paperId": "d8c1ed5070958836eef2d2c239ac12963996f756",
+    "authors": [
+      {
+        "name": "Liang Chen",
+        "authorId": "2146032451",
+        "url": "https://www.semanticscholar.org/author/2146032451"
+      },
+      {
+        "name": "Jinshan Pan",
+        "authorId": "9416881",
+        "url": "https://www.semanticscholar.org/author/9416881"
+      },
+      {
+        "name": "Qing Li",
+        "authorId": "2117896344",
+        "url": "https://www.semanticscholar.org/author/2117896344"
+      }
+    ],
+    "doi": "10.1109/TIP.2019.2920510",
+    "influentialCitationCount": 0
+  }
+}

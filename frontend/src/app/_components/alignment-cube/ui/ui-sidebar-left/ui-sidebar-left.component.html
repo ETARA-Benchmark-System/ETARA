@@ -1,0 +1,101 @@
+<div class="card" *ngIf="false">
+  <div class="card-header">
+    Datasets
+  </div>
+  <div class="card-body">
+    <mat-checkbox [checked]="true" *ngFor="let alignment of engineService.alignmentContainer.alignments, let i = index">
+      {{alignment.name}}
+    </mat-checkbox>
+  </div>
+</div>
+
+<div class="card" *ngIf="engineService.viewMode === ViewModeEnum.View2DAlignment">
+  <div class="card-header">
+    <div class="d-flex flex-row justify-content-between">
+      <div class="card-title">Datasets</div>
+      <button class="btn-close" (click)="visible= !visible"></button>
+    </div>
+  </div>
+  <div class="card-body" *ngIf="visible">
+    <mat-radio-group [formControl]="selectedAlignmentControl" (change)="changeSelectedAlignment()">
+      <div class="d-flex flex-column justify-content-between">
+        <mat-radio-button *ngFor="let alignment of engineService.alignmentContainer.alignments, let i = index" [value]="i">
+          {{alignment.name}}
+        </mat-radio-button>
+      </div>
+    </mat-radio-group>
+  </div>
+</div>
+
+<div class="card" *ngIf="engineService.viewMode === ViewModeEnum.View2DApi">
+  <div class="card-header">
+    <div class="d-flex flex-row justify-content-between">
+      <div class="card-title">Api Paths</div>
+      <button class="btn-close" (click)="visible= !visible"></button>
+    </div>
+  </div>
+  <div class="card-body" *ngIf="visible">
+    <mat-radio-group [formControl]="selectedApiControl" (change)="changeSelectedApi()">
+      <div class="d-flex flex-column justify-content-between">
+        <mat-radio-button *ngFor="let label of engineService.alignmentContainer.apiLabels, let i = index" [value]="i">
+          {{label}}
+        </mat-radio-button>
+      </div>
+    </mat-radio-group>
+  </div>
+</div>
+
+<div class="card" *ngIf="engineService.viewMode === ViewModeEnum.View2DRelation">
+  <div class="card-header">
+    <div class="d-flex flex-row justify-content-between">
+      <div class="card-title">Relation Paths</div>
+      <button class="btn-close" (click)="visible= !visible"></button>
+    </div>
+  </div>
+  <div class="card-body" *ngIf="visible">
+    <mat-radio-group [formControl]="selectedRelationControl" (change)="changeSelectedRelationPath()">
+      <div class="d-flex flex-column justify-content-between">
+        <mat-radio-button class="p-1" *ngFor="let relation of engineService.alignmentContainer.relationPathLabels, let i = index" [value]="i">
+          {{relation.join('->')}}
+        </mat-radio-button>
+      </div>
+    </mat-radio-group>
+  </div>
+</div>
+
+<div class="card" *ngIf="engineService.helper">
+  <div class="card-header">
+    <div class="d-flex flex-row justify-content-between">
+      <div class="card-title">Advanced Options</div>
+    </div>
+  </div>
+  <div class="card-body" *ngIf="visible">
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.resetOrbitControls()">Reset OrbitControls</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.clearScene()">Clear Scene</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.reloadScene()">Reload Scene</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.removeAxisLabels()">Clear Labels</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.setOrbitControlPosition()">Reset Orbit Center</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.changeCamera()">Switch Camera</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.toggleGridHelper()">Toggle GridHelper</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.toggleAxisHelper()">Toggle AxisHelper</button>
+    </div>
+    <div class="row m-1">
+      <button class="btn btn-secondary" (click)="engineService.toggleCameraHelper()">Toggle CameraHelper</button>
+    </div>
+  </div>
+</div>

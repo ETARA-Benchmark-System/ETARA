@@ -1,0 +1,208 @@
+<div class="builder-container">
+    <div class="builder-header">
+        <div class="header-side">
+            <div class="content-header">
+                <h2>Local DB: {{currentLocalDatabase.label}}</h2>
+                <mat-slide-toggle color="primary" [(ngModel)]="gsbService.showFullLocalPath">
+                    show full path
+                </mat-slide-toggle>
+            </div>
+            <div class="content-header">
+                <mat-form-field class="example-form-field searchbar" appearance="fill">
+                    <mat-label>Search Path</mat-label>
+                    <input matInput type="text" [(ngModel)]="localPathSearchValue"
+                           (ngModelChange)="updateLines()">
+                    <button mat-button *ngIf="localPathSearchValue" matSuffix mat-icon-button
+                            aria-label="Clear"
+                            (click)="changeLocalPathSearchValue('', $event)">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                    <button matSuffix mat-icon-button>
+                        <mat-icon>search</mat-icon>
+                    </button>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Sort Path</mat-label>
+                    <mat-select (selectionChange)="sortByPathLocal()" [(ngModel)]="localSortByPathMethod">
+                        <mat-option value="">No Sort</mat-option>
+                        <mat-option value="alphaAsc">Alphabetical (Asc)</mat-option>
+                        <mat-option value="alphaDesc">Alphabetical (Desc)
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="content-header">
+                <mat-form-field class="example-form-field searchbar" appearance="fill">
+                    <mat-label>Search Value</mat-label>
+                    <input matInput type="text" [(ngModel)]="localValueSearchValue"
+                           (ngModelChange)="updateLines()">
+                    <button mat-button *ngIf="localValueSearchValue" matSuffix mat-icon-button
+                            aria-label="Clear"
+                            (click)="changeLocalValueSearchValue('', $event)">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                    <button matSuffix mat-icon-button>
+                        <mat-icon>search</mat-icon>
+                    </button>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Sort Value</mat-label>
+                    <mat-select (selectionChange)="sortByValueLocal()" [(ngModel)]="localSortByValueMethod">
+                        <mat-option value="">No Sort</mat-option>
+                        <mat-option value="alphaAsc">Alphabetical (Asc)</mat-option>
+                        <mat-option value="alphaDesc">Alphabetical (Desc)
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="filler-div">
+            <mat-form-field color="primary" >
+                <mat-label>Entity</mat-label>
+                <mat-select [value]="gsbService.currentIndex" (selectionChange)="entityChange($event.value)">
+                    <mat-option *ngFor="let alignment of gsbService.entityAlignments; let i = index"
+                                [value]="i">
+                        {{alignment.localEntity.valueList[0].subject}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+
+            <button mat-raised-button color="primary" (click)="openMappingTable()">Show Mappings</button>
+<!--            <button mat-raised-button color="primary" (click)="markNewPaths()">Show New Paths</button>-->
+
+            <div class="controls">
+                <p>Add new Mapping</p>
+                <div class="controls-mapping">
+                    <button mat-raised-button color="primary" (click)="addMapping(1)">
+                        <mat-icon>west</mat-icon>
+                    </button>
+                    <button mat-raised-button color="primary" (click)="addMapping(2)">
+                        <mat-icon>sync_alt</mat-icon>
+                    </button>
+                    <button mat-raised-button color="primary" (click)="addMapping(0)">
+                        <mat-icon>east</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header-side">
+            <div class="content-header">
+                <h2>Web DB: {{currentWebDatabase.label}} ({{currentWebDatabase.name}})</h2>
+            </div>
+            <!--                        <button mat-raised-button (click)="sortWebAsc()">sort Asc</button>-->
+            <!--                        <button mat-raised-button (click)="sortWebDesc()">sort Desc</button>-->
+            <div class="content-header">
+                <mat-form-field class="example-form-field searchbar" appearance="fill">
+                    <mat-label>Search Path</mat-label>
+                    <input matInput type="text" [(ngModel)]="webPathSearchValue"
+                           (ngModelChange)="updateLines()">
+                    <button mat-button *ngIf="webPathSearchValue" matSuffix mat-icon-button
+                            aria-label="Clear"
+                            (click)="webPathSearchValue=''; updateLines()">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                    <button matSuffix mat-icon-button>
+                        <mat-icon>search</mat-icon>
+                    </button>
+                </mat-form-field>
+                <mat-form-field appearance="fill" class="center">
+                    <mat-label>Sort Path</mat-label>
+                    <mat-select (selectionChange)="sortByPathWeb()" [(ngModel)]="webSortByPathMethod">
+                        <mat-option value="">No Sort</mat-option>
+                        <mat-option value="alphaAsc">Alphabetical (Asc)</mat-option>
+                        <mat-option value="alphaDesc">Alphabetical (Desc)
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="content-header">
+                <mat-form-field class="example-form-field searchbar" appearance="fill">
+                    <mat-label>Search Value</mat-label>
+                    <input matInput type="text" [(ngModel)]="webValueSearchValue"
+                           (ngModelChange)="updateLines()">
+                    <button mat-button *ngIf="webValueSearchValue" matSuffix mat-icon-button
+                            aria-label="Clear"
+                            (click)="webValueSearchValue=''; updateLines()">
+                        <mat-icon>close</mat-icon>
+                    </button>
+                    <button matSuffix mat-icon-button>
+                        <mat-icon>search</mat-icon>
+                    </button>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Sort Values</mat-label>
+                    <mat-select (selectionChange)="sortByValueWeb()" [(ngModel)]="webSortByValueMethod">
+                        <mat-option value="">No Sort</mat-option>
+                        <mat-option value="alphaAsc">Alphabetical (Asc)</mat-option>
+                        <mat-option value="alphaDesc">Alphabetical (Desc)
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+    <div class="builder-body">
+        <div class="entries-wrapper">
+            <div *ngIf="!gsbService.finishedLoadingLocalEntity">
+                <mat-spinner></mat-spinner>
+                ... loading
+            </div>
+            <div *ngIf="localEntity">
+                <div *ngFor="let entry of localEntityFiltered.valueList[0].fullKnowledge">
+                    <div class="entry" [id]="entry.hash" (click)="clickLocalMappingEntry(entry)"
+                         [ngClass]="{
+                            'hide': !searchMethod(entry.path, this.localPathSearchValue) || !searchMethod(entry.value, this.localValueSearchValue),
+                            'unknown': !this.gsbService.localKnownPathStore.has(entry.path)
+                            }">
+                        <div class="path">
+                            <button mat-button aria-label="Clear"
+                                    (click)="changeWebPathSearchValue(utils.formatLocalPath(entry.path), $event)">
+                                <mat-icon>search</mat-icon>
+                            </button>
+                            <p [innerHtml]="((gsbService.showFullLocalPath) ? entry.path : utils.formatLocalPath(entry.path)) | highlight: localPathSearchValue"></p>
+                        </div>
+
+                        <div class="value">
+                            <p [innerHtml]="entry.value | highlight: localValueSearchValue"></p>
+                            <button mat-button aria-label="Clear"
+                                    (click)="changeWebValueSearchValue(entry.value, $event)">
+                                <mat-icon>search</mat-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="entries-wrapper">
+            <div *ngIf="!gsbService.finishedLoadingWebEntity">
+                <mat-spinner></mat-spinner>
+                ... loading
+            </div>
+            <div *ngIf="webEntity">
+                <div *ngFor="let entry of weblEntityFiltered.dictionary">
+                    <div class="entry" [id]="entry.hash" (click)="clickWebMappingEntry(entry)"
+                         [ngClass]="{'hide': !searchMethod(entry.path, this.webPathSearchValue) || !searchMethod(entry.value, this.webValueSearchValue),
+                         'unknown': !this.gsbService.webKnownPathStore.has(entry.path)
+                         }">
+                        <div class="path">
+                            <button mat-button aria-label="Clear"
+                                    (click)="changeLocalPathSearchValue(entry.path, $event)">
+                                <mat-icon>search</mat-icon>
+                            </button>
+                            <p [innerHtml]="entry.path | highlight: webPathSearchValue"></p>
+                        </div>
+                        <div class="value">
+                            <p [innerHtml]="entry.value | highlight: webValueSearchValue"></p>
+                            <button mat-button aria-label="Clear"
+                                    (click)="changeLocalValueSearchValue(entry.value, $event)">
+                                <mat-icon>search</mat-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

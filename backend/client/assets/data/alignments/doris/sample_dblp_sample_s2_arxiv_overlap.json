@@ -1,0 +1,81 @@
+{
+  "system": "DORIS (Overlap)",
+  "alignments": [
+    {
+      "metrics": {
+        "confidence": 0.8144329896907216
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#title"
+          ]
+        }
+      ],
+      "api_path": [
+        "title"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "http://www.wikidata.org/prop/direct/P818"
+          ]
+        }
+      ],
+      "api_path": [
+        "arxivId"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.7835051546391752
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "year"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.9896907216494846
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy", "https://dblp.org/rdf/schema-2020-07-01#primaryFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "authors[*].name"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.9896907216494846
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy", "http://www.w3.org/2000/01/rdf-schema#label"
+          ]
+        }
+      ],
+      "api_path": [
+        "authors[*].name"
+      ]
+    }
+  ],
+  "name": "sample_dblp_sample_s2_arxiv_overlap"
+}

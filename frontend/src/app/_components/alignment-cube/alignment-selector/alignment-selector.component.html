@@ -1,0 +1,52 @@
+<div class="card m-1">
+    <div class="card-header">
+        <div class="card-title">
+            Choose the Data
+        </div>
+    </div>
+    <div class="card-body">
+        <div>
+            <div>
+                <mat-form-field class="space">
+                    <mat-label>Select Alignments</mat-label>
+                    <mat-select [(ngModel)]="selection">
+                        <mat-option *ngFor="let file of alignments" [value]="file">
+                            {{file.name}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+                <button mat-raised-button color="primary" (click)="addAlignment(selection)">Add Gold Standard</button>
+            </div>
+            <div>
+                <input type="file" #fileSelector id="fileSelector" class="form-control" multiple="multiple"
+                       style="display: none" accept="application/json">
+                <button mat-raised-button color="primary" (click)="readFiles()" class="center">
+                    <mat-icon aria-hidden="false" aria-label="Example home icon">folder</mat-icon>
+                    Upload Alignment
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">name</th>
+                <th scope="col">system</th>
+                <th scope="col">entries</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let file of selectedAlignments">
+                <th scope="row"></th>
+                <td>{{file.name}}</td>
+                <td>{{file.system}}</td>
+                <td>{{file.alignments.length}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+

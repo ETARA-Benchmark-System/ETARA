@@ -1,0 +1,83 @@
+/*****************************************************
+ * node_modules imports
+ *****************************************************/
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons';
+@import '~highlight.js/scss/github';
+@import '~jsoneditor/dist/jsoneditor.min.css';
+
+/*****************************************************
+ * project imports
+ *****************************************************/
+@import 'variables';
+@import 'mixins';
+
+/*****************************************************
+ * json editor
+ *****************************************************/
+textarea.jsoneditor-text{min-height: 350px}
+.ace_editor.ace-jsoneditor {
+  min-height: 500px;
+}
+
+/*****************************************************
+ * styles
+ *****************************************************/
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: $mainBgColor;
+  color: $mainTextColor;
+}
+
+.label {
+  color: #FFF;
+  font-family: sans-serif;
+  padding: 2px;
+  background: rgba( 0, 0, 0, .8 );
+  max-width: 40%;
+}
+
+.mat-radio-label-content {
+  white-space: normal;
+}
+
+.mat-radio-label{
+  align-items: normal;
+}
+
+.main{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  width: 90%;
+  margin-top: 8px;
+}
+
+.group-container{
+  min-width: 50vw;
+  min-height: 50vh;
+  max-height: 95vh;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 50vw;
+}
+
+pre{
+  max-height: 70vh;
+}
+
+mark{
+  padding: 0;
+  background-color: #ff9632;
+}

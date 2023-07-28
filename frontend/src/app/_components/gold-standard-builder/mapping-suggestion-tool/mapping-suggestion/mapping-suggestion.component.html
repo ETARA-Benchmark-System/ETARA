@@ -1,0 +1,72 @@
+<div class="suggestions-wrapper">
+    <h1>General Mapping</h1>
+    <div class="mapping">
+        <div class="select">
+            <mat-checkbox color="primary" [(ngModel)]="suggestionMapping.general.selected"></mat-checkbox>
+        </div>
+        <div class="relation-container">
+            <div class="entry" *ngFor="let entry of suggestionMapping.general.localEntries">
+                <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+            </div>
+        </div>
+        <div class="divider">
+            <div [innerHtml]="suggestionMapping.general.counter"></div>
+            <div class="relationType">
+                <mat-icon *ngIf="suggestionMapping.general.type === 0">east</mat-icon>
+                <mat-icon *ngIf="suggestionMapping.general.type === 1">west</mat-icon>
+                <mat-icon *ngIf="suggestionMapping.general.type === 2">sync_alt</mat-icon>
+            </div>
+            <div class="action">
+                <ng-container *ngIf="suggestionMapping.suggestions.length == 1">
+                    <button mat-icon-button aria-label="Clear" (click)="openMappingTable(suggestionMapping.suggestions[0])">
+                        <mat-icon>preview</mat-icon>
+                    </button>
+                </ng-container>
+            </div>
+        </div>
+        <div class="relation-container">
+            <div class="entry" *ngFor="let entry of suggestionMapping.general.webEntries">
+                <p>{{entry}}</p>
+            </div>
+        </div>
+        <div class="flex-grow-1">
+        </div>
+    </div>
+    <br>
+    <ng-container *ngIf="suggestionMapping.suggestions.length >= 1">
+        <h1>Individual Mappings</h1>
+        <div class="mapping-wrapper" *ngFor="let suggestion of suggestionMapping.suggestions; let index=index">
+            <div class="mapping">
+                <div class="select">
+                    <mat-checkbox color="primary" [(ngModel)]="suggestion.selected"></mat-checkbox>
+                </div>
+                <div class="relation-container">
+                    <div class="entry" *ngFor="let entry of suggestion.template.localEntries">
+                        <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+                    </div>
+                </div>
+                <div class="divider">
+                    <div><span [innerHtml]="suggestion.counter"></span></div>
+                    <div class="relationType">
+                        <mat-icon *ngIf="suggestion.template.type === 0">east</mat-icon>
+                        <mat-icon *ngIf="suggestion.template.type === 1">west</mat-icon>
+                        <mat-icon *ngIf="suggestion.template.type === 2">sync_alt</mat-icon>
+                    </div>
+                    <div class="action">
+                        <button mat-icon-button aria-label="Clear" (click)="openMappingTable(suggestion)">
+                            <mat-icon>preview</mat-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="relation-container">
+                    <div class="entry" *ngFor="let entry of suggestion.template.webEntries">
+                        <p>{{entry}}</p>
+                    </div>
+                </div>
+                <div class="flex-grow-1">
+                </div>
+            </div>
+
+        </div>
+    </ng-container>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "Semantic Scholar",
+  "format": "json",
+  "label": "s2",
+  "parameters": [{
+    "filter": ["http://www.wikidata.org/prop/direct/P356"],
+    "name": "q",
+    "type": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+    "status": "required"
+  }],
+  "url": "https://api.semanticscholar.org/v1/paper/{q}"
+}

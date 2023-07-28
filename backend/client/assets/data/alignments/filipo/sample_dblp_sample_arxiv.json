@@ -1,0 +1,106 @@
+{
+  "system": "FiLiPo",
+  "alignments": [
+    {
+      "metrics": {
+        "data_availability": 0.9518072289156626,
+        "confidence": 0.9518072289156626
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#title"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.title"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.996268656716418,
+        "confidence": 0.996268656716418
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy",
+            "https://dblp.org/rdf/schema-2020-07-01#primaryFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.8674698795180723,
+        "confidence": 0.8674698795180723
+      },
+      "relation_path": [
+        {
+          "path": [
+            "http://www.w3.org/2000/01/rdf-schema#label"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.title"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9960629921259843,
+        "confidence": 0.9960629921259843
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy",
+            "http://www.w3.org/2000/01/rdf-schema#label"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#orderedCreators",
+            "http://www.w3.org/2000/01/rdf-schema#label"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#orderedCreators",
+            "https://dblp.org/rdf/schema-2020-07-01#primaryFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "feed.entry.author[*].name"
+      ]
+    }
+  ],
+  "name": "sample_dblp_sample_arxiv_filipo"
+}

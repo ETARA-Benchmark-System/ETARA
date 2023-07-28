@@ -1,0 +1,6 @@
+{
+  "path": "{pathToDB}",
+  "identifierMap": "configs\\identifierMaps\\{db_label}.json",
+  "source": "{path_to_source}",
+  "label": "{db_label}"
+}

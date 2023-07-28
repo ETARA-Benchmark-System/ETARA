@@ -1,0 +1,246 @@
+{
+  "predicate": "http://example/com/crossref/doi",
+  "valueList": [
+    {
+      "fullKnowledge": [
+        {
+          "path": "http://example/com/crossref/issue",
+          "value": "12",
+          "hash": "733ae4bdfcffaa21f9e28908633cdafe"
+        },
+        {
+          "path": "http://example/com/crossref/indexedTimeStamp",
+          "value": "1616687130897",
+          "hash": "620374e3c04d61814b8733ac25a74731"
+        },
+        {
+          "path": "http://example/com/crossref/createdDatePartsMonth",
+          "value": "6",
+          "hash": "cae76c8ba528c4641ca33042605b7ecf"
+        },
+        {
+          "path": "http://example/com/crossref/indexedDatePartsYear",
+          "value": "2021",
+          "hash": "3cb73d74603576bf9bee0e5cfb75855d"
+        },
+        {
+          "path": "http://example/com/crossref/depositedDatePartMonth",
+          "value": "9",
+          "hash": "824bc2ab82cf18cb623272e61d0ab039"
+        },
+        {
+          "path": "http://example/com/crossref/indexedDateTime",
+          "value": "2021-03-25T15:45:30Z",
+          "hash": "5255d2d84edda1eb8d352b7fd77394e8"
+        },
+        {
+          "path": "http://example/com/crossref/link",
+          "value": "http://xplorestaging.ieee.org/ielx7/83/8821493/08733990.pdf?arnumber=8733990",
+          "hash": "5612278074d68f6c061426b1371735f7"
+        },
+        {
+          "path": "http://example/com/crossref/publishedPrintDatePartsMonth",
+          "value": "6",
+          "hash": "082a1f22a375924aa006fe7d6d6c89de"
+        },
+        {
+          "path": "http://example/com/crossref/publisher",
+          "value": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "hash": "362ae5484ef6f44c20ad1f94ca04f075"
+        },
+        {
+          "path": "http://example/com/crossref/depositedTimeStamp",
+          "value": "1568990310000",
+          "hash": "0b8ebc2c233cf9755ac9abb81d9ae328"
+        },
+        {
+          "path": "http://example/com/crossref/onlineDatePartsDate",
+          "value": "0",
+          "hash": "ebf0d26fea8687bcf2f0efd34ea4c2b0"
+        },
+        {
+          "path": "http://example/com/crossref/issuedDatePartsMonth",
+          "value": "12",
+          "hash": "0340fade8b4344d9c2884eb56a3cb169"
+        },
+        {
+          "path": "http://example/com/crossref/subject",
+          "value": "Computer Graphics and Computer-Aided Design",
+          "hash": "19af601f181d1a2de5510efb748b6839"
+        },
+        {
+          "path": "http://example/com/crossref/score",
+          "value": "1",
+          "hash": "67eb4ea9c174c6647fe5ad4fe184422c"
+        },
+        {
+          "path": "http://example/com/crossref/printIssn",
+          "value": "1057-7149",
+          "hash": "7ee6a4c94523d25014389559dd9bf9bb"
+        },
+        {
+          "path": "http://example/com/crossref/doiPrefix",
+          "value": "10.1109",
+          "hash": "14afb628565a53b5faae48429710aa5d"
+        },
+        {
+          "path": "http://example/com/crossref/indexedDatePartsDate",
+          "value": "25",
+          "hash": "6eaaf137e2060cc7a6ea906c2f83856f"
+        },
+        {
+          "path": "http://example/com/crossref/volume",
+          "value": "28",
+          "hash": "7d898705ad33cbf19651fdf30a87b5c0"
+        },
+        {
+          "path": "http://example/com/crossref/referenceCount",
+          "value": "39",
+          "hash": "f6ca0fb47be5c0539533576ed406c4b3"
+        },
+        {
+          "path": "http://example/com/crossref/doi",
+          "value": "10.1109/tip.2019.2920510",
+          "hash": "58438e44566c797323069dcfe08df6f7"
+        },
+        {
+          "path": "http://example/com/crossref/page",
+          "value": "5897-5909",
+          "hash": "50bb91390a163ac166537af69c5a7e74"
+        },
+        {
+          "path": "http://example/com/crossref/issn",
+          "value": "1941-0042",
+          "hash": "7e1550be6c658b3c686fb7115d0f1c6d"
+        },
+        {
+          "path": "http://example/com/crossref/createdDatePartsYear",
+          "value": "2019",
+          "hash": "19bfc04c05e51f6c6f308932f1a60308"
+        },
+        {
+          "path": "http://example/com/crossref/publishedPrintTimeStamp",
+          "value": "1560195095000",
+          "hash": "39106c33983e8c668940996aa01e02be"
+        },
+        {
+          "path": "http://example/com/crossref/issn",
+          "value": "1057-7149",
+          "hash": "a32a1cc11b9290ef7df4f67a337622e8"
+        },
+        {
+          "path": "http://example/com/crossref/shortContainerTitle",
+          "value": "IEEE Trans. on Image Process.",
+          "hash": "e137bf555ae33ad8bcdf58e1db2b23e5"
+        },
+        {
+          "path": "http://example/com/crossref/containerTitle",
+          "value": "IEEE Transactions on Image Processing",
+          "hash": "f5ee49e2b8b0fba91ba298a340f195a2"
+        },
+        {
+          "path": "http://example/com/crossref/publishedPrintDateTime",
+          "value": "2019-06-10T19:31:35Z",
+          "hash": "972985beb253533a2143d2f813077098"
+        },
+        {
+          "path": "http://example/com/crossref/indexedDatePartsMonth",
+          "value": "3",
+          "hash": "212bf1d3811c3a1072e024c63e54a36a"
+        },
+        {
+          "path": "http://example/com/crossref/createdTimeStamp",
+          "value": "1560195095000",
+          "hash": "443ac6b31169715489412889606c2592"
+        },
+        {
+          "path": "http://example/com/crossref/electronicIssn",
+          "value": "1941-0042",
+          "hash": "47572f1143c0b6de4d3e2237a25280d4"
+        },
+        {
+          "path": "http://example/com/crossref/depositedDateTime",
+          "value": "2019-09-20T14:38:30Z",
+          "hash": "73c179bcb4115655bf5c4f0a6e9733d6"
+        },
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "6",
+          "hash": "3301a9ecfb98e885c90b7f25eef72d4d"
+        },
+        {
+          "path": "http://example/com/crossref/title",
+          "value": "Robust Face Image Super-Resolution via Joint Learning of Subdivided Contextual Model",
+          "hash": "3e5646bea6a8938ed356e588a25dcb6e"
+        },
+        {
+          "path": "http://example/com/crossref/onlineDatePartsYear",
+          "value": "0",
+          "hash": "1cf829f6f8f719cbd24922e5bae7f8c4"
+        },
+        {
+          "path": "http://example/com/crossref/url",
+          "value": "http://dx.doi.org/10.1109/tip.2019.2920510",
+          "hash": "9b5a7b5ed3ff52361146702972e69fc4"
+        },
+        {
+          "path": "http://example/com/crossref/type",
+          "value": "journal-article",
+          "hash": "9dcb35dba0480073f062473cac0c82a5"
+        },
+        {
+          "path": "http://example/com/crossref/issuedDatePartsYear",
+          "value": "2019",
+          "hash": "1347361693a0471c8be23812e44a92f3"
+        },
+        {
+          "path": "http://example/com/crossref/depositedDatePartYear",
+          "value": "2019",
+          "hash": "9876a04676bec9490988e50565038b94"
+        },
+        {
+          "path": "http://example/com/crossref/createdDatePartsDate",
+          "value": "10",
+          "hash": "de12cd240fc004f541dec363e8a118e0"
+        },
+        {
+          "path": "http://example/com/crossref/createdDateTime",
+          "value": "2019-06-10T19:31:35Z",
+          "hash": "00efbe68e440a460b91a05280e6d2024"
+        },
+        {
+          "path": "http://example/com/crossref/subject",
+          "value": "Software",
+          "hash": "4cf875f8c3e5991bbc5f0fb07c7139db"
+        },
+        {
+          "path": "http://example/com/crossref/depositedDatePartDay",
+          "value": "20",
+          "hash": "861a51932a29f5529329c84743bd9c3a"
+        },
+        {
+          "path": "http://example/com/crossref/onlineDatePartsMonth",
+          "value": "0",
+          "hash": "93e8195151c7f8127a8975eedbf082ef"
+        },
+        {
+          "path": "http://example/com/crossref/publishedPrintDatePartsYear",
+          "value": "2019",
+          "hash": "b6321d8fb1dde3cd97f40afb7825c226"
+        },
+        {
+          "path": "http://example/com/crossref/member",
+          "value": "263",
+          "hash": "43a73d4274fbd9d98942f5da78e250d7"
+        },
+        {
+          "path": "http://example/com/crossref/publishedPrintDatePartsDay",
+          "value": "10",
+          "hash": "86cbc43919f0d94eaa3aa49091000e5e"
+        }
+      ],
+      "subject": "10.1109/tip.2019.2920510",
+      "value": "http://example/com/crossref/paper1930"
+    }
+  ]
+}

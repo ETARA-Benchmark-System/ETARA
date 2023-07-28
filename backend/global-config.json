@@ -1,0 +1,18 @@
+{
+  "port": 8080,
+  "config-folder": "configs/webservices",
+  "dbPath": "configs/databases.json",
+  "apiPath": "configs/apis.json",
+  "outputPath": "res/",
+  "logpath":"res/log/",
+  "loglevel": "0",
+  "memory":"16",
+  "mode": "0",
+
+  "webservicesEndpoint": "/webservices",
+  "functionality_threshold": "1.0",
+  "similarity_requests": "100",
+  "candidate_requests": "25",
+  "support_mode": "0",
+  "traversal_depth": "2"
+}

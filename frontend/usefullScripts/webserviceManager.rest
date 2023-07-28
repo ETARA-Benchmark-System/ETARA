@@ -1,0 +1,40 @@
+POST http://localhost:8080/etara/webserviceManager
+Content-Type: application/json
+
+{
+  "mode": "webserviceInformation",
+  "name": "arxiv"
+}
+
+###
+POST http://localhost:8080/etara/webserviceManager
+Content-Type: application/json
+
+{
+  "mode": "delete",
+  "name": "test"
+}
+
+###
+POST http://localhost:8080/etara/webserviceManager
+Content-Type: application/json
+
+{
+  "mode": "new",
+  "name": "test",
+  "configuration": {
+    "webservice" : "/test/work",
+    "errorType": "jsonWithStatus",
+    "type": "precise",
+    "latency": "1000",
+    "maxRequestsPerMinute": "60",
+    "maxRequests": "2000",
+    "inputs" : [ "arxivId" ],
+    "where" : [
+      ["?subject", "arxivId", "$arxivId"]
+    ],
+    "returnTemplate": "test/test.json.ftl",
+    "db": "test"
+  },
+  "returnTemplate": "testTemplate blablabla"
+}

@@ -1,0 +1,19 @@
+### a0
+GET http://localhost:8080/webservices/a0/work?orcid=0000-0001-5787-142X
+Accept: application/json
+
+### a10
+GET http://localhost:8080/webservices/a10/work?doi=10.1145/1390334.1390558
+Accept: application/json
+
+### a15
+GET http://localhost:8080/webservices/a15/work?arxiv=2002.06608
+Accept: application/json
+
+### a20
+GET http://localhost:8080/webservices/a20/work?doi=10.1145/1390334.1390558
+Accept: application/json
+
+### a25
+GET http://localhost:8080/webservices/a25/work?arxiv=2002.06608
+Accept: application/json

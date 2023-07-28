@@ -1,0 +1,20 @@
+<mat-horizontal-stepper #stepper>
+    <ng-container *ngFor="let suggestionMapping of gsbService.suggestionContainer.suggestions; let i=index">
+        <mat-step>
+            <div class="header">
+                <button mat-raised-button matStepperPrevious>Previous</button>
+                <mat-progress-bar [value]="((stepper.selectedIndex +1) / (gsbService.suggestionContainer.suggestions.length+1))*100"></mat-progress-bar>
+                <ng-container *ngIf="stepper.selectedIndex == stepper.steps.length-1">
+                    <button mat-raised-button color="warn" (click)="finishedEvent.emit()">Finish</button>
+                </ng-container>
+                <ng-container *ngIf="stepper.selectedIndex != stepper.steps.length-1">
+                    <button mat-raised-button matStepperNext color="primary">Next</button>
+                </ng-container>
+            </div>
+            <app-mapping-suggestion [suggestionMapping]="suggestionMapping"></app-mapping-suggestion>
+            <div class="footer">
+                <button mat-raised-button color="warn" (click)="deleteSuggestion(i)">Delete</button>
+            </div>
+        </mat-step>
+    </ng-container>
+</mat-horizontal-stepper>

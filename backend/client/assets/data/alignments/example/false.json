@@ -1,0 +1,153 @@
+{
+  "system": "DORIS (PCA)",
+  "alignments": [
+    {
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#title"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.title[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.75
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#pagination"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.page"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.20408163265306123
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#authoredBy","https://dblp.org/rdf/schema-2020-07-01#primaryAffiliation"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].affiliation[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.75
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedIn"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.short-container-title[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "http://www.wikidata.org/prop/direct/P356"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.DOI"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 0.75
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedInJournal"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.short-container-title[*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedInJournalVolume"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.volume"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedInJournalVolumeIssue"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.journal-issue.issue"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.published-print.date-parts[*][*]"
+      ]
+    },
+    {
+      "metrics": {
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf", "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.published-print.date-parts[*][*]"
+      ]
+    }
+  ],
+  "name": "dblp_crossref_v1"
+}

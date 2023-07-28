@@ -1,0 +1,31 @@
+POST http://localhost:8080/etara/gsb/saveFinalAlignment
+Content-Type: application/json
+
+{
+  "alignment": {
+    "mappings": [
+      {
+        "localEntries": [
+          "http://example/com/crossref/indexedDatePartsYear"
+        ],
+        "webEntries": [
+          "is_publisher_licensed"
+        ],
+        "type": 0
+      },
+      {
+        "localEntries": [
+          "http://example/com/crossref/createdDatePartsMonth"
+        ],
+        "webEntries": [
+          "venue"
+        ],
+        "type": 0
+      }
+    ]
+  },
+  "localLabel": "crossref",
+  "webLabel": "s2"
+}
+
+

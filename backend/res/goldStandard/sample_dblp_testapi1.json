@@ -1,0 +1,66 @@
+{
+    "mappings": [
+        {
+            "type": 2,
+            "webEntries": ["volume"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedInJournalVolume"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["author[*]"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#authoredBy, http://www.w3.org/2000/01/rdf-schema#label"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["author[*]"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#authoredBy, https://dblp.org/rdf/schema-2020-07-01#primaryFullCreatorName"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["issue"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedInJournalVolumeIssue"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["title"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#title"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["container-title"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedIn"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["page"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#pagination"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["container-title"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedInJournal"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["DOI"],
+            "localEntries": ["http://www.wikidata.org/prop/direct/P356"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["published-print"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"]
+        },
+        {
+            "type": 1,
+            "webEntries": ["container-title"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf, https://dblp.org/rdf/schema-2020-07-01#title"]
+        },
+        {
+            "type": 2,
+            "webEntries": ["publisher"],
+            "localEntries": ["https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf, https://dblp.org/rdf/schema-2020-07-01#publishedBy"]
+        }
+    ],
+    "webLabel": "testapi1",
+    "localLabel": "sample_dblp"
+}

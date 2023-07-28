@@ -1,0 +1,65 @@
+<p>
+    <b>Api:</b> {{apiConfiguration.label}}
+</p>
+<mat-tab-group class="group-container">
+    <mat-tab label="Configuration Form">
+        <mat-expansion-panel [expanded]="true" hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    General Settings
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="form-container">
+                <mat-form-field>
+                    <mat-label>label</mat-label>
+                    <input matInput [(ngModel)]="apiConfiguration.label">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>name</mat-label>
+                    <input matInput [(ngModel)]="apiConfiguration.name">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>url</mat-label>
+                    <input matInput [(ngModel)]="apiConfiguration.url">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>format</mat-label>
+                    <input matInput [(ngModel)]="apiConfiguration.format">
+                </mat-form-field>
+            </div>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    Parameters
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="form-container">
+                <ng-container *ngFor="let parameter of apiConfiguration.parameters">
+                    <mat-form-field>
+                        <mat-label>name</mat-label>
+                        <input matInput [(ngModel)]="parameter.name">
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>input type</mat-label>
+                        <input matInput [(ngModel)]="parameter.type">
+                    </mat-form-field>
+
+                    <mat-form-field>
+                        <mat-label>input relation</mat-label>
+                        <input matInput [(ngModel)]="parameter.filter">
+                    </mat-form-field>
+                </ng-container>
+            </div>
+        </mat-expansion-panel>
+    </mat-tab>
+</mat-tab-group>
+<mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="null">Close</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="" (click)="save()">Save</button>
+    <button mat-raised-button color="warn" [mat-dialog-close]="" (click)="delete()">Delete</button>
+</mat-dialog-actions>

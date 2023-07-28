@@ -1,0 +1,13 @@
+.group-container{
+  min-width: 50vw;
+  min-height: 50vh;
+  max-height: 95vh;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 50vw;
+  min-height: 50vh;
+}

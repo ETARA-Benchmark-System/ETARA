@@ -1,0 +1,89 @@
+<h1>Final Alignment</h1>
+
+<div class="mapping-wrapper" *ngIf="gsbService.suggestionContainer">
+    <ng-container *ngFor="let suggestionMapping of gsbService.suggestionContainer.suggestions; let i=index">
+
+        <div class="mapping" *ngIf="suggestionMapping.general.selected">
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of suggestionMapping.general.localEntries">
+                    <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+                </div>
+            </div>
+            <div class="divider">
+                <div class="relationType">
+                    <mat-icon *ngIf="suggestionMapping.general.type === 0">east</mat-icon>
+                    <mat-icon *ngIf="suggestionMapping.general.type === 1">west</mat-icon>
+                    <mat-icon *ngIf="suggestionMapping.general.type === 2">sync_alt</mat-icon>
+                </div>
+            </div>
+            <div class="relation-container">
+                <div class="entry" *ngFor="let entry of suggestionMapping.general.webEntries">
+                    <p>{{entry}}</p>
+                </div>
+            </div>
+            <div class="edit">
+                <button mat-button aria-label="edit" (click)="openMappingEditor(suggestionMapping, i)">
+                    <mat-icon>edit</mat-icon>
+                </button>
+            </div>
+        </div>
+
+        <ng-container *ngFor="let suggestionEntry of suggestionMapping.suggestions">
+            <div class="mapping" *ngIf="suggestionEntry.selected">
+                <div class="relation-container">
+                    <div class="entry" *ngFor="let entry of suggestionEntry.template.localEntries">
+                        <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+                    </div>
+                </div>
+                <div class="divider">
+                    <div class="relationType">
+                        <mat-icon *ngIf="suggestionEntry.template.type === 0">east</mat-icon>
+                        <mat-icon *ngIf="suggestionEntry.template.type === 1">west</mat-icon>
+                        <mat-icon *ngIf="suggestionEntry.template.type === 2">sync_alt</mat-icon>
+                    </div>
+                </div>
+                <div class="relation-container">
+                    <div class="entry" *ngFor="let entry of suggestionEntry.template.webEntries">
+                        <p>{{entry}}</p>
+                    </div>
+                </div>
+                <div class="edit">
+                    <button mat-button aria-label="edit" (click)="openMappingEditor(suggestionMapping, i)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </ng-container>
+    </ng-container>
+</div>
+<div class="stepper">
+    <div></div>
+    <button mat-raised-button color="primary" (click)="saveFinalAlignment()">Save</button>
+    <div></div>
+</div>
+
+
+<!--<div class="mapping-wrapper" *ngIf="gsbService.finishedFinalAlignment">
+    <div class="mapping" *ngFor="let mapping of gsbService.finalAlignment.mappings">
+        <div class="relation-container">
+            <div class="entry" *ngFor="let entry of mapping.localEntries">
+                <p [innerHtml]="((gsbService.showFullLocalPath) ? entry : utils.formatLocalPath(entry))"></p>
+            </div>
+        </div>
+        <div class="divider">
+            <div class="relationType">
+                <mat-icon *ngIf="mapping.type === 0">east</mat-icon>
+                <mat-icon *ngIf="mapping.type === 1">west</mat-icon>
+                <mat-icon *ngIf="mapping.type === 2">sync_alt</mat-icon>
+            </div>
+            <div class="action">
+
+            </div>
+        </div>
+        <div class="relation-container">
+            <div class="entry" *ngFor="let entry of mapping.webEntries">
+                <p>{{entry}}</p>
+            </div>
+        </div>
+    </div>
+</div>-->

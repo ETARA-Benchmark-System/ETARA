@@ -1,0 +1,8 @@
+GET http://localhost:8080/etara/apiManager
+Content-Type: application/json
+
+###
+GET http://localhost:8080/etara/apiManager?db=s2
+Content-Type: application/json
+
+

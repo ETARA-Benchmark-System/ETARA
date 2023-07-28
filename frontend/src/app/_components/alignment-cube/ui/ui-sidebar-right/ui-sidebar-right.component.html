@@ -1,0 +1,39 @@
+<mat-accordion>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Settings
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+        <div class="card-body">
+            <mat-form-field appearance="fill">
+                <mat-label>Metric:</mat-label>
+                <mat-select (selectionChange)="changeMetric()" [formControl]="metricChoiceControl">
+                    <mat-option *ngFor="let metric of engineService.alignmentContainer.metricsNames" [value]="metric">
+                        {{metric}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <hr>
+            <p>Cube Label Settings</p>
+            <div class="row m-1">
+                <mat-slide-toggle [formControl]="fullRelationPathControl" color="primary" (change)="changeRelationPath()">
+                    Full Relation Path
+                </mat-slide-toggle>
+                <mat-slide-toggle [formControl]="fullApiPathControl" color="primary" (change)="changeApiPath()">
+                    Full Api Path
+                </mat-slide-toggle>
+            </div>
+            <hr>
+            <div class="row m-1">
+                <mat-slide-toggle [formControl]="advancedModeControl" color="primary" (change)="changeAdvancedMode()">
+                    Advanced Mode
+                </mat-slide-toggle>
+            </div>
+            <hr>
+            <div class="row m-1">
+                <button mat-raised-button color="primary" (click)="engineService.changeCamera()">Change Perspective</button>
+            </div>
+        </div>
+    </mat-expansion-panel>
+</mat-accordion>

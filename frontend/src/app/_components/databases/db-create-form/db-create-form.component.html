@@ -1,0 +1,42 @@
+<p>
+    <b>Create a new database configuration</b>
+</p>
+<mat-tab-group class="group-container">
+    <mat-tab label="Configuration Form">
+        <mat-expansion-panel [expanded]="true" hideToggle>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    General Settings
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="form-container">
+                <mat-form-field>
+                    <mat-label>label</mat-label>
+                    <input matInput [(ngModel)]="dbTemplate.label" (ngModelChange)="onDBNameChange()">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>source</mat-label>
+                    <input matInput [(ngModel)]="dbTemplate.source">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>path</mat-label>
+                    <input matInput [(ngModel)]="dbTemplate.path">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label>identifier</mat-label>
+                    <input matInput [(ngModel)]="dbTemplate.identifierMap" disabled>
+                </mat-form-field>
+            </div>
+        </mat-expansion-panel>
+    </mat-tab>
+</mat-tab-group>
+
+<mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="null">Close</button>
+    <button mat-raised-button color="primary" [mat-dialog-close]="" (click)="save()" [disabled]="!dbTemplate.label">Create</button>
+</mat-dialog-actions>
+
+

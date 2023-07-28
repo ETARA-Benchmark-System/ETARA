@@ -1,0 +1,598 @@
+POST http://localhost:8080/etara/apiManager/jsonDiff
+Content-Type: application/json
+
+{
+  "original": {
+    "is_publisher_licensed": true,
+    "venue": "IEEE Transactions on Image Processing",
+    "year": 2019,
+    "topics": [
+      {
+        "topicId": "291901",
+        "topic": "algorithm",
+        "url": "https://www.semanticscholar.org/topic/291901"
+      },
+      {
+        "topicId": "1409",
+        "topic": "Morphologic artifacts",
+        "url": "https://www.semanticscholar.org/topic/1409"
+      },
+      {
+        "topicId": "197995",
+        "topic": "HOXD13 wt Allele",
+        "url": "https://www.semanticscholar.org/topic/197995"
+      },
+      {
+        "topicId": "131",
+        "topic": "benefit",
+        "url": "https://www.semanticscholar.org/topic/131"
+      }
+    ],
+    "is_open_access": false,
+    "abstract": "Bit-depth expansion (BDE) is important for displaying a low bit-depth image in a high bit-depth monitor. Current BDE algorithms often utilize traditional methods to fill the missing least significant bits and suffer from multiple kinds of perceivable artifacts. In this paper, we present a deep residual network-based method for BDE. Based on the different properties of flat and non-flat areas, two channels are proposed to reconstruct these two kinds of areas, respectively. Moreover, a simple yet efficient local adaptive adjustment preprocessing is presented in the flat-area-channel. By combining the benefits of both the traditional debanding strategy and network-based reconstruction, the proposed method can further promote the subjective quality of the flat area. Experimental results on several image sets demonstrate that the proposed BDE network can obtain favorable visual quality and decent quantitative performance.",
+    "numCitedBy": 13,
+    "citationVelocity": 0,
+    "title": "Deep Reconstruction of Least Significant Bits for Bit-Depth Expansion",
+    "isPublisherLicensed": true,
+    "url": "https://www.semanticscholar.org/paper/0c5d42b34cec0500df0098277f75bc0215d5dd22",
+    "numCiting": 44,
+    "corpusId": 58577506,
+    "citations": [
+      {
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Lighter but Efficient Bit-Depth Expansion Network",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "1de1f520bd77706eb46475ef32665d2205e45294",
+        "url": "https://www.semanticscholar.org/paper/1de1f520bd77706eb46475ef32665d2205e45294",
+        "authors": [
+          {
+            "name": "Yang Zhao",
+            "authorId": "2118833116"
+          },
+          {
+            "name": "Ronggang Wang",
+            "authorId": "49908329"
+          },
+          {
+            "name": "Yuan Chen",
+            "authorId": "2144037169"
+          },
+          {
+            "name": "Wei Jia",
+            "authorId": "50677594"
+          },
+          {
+            "name": "Xiaoping Liu",
+            "authorId": "2137333825"
+          },
+          {
+            "name": "W. Gao",
+            "authorId": "48385803"
+          }
+        ],
+        "doi": "10.1109/TCSVT.2020.2982505"
+      },
+      {
+        "venue": "",
+        "isInfluential": true,
+        "year": 2021,
+        "title": "ASSESSMENT OF QUANTIZATION ARTIFACTS IN SDR AND HDR AND CNN-BASED CORRECTION",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "2e8bbb9da28c9209a5fa1af61e0c3fd0b434f72f",
+        "url": "https://www.semanticscholar.org/paper/2e8bbb9da28c9209a5fa1af61e0c3fd0b434f72f",
+        "authors": [
+          {
+            "name": "Edern Le Bot",
+            "authorId": "2147200887"
+          },
+          {
+            "name": "T. Pouli",
+            "authorId": "1763977"
+          }
+        ],
+        "doi": null
+      },
+      {
+        "venue": "Displays",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "BE-ACGAN: Photo-realistic residual bit-depth enhancement by advanced conditional GAN",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "5217c80bc50ce964d8171744e1d0e678670377b8",
+        "url": "https://www.semanticscholar.org/paper/5217c80bc50ce964d8171744e1d0e678670377b8",
+        "authors": [
+          {
+            "name": "Jing Zhang",
+            "authorId": null
+          },
+          {
+            "name": "Qianqian Dou",
+            "authorId": "2142790322"
+          },
+          {
+            "name": "Jing Liu",
+            "authorId": null
+          },
+          {
+            "name": "Yuting Su",
+            "authorId": "2788104"
+          },
+          {
+            "name": "Wanning Sun",
+            "authorId": "2110025589"
+          }
+        ],
+        "doi": "10.1016/J.DISPLA.2021.102040"
+      },
+      {
+        "venue": "Sensors",
+        "isInfluential": true,
+        "year": 2021,
+        "title": "CNN-Based Suppression of False Contour and Color Distortion in Bit-Depth Enhancement †",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": null,
+        "paperId": "9de4698666556c23dc5ad61cc988ee9b971e66a0",
+        "url": "https://www.semanticscholar.org/paper/9de4698666556c23dc5ad61cc988ee9b971e66a0",
+        "authors": [
+          {
+            "name": "Changmeng Peng",
+            "authorId": "1557283242"
+          },
+          {
+            "name": "Luting Cai",
+            "authorId": "1557313885"
+          },
+          {
+            "name": "Xiaoyang Huang",
+            "authorId": "2107993372"
+          },
+          {
+            "name": "Zhizhong Fu",
+            "authorId": "1701459"
+          },
+          {
+            "name": "Jin Xu",
+            "authorId": "2110639431"
+          },
+          {
+            "name": "Xiaofeng Li",
+            "authorId": "7027338"
+          }
+        ],
+        "doi": "10.3390/s21020416"
+      },
+      {
+        "venue": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization",
+        "intent": [
+          "background"
+        ],
+        "arxivId": "2105.13084",
+        "paperId": "b345d9055cde572ba9ed4705ff5b8c6420c10d12",
+        "url": "https://www.semanticscholar.org/paper/b345d9055cde572ba9ed4705ff5b8c6420c10d12",
+        "authors": [
+          {
+            "name": "Xiangyu Chen",
+            "authorId": "2143735670"
+          },
+          {
+            "name": "Yihao Liu",
+            "authorId": "145575334"
+          },
+          {
+            "name": "Zhengwen Zhang",
+            "authorId": "2148905411"
+          },
+          {
+            "name": "Y. Qiao",
+            "authorId": "145858545"
+          },
+          {
+            "name": "Chao Dong",
+            "authorId": "30459277"
+          }
+        ],
+        "doi": "10.1109/CVPRW53098.2021.00045"
+      },
+      {
+        "venue": "IEEE transactions on pattern analysis and machine intelligence",
+        "isInfluential": true,
+        "year": 2020,
+        "title": "A Little Bit More: Bitplane-Wise Bit-Depth Recovery",
+        "intent": [
+          "background",
+          "methodology"
+        ],
+        "arxivId": "2005.01091",
+        "paperId": "cdb10b474078fa2b4c597882333b6cf5a129b224",
+        "url": "https://www.semanticscholar.org/paper/cdb10b474078fa2b4c597882333b6cf5a129b224",
+        "authors": [
+          {
+            "name": "Abhijith Punnappurath",
+            "authorId": "3311939"
+          },
+          {
+            "name": "M. S. Brown",
+            "authorId": "143955418"
+          }
+        ],
+        "doi": "10.1109/TPAMI.2021.3125692"
+      },
+      {
+        "venue": "ArXiv",
+        "isInfluential": false,
+        "year": 2021,
+        "title": "Lightness Modulated Deep Inverse Tone Mapping",
+        "intent": [],
+        "arxivId": "2107.07907",
+        "paperId": "d22fe628e1795e541ef3962c49a82a6ee203ca8d",
+        "url": "https://www.semanticscholar.org/paper/d22fe628e1795e541ef3962c49a82a6ee203ca8d",
+        "authors": [
+          {
+            "name": "Kanglin Liu",
+            "authorId": "9152001"
+          },
+          {
+            "name": "Gaofeng Cao",
+            "authorId": "10830369"
+          },
+          {
+            "name": "Jiang Duan",
+            "authorId": "144408268"
+          },
+          {
+            "name": "G. Qiu",
+            "authorId": "143740671"
+          }
+        ],
+        "doi": null
+      },
+      {
+        "venue": "",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "Inverse Halftoning Methods Based on Deep Learning and Their Evaluation Metrics: A Review",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "1d8be2c6eeba8fe43f1adf8c7432c36b8b3c46d8",
+        "url": "https://www.semanticscholar.org/paper/1d8be2c6eeba8fe43f1adf8c7432c36b8b3c46d8",
+        "authors": [
+          {
+            "name": "Mei Li",
+            "authorId": "2118855165"
+          },
+          {
+            "name": "E. Zhang",
+            "authorId": "2134220"
+          },
+          {
+            "name": "Yutong Wang",
+            "authorId": "2130375112"
+          },
+          {
+            "name": "J. Duan",
+            "authorId": "9072100"
+          },
+          {
+            "name": "Cuining Jing",
+            "authorId": "1380464369"
+          }
+        ],
+        "doi": "10.3390/app10041521"
+      },
+      {
+        "venue": "ArXiv",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "Deinterlacing Network for Early Interlaced Videos",
+        "intent": [],
+        "arxivId": "2011.13675",
+        "paperId": "2d4ba8d5cb0e6dfc4e72aeaf3628402fedd84acf",
+        "url": "https://www.semanticscholar.org/paper/2d4ba8d5cb0e6dfc4e72aeaf3628402fedd84acf",
+        "authors": [
+          {
+            "name": "Yang Zhao",
+            "authorId": "2118833116"
+          },
+          {
+            "name": "Wei Jia",
+            "authorId": "50677594"
+          },
+          {
+            "name": "Ronggang Wang",
+            "authorId": "49908329"
+          },
+          {
+            "name": "Xiaoping Liu",
+            "authorId": "2124883703"
+          },
+          {
+            "name": "Xuesong Gao",
+            "authorId": "1596811874"
+          },
+          {
+            "name": "Weiqiang Chen",
+            "authorId": "2109779895"
+          },
+          {
+            "name": "W. Gao",
+            "authorId": "48385803"
+          }
+        ],
+        "doi": null
+      },
+      {
+        "venue": "IEEE Access",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "Adversarial Learning for Invertible Steganography",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "7a9d535ec4157e48761e3f56b14592928c557b5d",
+        "url": "https://www.semanticscholar.org/paper/7a9d535ec4157e48761e3f56b14592928c557b5d",
+        "authors": [
+          {
+            "name": "Ching-Chun Chang",
+            "authorId": "4020249"
+          }
+        ],
+        "doi": "10.1109/ACCESS.2020.3034936"
+      },
+      {
+        "venue": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "isInfluential": false,
+        "year": 2020,
+        "title": "Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline",
+        "intent": [],
+        "arxivId": "2004.01179",
+        "paperId": "b80cf1db18a9cc6e04be6a627e5e9d45c68a4a75",
+        "url": "https://www.semanticscholar.org/paper/b80cf1db18a9cc6e04be6a627e5e9d45c68a4a75",
+        "authors": [
+          {
+            "name": "Yu-Lun Liu",
+            "authorId": "2108353845"
+          },
+          {
+            "name": "Wei-Sheng Lai",
+            "authorId": "2268189"
+          },
+          {
+            "name": "Yu-Sheng Chen",
+            "authorId": "2109315017"
+          },
+          {
+            "name": "Yi-Lung Kao",
+            "authorId": "9967384"
+          },
+          {
+            "name": "Ming-Hsuan Yang",
+            "authorId": "37144787"
+          },
+          {
+            "name": "Yung-Yu Chuang",
+            "authorId": "143708263"
+          },
+          {
+            "name": "Jia-Bin Huang",
+            "authorId": "2109967526"
+          }
+        ],
+        "doi": "10.1109/cvpr42600.2020.00172"
+      },
+      {
+        "venue": "ArXiv",
+        "isInfluential": true,
+        "year": 2020,
+        "title": "Deep Attentive Generative Adversarial Network for Photo-Realistic Image De-Quantization",
+        "intent": [
+          "methodology"
+        ],
+        "arxivId": "2004.03150",
+        "paperId": "ddf059fce0806845e92f081a368ae15153aa8f65",
+        "url": "https://www.semanticscholar.org/paper/ddf059fce0806845e92f081a368ae15153aa8f65",
+        "authors": [
+          {
+            "name": "Yang Zhang",
+            "authorId": "2145954542"
+          },
+          {
+            "name": "Changhui Hu",
+            "authorId": "2195105"
+          },
+          {
+            "name": "Xiaobo Lu",
+            "authorId": "144898651"
+          }
+        ],
+        "doi": null
+      },
+      {
+        "venue": "IET Image Process.",
+        "isInfluential": false,
+        "year": 2019,
+        "title": "Multi-scale microstructure binary pattern extraction and learning for image representation",
+        "intent": [],
+        "arxivId": null,
+        "paperId": "f74bf46576aee6562d02b2e43ba7802d9f7ffe44",
+        "url": "https://www.semanticscholar.org/paper/f74bf46576aee6562d02b2e43ba7802d9f7ffe44",
+        "authors": [
+          {
+            "name": "Dongbo Zhang",
+            "authorId": "2109542328"
+          },
+          {
+            "name": "Liangling Yi",
+            "authorId": "65733460"
+          },
+          {
+            "name": "Hongzhong Tang",
+            "authorId": "9174970"
+          },
+          {
+            "name": "Y. Zhang",
+            "authorId": "102684110"
+          },
+          {
+            "name": "Haixia Xu",
+            "authorId": "2118533589"
+          }
+        ],
+        "doi": "10.1049/IET-IPR.2018.6358"
+      }
+    ],
+    "fieldsOfStudy": [
+      "Medicine",
+      "Computer Science"
+    ],
+    "isOpenAccess": false,
+    "arxivId": null,
+    "paperId": "0c5d42b34cec0500df0098277f75bc0215d5dd22",
+    "authors": [
+      {
+        "name": "Yang Zhao",
+        "authorId": "145940718",
+        "url": "https://www.semanticscholar.org/author/145940718"
+      },
+      {
+        "name": "Ronggang Wang",
+        "authorId": "49908329",
+        "url": "https://www.semanticscholar.org/author/49908329"
+      },
+      {
+        "name": "Wei Jia",
+        "authorId": "50677594",
+        "url": "https://www.semanticscholar.org/author/50677594"
+      },
+      {
+        "name": "W. Zuo",
+        "authorId": "1724520",
+        "url": "https://www.semanticscholar.org/author/1724520"
+      },
+      {
+        "name": "Xiaoping Liu",
+        "authorId": "2137333825",
+        "url": "https://www.semanticscholar.org/author/2137333825"
+      },
+      {
+        "name": "W. Gao",
+        "authorId": "48385803",
+        "url": "https://www.semanticscholar.org/author/48385803"
+      }
+    ],
+    "doi": "10.1109/TIP.2019.2891131",
+    "influentialCitationCount": 4
+  },
+  "modified": {
+    "is_publisher_licensed": true,
+    "venue": "IEEE Transactions on Image Processing",
+    "year": 2019,
+    "topics": [
+      {
+        "topicId": "291901",
+        "topic": "algorithm",
+        "url": "https://www.semanticscholar.org/topic/291901"
+      },
+      {
+        "topicId": "1409",
+        "topic": "Morphologic artifacts",
+        "url": "https://www.semanticscholar.org/topic/1409"
+      },
+      {
+        "topicId": "197995",
+        "topic": "HOXD13 wt Allele",
+        "url": "https://www.semanticscholar.org/topic/197995"
+      },
+      {
+        "topicId": "131",
+        "topic": "benefit",
+        "url": "https://www.semanticscholar.org/topic/131"
+      }
+    ],
+    "is_open_access": false,
+    "abstract": "Bit-depth expansion (BDE) is important for displaying a low bit-depth image in a high bit-depth monitor. Current BDE algorithms often utilize traditional methods to fill the missing least significant bits and suffer from multiple kinds of perceivable artifacts. In this paper, we present a deep residual network-based method for BDE. Based on the different properties of flat and non-flat areas, two channels are proposed to reconstruct these two kinds of areas, respectively. Moreover, a simple yet efficient local adaptive adjustment preprocessing is presented in the flat-area-channel. By combining the benefits of both the traditional debanding strategy and network-based reconstruction, the proposed method can further promote the subjective quality of the flat area. Experimental results on several image sets demonstrate that the proposed BDE network can obtain favorable visual quality and decent quantitative performance.",
+    "numCitedBy": 13,
+    "citationVelocity": 0,
+    "title": "Deep Reconstruction of Least Significant Bits for Bit-Depth Expansion",
+    "isPublisherLicensed": true,
+    "url": "https://www.semanticscholar.org/paper/0c5d42b34cec0500df0098277f75bc0215d5dd22",
+    "numCiting": 44,
+    "corpusId": 58577506,
+    "fieldsOfStudy": [
+      "Medicine",
+      "Computer Science"
+    ],
+    "isOpenAccess": false,
+    "arxivId": null,
+    "paperId": "0c5d42b34cec0500df0098277f75bc0215d5dd22",
+    "authors": [
+      {
+        "name": "Yang Zhao",
+        "authorId": "145940718",
+        "url": "https://www.semanticscholar.org/author/145940718"
+      },
+      {
+        "name": "Ronggang Wang",
+        "authorId": "49908329",
+        "url": "https://www.semanticscholar.org/author/49908329"
+      },
+      {
+        "name": "Wei Jia",
+        "authorId": "50677594",
+        "url": "https://www.semanticscholar.org/author/50677594"
+      },
+      {
+        "name": "W. Zuo",
+        "authorId": "1724520",
+        "url": "https://www.semanticscholar.org/author/1724520"
+      },
+      {
+        "name": "Xiaoping Liu",
+        "authorId": "2137333825",
+        "url": "https://www.semanticscholar.org/author/2137333825"
+      },
+      {
+        "name": "W. Gao",
+        "authorId": "48385803",
+        "url": "https://www.semanticscholar.org/author/48385803"
+      }
+    ],
+    "doi": "10.1109/TIP.2019.2891131",
+    "influentialCitationCount": 4
+  }
+}
+
+
+###
+POST http://localhost:8080/etara/apiManager/jsonDiff
+Content-Type: application/json
+
+{
+  "original": {
+    "fun": {
+      "test": {},
+      "test2": {}
+    }
+  },
+  "modified": {
+    "fun": {
+
+      "test2": {}
+    }
+  }
+}

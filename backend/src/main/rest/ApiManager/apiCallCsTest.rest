@@ -1,0 +1,53 @@
+### dblp_sample_cs
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "dblp_sample_cs",
+  "value" : "10.1007/s11192-012-0857-8"
+}
+
+### arxiv_cs
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "arxiv_cs",
+  "value" : "10.1007/978-3-030-82472-3_18"
+}
+
+### crossref
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "crossref_cs",
+  "value" : "10.1007/s11192-014-1506-1"
+}
+
+### s2arxiv_cs
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "s2arxiv_cs",
+  "value" : "10.1007/978-3-030-82472-3_18"
+}
+
+### s2doi_cs
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "s2doi_cs",
+  "value" : "10.1007/978-3-030-82472-3_18"
+}
+
+### scigraph_cs
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "scigraph_cs",
+  "value" : "10.1007/978-3-030-82472-3_18"
+}

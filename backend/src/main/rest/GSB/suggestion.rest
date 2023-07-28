@@ -1,0 +1,310 @@
+POST http://localhost:8080/etara/gsb/suggestions
+Content-Type: application/json
+
+{
+  "mappings": [
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/issuedDatePartsYear",
+          "value": "2019",
+          "hash": "1347361693a0471c8be23812e44a92f3"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "year",
+          "value": "2019",
+          "hash": "06914615433ab1b5febcedcf367ba13a"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/issuedDatePartsYear",
+          "value": "2019",
+          "hash": "1347361693a0471c8be23812e44a92f3"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "year",
+          "value": "2018",
+          "hash": "76c1fbb0f5b025fe99a2bdaf3fd0af77"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/issuedDatePartsYear",
+          "value": "2019",
+          "hash": "1347361693a0471c8be23812e44a92f3"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "year",
+          "value": "2019",
+          "hash": "06914615433ab1b5febcedcf367ba13a"
+        }
+      ]
+    }
+  ]
+}
+
+###
+POST http://localhost:8080/etara/gsb/suggestions
+Content-Type: application/json
+
+{
+  "mappings": [
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "0",
+          "hash": "4f54a5277cd7c247b113e40444b2b8cb"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[0].authorId",
+          "value": "1519970264",
+          "hash": "886565e7a8b11049522d798ad80e5069"
+        },
+        {
+          "path": "authors[0].name",
+          "value": "Xiaomin Wang",
+          "hash": "95339d5d78c66d289801614e18efebae"
+        },
+        {
+          "path": "authors[0].url",
+          "value": "https://www.semanticscholar.org/author/1519970264",
+          "hash": "506418074098809d3ba720b23f777b62"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/containerTitle",
+          "value": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+          "hash": "a3fa501291e6f6e93ffea15c6db6ec55"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].authorId",
+          "value": "3316344",
+          "hash": "a4f46728d3984204ed7fd2ebf0935522"
+        },
+        {
+          "path": "authors[1].name",
+          "value": "Junsan Zhang",
+          "hash": "aa2a0a45bc079cc1ff732ae9a9bee752"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/3316344",
+          "hash": "4593975e7a26df5c47bfc41c8c2d5d54"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "0",
+          "hash": "4f54a5277cd7c247b113e40444b2b8cb"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[0].name",
+          "value": "Xiang Wang",
+          "hash": "d2f711ab29be138dd0d5a7bda21861a3"
+        },
+        {
+          "path": "authors[0].authorId",
+          "value": "98285513",
+          "hash": "f1cdea61e063e24189098a6ba5dccd1d"
+        },
+        {
+          "path": "authors[0].url",
+          "value": "https://www.semanticscholar.org/author/98285513",
+          "hash": "07389cad51fdee30351498ccf781a55a"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/containerTitle",
+          "value": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+          "hash": "a3fa501291e6f6e93ffea15c6db6ec55"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].name",
+          "value": "Xiangnan He",
+          "hash": "9e163ddf8b66c58575a3d83dc6750031"
+        },
+        {
+          "path": "authors[1].authorId",
+          "value": "7792071",
+          "hash": "823aa6c4a564e482da3b5a5ef3d62167"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/7792071",
+          "hash": "87d544ca3626e9d157cc23609950351b"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "0",
+          "hash": "4f54a5277cd7c247b113e40444b2b8cb"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].name",
+          "value": "Xiangnan He",
+          "hash": "9e163ddf8b66c58575a3d83dc6750031"
+        },
+        {
+          "path": "authors[1].authorId",
+          "value": "7792071",
+          "hash": "823aa6c4a564e482da3b5a5ef3d62167"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/7792071",
+          "hash": "87d544ca3626e9d157cc23609950351b"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "0",
+          "hash": "4f54a5277cd7c247b113e40444b2b8cb"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].name",
+          "value": "Xiangnan He",
+          "hash": "9e163ddf8b66c58575a3d83dc6750031"
+        },
+        {
+          "path": "authors[1].authorId",
+          "value": "7792071",
+          "hash": "823aa6c4a564e482da3b5a5ef3d62167"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/7792071",
+          "hash": "87d544ca3626e9d157cc23609950351b"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "4",
+          "hash": "8068b3c589ad5e49203ca21181602fa8"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[0].name",
+          "value": "Xueqi Li",
+          "hash": "41635bda5857cdafa5fa9b1b32bf2c49"
+        },
+        {
+          "path": "authors[0].authorId",
+          "value": "2049021365",
+          "hash": "7bca2438f266dc5794f81d334502b37c"
+        },
+        {
+          "path": "authors[0].url",
+          "value": "https://www.semanticscholar.org/author/2049021365",
+          "hash": "dfdc7b9e0d6b28b38e05cbb4a2032a9c"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/containerTitle",
+          "value": "Proceedings of the 28th ACM International Conference on Information and Knowledge Management",
+          "hash": "a3fa501291e6f6e93ffea15c6db6ec55"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].name",
+          "value": "Wenjun Jiang",
+          "hash": "51b4cfdb9faf5ee18041a31ddaec0bc4"
+        },
+        {
+          "path": "authors[1].authorId",
+          "value": "144662653",
+          "hash": "3ab32e46ebc97576a5e972063345d517"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/144662653",
+          "hash": "47e5aec2dd96978a8ca07f7a9280cd67"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "localEntries": [
+        {
+          "path": "http://example/com/crossref/citationCount",
+          "value": "4",
+          "hash": "8068b3c589ad5e49203ca21181602fa8"
+        }
+      ],
+      "webEntries": [
+        {
+          "path": "authors[1].name",
+          "value": "Wenjun Jiang",
+          "hash": "51b4cfdb9faf5ee18041a31ddaec0bc4"
+        },
+        {
+          "path": "authors[1].authorId",
+          "value": "144662653",
+          "hash": "3ab32e46ebc97576a5e972063345d517"
+        },
+        {
+          "path": "authors[1].url",
+          "value": "https://www.semanticscholar.org/author/144662653",
+          "hash": "47e5aec2dd96978a8ca07f7a9280cd67"
+        }
+      ]
+    }
+  ]
+}

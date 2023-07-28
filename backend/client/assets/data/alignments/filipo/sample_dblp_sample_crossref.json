@@ -1,0 +1,257 @@
+{
+  "system": "FiLiPo",
+  "alignments": [
+    {
+      "metrics": {
+        "data_availability": 0.6811594202898551,
+        "confidence": 0.6811594202898551
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:title"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.title[0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.5797101449275363,
+        "confidence": 0.5797101449275363
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedAsPartOf",
+            "http://www.wikidata.org/prop/direct/P212"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.isbn-type[0].value"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9130434782608695,
+        "confidence": 0.9130434782608695
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedAsPartOf",
+            "dblp:publishedBy"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.publisher"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:authoredBy",
+            "w3:label"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].given",
+        "message.author[*].family"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.2463768115942029,
+        "confidence": 0.2463768115942029
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedIn"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.publisher"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9841269841269841,
+        "confidence": 0.9841269841269841
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:authoredBy",
+            "dblp:primaryAffiliation"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].affiliation[0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9130434782608695,
+        "confidence": 0.9130434782608695
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedAsPartOf",
+            "w3:label"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.container-title[0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.2463768115942029,
+        "confidence": 0.2463768115942029
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedInBook"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.publisher"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9565217391304348,
+        "confidence": 0.9565217391304348
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.created.date-parts[0][0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.5362318840579711,
+        "confidence": 0.5362318840579711
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedAsPartOf",
+            "dblp:title"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.container-title[0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:authoredBy",
+            "dblp:primaryFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].family"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.7246376811594203,
+        "confidence": 0.7246376811594203
+      },
+      "relation_path": [
+        {
+          "path": [
+            "w3:label"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.title[0]"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:orderedCreators",
+            "w3:label"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].family"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 1,
+        "confidence": 1
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:orderedCreators",
+            "dblp:primaryFullCreatorName"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.author[*].family"
+      ]
+    },
+    {
+      "metrics": {
+        "data_availability": 0.9130434782608695,
+        "confidence": 0.9130434782608695
+      },
+      "relation_path": [
+        {
+          "path": [
+            "dblp:publishedAsPartOf",
+            "dblp:yearOfPublication"
+          ]
+        }
+      ],
+      "api_path": [
+        "message.created.date-parts[0][0]"
+      ]
+    }
+  ],
+  "name": "sample_dblp_sample_crossref_filipo"
+}

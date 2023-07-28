@@ -1,0 +1,89 @@
+import {Component, OnInit} from '@angular/core';
+
+@Component({
+    selector: 'app-schema',
+    templateUrl: './schema.component.html',
+    styleUrls: ['./schema.component.scss']
+})
+export class SchemaComponent implements OnInit {
+
+    code: any;
+
+    constructor() {
+    }
+
+    ngOnInit(): void {
+        this.code = `
+            {
+              "$schema": "http://json-schema.org/draft-07/schema#",
+              "$id": "https://example.com/alignment.schema.json",
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "system":{
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "alignments": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/mapping"
+                  }
+                }
+              },
+              "required": [
+                "name",
+                "alignments"
+              ],
+
+
+              "definitions": {
+                "mapping": {
+                  "type": "object",
+                  "properties": {
+                    "api_path": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "relation_path": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/definitions/relationPath"
+                      }
+                    },
+                    "metrics": {
+                      "type": "object",
+                      "patternProperties": {
+                        "": {
+                          "type": "number"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "api_path",
+                    "relation_path",
+                    "metrics"
+                  ]
+                },
+                "relationPath": {
+                  "type": "object",
+                  "properties": {
+                    "path": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }`;
+    }
+}

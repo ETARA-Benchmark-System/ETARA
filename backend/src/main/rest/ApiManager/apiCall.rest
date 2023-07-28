@@ -1,0 +1,43 @@
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json
+
+{
+  "label": "s2",
+  "value" : "10.1007/978-3-030-82472-3_18"
+}
+
+###
+POST http://localhost:8080/etara/apiManager/call
+Content-Type: application/json;charset=UTF-8
+
+{
+  "apiName": "s2",
+  "value" : "10.1109/tip.2019.2920510",
+  "regex": [
+    "^citations\\[\\d*].doi",
+    "^references\\[\\d*].authors\\[\\d*].name",
+    "^references\\[\\d*].arxivId",
+    "^references\\[\\d*].title",
+    "^citations\\[\\d*].title",
+    "^citations\\[\\d*].authors",
+    "^citations\\[\\d*].url",
+    "^references\\[\\d*].venue",
+    "^references\\[\\d*].year",
+    "^references\\[\\d*].intent",
+    "^citations\\[\\d*].authors\\[\\d*].name",
+    "^references\\[\\d*].isInfluential",
+    "^citations\\[\\d*].year",
+    "^references\\[\\d*].paperId",
+    "^references\\[\\d*].doi",
+    "^citations\\[\\d*].intent",
+    "^citations\\[\\d*].venue",
+    "^citations\\[\\d*].intent\\[\\d*]",
+    "^references\\[\\d*].intent\\[\\d*]",
+    "^citations\\[\\d*].isInfluential",
+    "^citations\\[\\d*].arxivId",
+    "^references\\[\\d*].authors\\[\\d*].authorId",
+    "^citations\\[\\d*].authors\\[\\d*].authorId",
+    "^citations\\[\\d*].paperId",
+    "^references\\[\\d*].url"
+  ]
+}

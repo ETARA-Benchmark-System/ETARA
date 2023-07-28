@@ -1,0 +1,48 @@
+<div class="main">
+    <button mat-raised-button color="primary" (click)="openCreateDB()">
+        <mat-icon aria-hidden="false">note_add</mat-icon>
+        Add Database
+    </button>
+    <table mat-table [dataSource]="databases" class="mat-elevation-z8">
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="index">
+                <th mat-header-cell *matHeaderCellDef> No.</th>
+                <td mat-cell *matCellDef="let element">{{databases.indexOf(element)}}</td>
+            </ng-container>
+
+            <!-- label Column -->
+            <ng-container matColumnDef="label">
+                <th mat-header-cell *matHeaderCellDef>Label</th>
+                <td mat-cell *matCellDef="let element"> {{element.label}} </td>
+            </ng-container>
+
+            <!-- path Column -->
+            <ng-container matColumnDef="path">
+                <th mat-header-cell *matHeaderCellDef>Path</th>
+                <td mat-cell *matCellDef="let element"> {{element.path}} </td>
+            </ng-container>
+
+            <!-- identifierMap Column -->
+            <ng-container matColumnDef="identifierMap">
+                <th mat-header-cell *matHeaderCellDef>Identifier Map</th>
+                <td mat-cell *matCellDef="let element"> {{element.identifierMap}} </td>
+            </ng-container>
+
+
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef>Actions</th>
+                <td mat-cell *matCellDef="let element">
+                    <button mat-raised-button color="primary" (click)="openDbInformation(element.label)">
+                        <mat-icon aria-hidden="false" matTooltip="Edit settings" aria-label="Edit settings">edit</mat-icon>
+                    </button>
+                    <button mat-raised-button color="primary" (click)="delete(element.label)">
+                        <mat-icon aria-hidden="false" matTooltip="Delete settings" aria-label="Delete settings">delete</mat-icon>
+                    </button>
+                </td>
+            </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr [id]="i" mat-row *matRowDef="let row; let i = index; columns: displayedColumns;"></tr>
+    </table>
+</div>

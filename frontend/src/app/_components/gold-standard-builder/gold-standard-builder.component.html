@@ -1,0 +1,146 @@
+<mat-horizontal-stepper linear #stepper (selectionChange)="selectionChange($event.selectedIndex)"
+                        [selectedIndex]="selectedIndex">
+
+    <!--    Select Database     -->
+    <mat-step>
+        <ng-template matStepLabel>Select Databases</ng-template>
+        <form [formGroup]="dbSelectionForm">
+            <div class="container-flex">
+                <div class="container-flex-item">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Select local database</mat-label>
+                        <mat-select formControlName="localDatabase"
+                                    (selectionChange)="changeLocalDatabase($event.value)">
+                            <mat-option *ngFor="let entry of databases"
+                                        value="{{entry.label}}">{{entry.label}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Select class</mat-label>
+                        <mat-select formControlName="inputType" (selectionChange)="changeInputType($event.value)">
+                            <ng-container *ngIf="currentLocalDatabaseSchema">
+                                <mat-option *ngFor="let entry of currentLocalDatabaseSchema.classes"
+                                            value="{{entry.class}}">{{entry.class}}
+                                </mat-option>
+                            </ng-container>
+                        </mat-select>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>Select identifier</mat-label>
+                        <mat-select formControlName="identifier">
+                            <ng-container *ngIf="currentLocalDatabaseSchema">
+                                <mat-optgroup label="identifier">
+                                    <ng-container *ngFor="let entry of identifiers">
+                                        <mat-option
+                                                value="{{entry}}">{{entry}}
+                                        </mat-option>
+                                    </ng-container>
+<!--                                    <ng-container *ngFor="let entry of currentLocalDatabaseSchema.identifier">-->
+<!--                                        <mat-option-->
+<!--                                                value="{{entry.predicate}}">{{entry.predicate}}-->
+<!--                                        </mat-option>-->
+<!--                                    </ng-container>-->
+
+                                </mat-optgroup>
+                                <mat-optgroup label="predicates">
+                                    <mat-option *ngFor="let entry of predicates"
+                                                value="{{entry}}">{{entry}}
+                                    </mat-option>
+                                </mat-optgroup>
+                            </ng-container>
+                        </mat-select>
+                    </mat-form-field>
+                    <p *ngIf="localSchemaError">ErrorMsg: {{this.errorMsg.errMsg}}</p>
+
+                </div>
+                <div class="container-flex-item">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Select web database</mat-label>
+                        <mat-select formControlName="webDatabase"
+                                    (selectionChange)="loadWebDatabasesData($event.value)">
+                            <!--                    <mat-option value="None">None</mat-option>-->
+                            <mat-option *ngFor="let entry of apis"
+                                        value="{{entry.label}}">{{entry.name}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                </div>
+            </div>
+        </form>
+
+        <button mat-raised-button color="primary" matStepperNext (click)="startGSB()"
+                [disabled]="!dbSelectionForm.valid">Start
+        </button>
+<!--        <button mat-raised-button matStepperNext (click)="debugMode()">Debug</button>-->
+    </mat-step>
+
+    <!--    Prepare Api Response      -->
+    <mat-step>
+        <ng-template matStepLabel>Prepare Api Response</ng-template>
+        <div class="stepper">
+            <!--            <button mat-raised-button matStepperPrevious>Back</button>-->
+            <button mat-raised-button matStepperNext color="primary" (click)="respChangeFinished()"
+                    [disabled]="!gsbService.finishedLoadingWebEntity">Save and continue
+            </button>
+        </div>
+
+        <div *ngIf="!gsbService.finishedLoadingWebEntity && !gsbService.loadingNextEntityFailed">
+            <div class="center">
+                <mat-spinner></mat-spinner>
+                <p>Api response loading ... ({{gsbService.loadingTries}} of {{gsbService.maxLoadingTries}}
+                    tries)</p>
+            </div>
+        </div>
+        <div *ngIf="gsbService.loadingNextEntityFailed">
+            <div class="center">
+                <div><mat-icon aria-hidden="false" aria-label="error" inline="true" style="font-size: 4rem">error</mat-icon></div>
+                <p>Unable to retrieve a valid api response. (Tested {{gsbService.loadingTries}} different
+                    entities)</p>
+                <p>You can try again another 50 entities or go back and define another identifier.</p>
+                <button mat-raised-button color="primary" (click)="gsbService.nextEntity()">Try again</button>
+            </div>
+        </div>
+        <div *ngIf="gsbService.finishedLoadingWebEntity">
+            <br>
+            <div>
+                <p>Please delete the parts of the response you don't need. Use the icon on the left of the selected
+                    part.</p>
+            </div>
+            <br>
+            <app-json-viewer [jsonData]="gsbService.currentWebEntity.reducedResponse"
+                             (jsonChangeEvent)="changeApiResponse($event)"></app-json-viewer>
+        </div>
+    </mat-step>
+
+    <!--    Entity Mapping      -->
+    <mat-step>
+        <ng-template matStepLabel>Entity Mapping</ng-template>
+        <div class="stepper">
+            <button mat-raised-button color="primary" matStepperNext (click)="gsbService.generateSuggestions()">Generate
+                Final Alignment
+            </button>
+            <button mat-raised-button color="primary" (click)="nextEntity()">Next Entity</button>
+            <button mat-raised-button matStepperPrevious>Edit API Response</button>
+        </div>
+
+        <div *ngIf="!gsbService.finishedLoading">
+            <div class="center">
+                <div>
+                    <mat-spinner></mat-spinner>
+                    <p>Next entity loading ...</p>
+                </div>
+            </div>
+        </div>
+        <app-builder #builder *ngIf="gsbService.finishedLoading"></app-builder>
+    </mat-step>
+    <!--    <mat-step>-->
+    <!--        <ng-template matStepLabel>Mapping Selection</ng-template>-->
+    <!--        <app-mapping-suggestion-tool #suggestion *ngIf="gsbService.suggestionsLoaded" (finishedEvent)="mappingSelectionFinished()" ></app-mapping-suggestion-tool>-->
+    <!--    </mat-step>-->
+    <mat-step>
+        <ng-template matStepLabel>Final Alignmnet</ng-template>
+        <app-final-alignmnet></app-final-alignmnet>
+    </mat-step>
+
+</mat-horizontal-stepper>

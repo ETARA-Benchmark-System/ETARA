@@ -1,0 +1,90 @@
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "crossref",
+  "predicate": "http://example/com/crossref/doi",
+  "inputType": "http://example/com/crossref/Publication",
+  "limit": 1
+}
+
+###
+
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "dblp",
+  "predicate": "http://www.wikidata.org/prop/direct/P356",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+###
+
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "dblp",
+  "predicate": "http://www.wikidata.org/prop/direct/P356",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+### arxiv
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "arxiv",
+  "predicate": "http://example/com/crossref/doi",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+### crossref
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "crossref",
+  "predicate": "http://example/com/crossref/doi",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+### s2arxiv
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "s2arxiv",
+  "predicate": "http://example/com/crossref/DOI",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+### s2doi
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "s2doi",
+  "predicate": "http://example/com/crossref/DOI",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+### scigraph
+POST http://localhost:8080/etara/dbManager/knowledge
+Content-Type: application/json
+
+{
+  "label": "scigraph",
+  "predicate": "http://example/com/crossref/DOI",
+  "inputType": "https://dblp.org/rdf/schema-2020-07-01#Publication",
+  "limit": 1
+}
+
+

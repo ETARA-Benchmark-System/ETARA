@@ -1,0 +1,63 @@
+{
+    "system": "Goldstandard Builder",
+    "alignments": [
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": ["https://dblp.org/rdf/schema-2020-07-01#title"]}],
+            "api_path": ["title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": ["http://www.w3.org/2000/01/rdf-schema#label"]}],
+            "api_path": ["title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": ["https://dblp.org/rdf/schema-2020-07-01#publishedIn"]}],
+            "api_path": ["container-title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": ["https://dblp.org/rdf/schema-2020-07-01#publishedInJournal"]}],
+            "api_path": ["container-title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": ["https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"]}],
+            "api_path": ["published-print"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": [
+                "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf",
+                "https://dblp.org/rdf/schema-2020-07-01#title"
+            ]}],
+            "api_path": ["container-title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": [
+                "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf",
+                "http://www.w3.org/2000/01/rdf-schema#label"
+            ]}],
+            "api_path": ["container-title"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": [
+                "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf",
+                "https://dblp.org/rdf/schema-2020-07-01#publishedBy"
+            ]}],
+            "api_path": ["publisher"]
+        },
+        {
+            "metrics": {"confidence": 1},
+            "relation_path": [{"path": [
+                "https://dblp.org/rdf/schema-2020-07-01#publishedAsPartOf",
+                "https://dblp.org/rdf/schema-2020-07-01#yearOfPublication"
+            ]}],
+            "api_path": ["published-print"]
+        }
+    ],
+    "name": "goldstandard"
+}
